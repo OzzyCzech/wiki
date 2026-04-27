@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-04-22
+updated: 2026-04-27
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -69,6 +69,10 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 ## 🔧 Testing & Analysis
 
 - **[Agent-Ready Web](../agent-ready-web)** — nástroje a standardy pro testování přístupnosti webů pro AI agenty — content negotiation, content signals, diagnostické skenery
+
+## 🎙️ Speech & Audio
+
+- **[VibeVoice-ASR](https://huggingface.co/microsoft/VibeVoice-ASR)** — open-source speech-to-text model od Microsoft Research; 9B parametrů, MIT licence, zpracuje až 60 minut audia v jednom průchodu, 50+ jazyků, vrací transkripci se speaker diarization, časovými značkami a podporou hotwords ([GitHub](https://github.com/microsoft/VibeVoice))
 
 ## 📝 Text Processing & Translation
 

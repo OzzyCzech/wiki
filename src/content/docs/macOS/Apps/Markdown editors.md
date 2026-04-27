@@ -2,7 +2,7 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-04-23
+updated: 2026-04-27
 ---
 
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
@@ -16,7 +16,7 @@ Markdown-focused writing and note apps for macOS. For note-taking apps see also 
 
 ### ⭐ Well known
 
-- **[Obsidian](https://obsidian.md/)** — knowledge base and note editor built on a local folder of Markdown files; extensible with a large plugin ecosystem
+- **[Obsidian](https://obsidian.md/)** — knowledge base and note editor built on a local folder of Markdown files; extensible with a large plugin ecosystem. Popular theme: **[Minimal](https://minimal.guide/)** by kepano — distraction-free, highly customizable, MIT-licensed, with companion Minimal Theme Settings and Hider plugins for fine-grained control over colors, fonts, and UI
 - **[Logseq](https://logseq.com/)** — privacy-first, open-source knowledge base with outliner-style note-taking, bi-directional links, and local-first Markdown/Org-mode storage
 
 ### 📝 Note centric

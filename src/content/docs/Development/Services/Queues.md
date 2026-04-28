@@ -18,4 +18,3 @@ Message brokers, job queues, and background processing systems for distributing 
 - **[NSQ](https://github.com/bitly/nsq)** — distributed messaging platform designed for high-volume workloads at scale
 - **[Gearman](http://gearman.org/)** — job server for distributing work to multiple workers across languages and machines
 - **[Resque](https://github.com/resque/resque)** — Redis-backed background job queue for Ruby
-- **[Sidekiq](https://sidekiq.org/)** — multi-threaded background job processing for Ruby, backed by Redis

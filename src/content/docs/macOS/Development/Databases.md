@@ -2,7 +2,7 @@
 title: Databases
 description: Database tools for macOS — Sequel Ace, Medis, and MongoDB setup via Homebrew.
 created: 2026-04-01
-updated: 2026-04-01
+updated: 2026-04-28
 ---
 
 ## SQL
@@ -11,7 +11,8 @@ updated: 2026-04-01
 
 ## Redis GUI
 
-- [Medis](https://getmedis.com/) is a beautiful, easy-to-use Mac database management application for Redis.
+- **[Medis](https://getmedis.com/)** — beautiful, easy-to-use Mac database management application for Redis
+- **[Tiny RDM](https://redis.tinycraft.cc/)** — modern, lightweight cross-platform Redis desktop manager (macOS, Windows, Linux); GPL-3.0, light/dark themes
 
 ## MongoDB (Homebrew)
 

@@ -2,7 +2,7 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
@@ -48,3 +48,7 @@ Markdown-focused writing and note apps for macOS. For note-taking apps see also 
 
 - **[GitJournal](https://gitjournal.io/)** — mobile Markdown note app with Git-backed storage; integrates with desktop editors
 - **[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)** — general code editor with built-in Markdown preview and extensions for enhanced editing
+
+### 🧪 Related markup formats
+
+- **[Lessmark](https://lessmark.org/)** — strict Markdown alternative with explicit `@quote`/`@list`/`@separator` directives, no raw HTML/JSX, deterministic parsing; npm + PyPI parsers and a [VS Code extension](https://marketplace.visualstudio.com/items?itemName=JasperDevs.lessmark-vscode)

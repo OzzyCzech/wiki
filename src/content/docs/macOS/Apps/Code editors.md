@@ -2,7 +2,7 @@
 title: Code editors
 description: Code editors and IDEs for macOS, from lightweight text editors to full-featured JetBrains IDEs.
 created: 2026-03-12
-updated: 2026-04-10
+updated: 2026-04-29
 ---
 
 Code editors and IDEs available on macOS.
@@ -16,6 +16,7 @@ Code editors and IDEs available on macOS.
 - **[Lapce](https://lap.dev/lapce)** — open-source code editor written in Rust with built-in LSP support, Vim-like modal editing, and a focus on performance
 - **[CotEditor](https://coteditor.com/)** — free and open-source plain-text editor with syntax highlighting and a native macOS interface
 - **[NeoVim](https://neovim.io/)** — modernized Vim fork with built-in LSP support, Lua-based configuration, and full Vim compatibility
+- **[Notepad++ for Mac](https://notepad-plus-plus-mac.org/)** — unofficial community port of Notepad++ to macOS (Apple Silicon and Intel); code-signed and notarized, GPL v3, not affiliated with the upstream Windows project
 
 ## JetBrains
 

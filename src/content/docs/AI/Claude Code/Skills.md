@@ -2,7 +2,7 @@
 title: Skills
 description: Curated open-source skill collections for Claude Code and AI coding agents.
 created: 2026-04-08
-updated: 2026-04-25
+updated: 2026-04-30
 ---
 
 Open-source skill collections that extend Claude Code and other AI coding agents with specialized workflows.
@@ -46,6 +46,10 @@ Open-source skill collections that extend Claude Code and other AI coding agents
   ```
 
 - **[claude-improve](https://github.com/TerenceBristol/claude-improve)** — self-improving retrospective skill; after each conversation Claude reflects on what went wrong and updates its own CLAUDE.md rules to do better next time
+
+## 🗂️ Skill managers
+
+- **[Chops](https://chops.md/)** — macOS desktop app to browse, edit, and organize agent skills across Claude Code, Cursor, Codex, Windsurf, and Amp from a single interface; open source (FSL-1.1-MIT)
 
 ## 📋 CLAUDE.md templates
 

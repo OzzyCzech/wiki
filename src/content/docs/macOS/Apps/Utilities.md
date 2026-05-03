@@ -2,7 +2,7 @@
 title: Utilities
 description: macOS utility apps for system optimization, file automation, and app management.
 created: 2026-04-01
-updated: 2026-04-16
+updated: 2026-05-03
 ---
 
 Miscellaneous macOS utilities for managing apps, files, and system behavior.
@@ -15,6 +15,7 @@ Miscellaneous macOS utilities for managing apps, files, and system behavior.
 - **[Hazel](https://www.noodlesoft.com/)** — rule-based file organization automation; watches folders and applies actions on matching files
 - **[Open Screen](https://openscreen.vercel.app/)** — share your Mac screen to a phone or tablet over the local network via a browser
 - **[Wispr Flow](https://wisprflow.ai/)** — AI voice dictation that transcribes speech into edited text in any app; auto-removes filler words, learns personal vocabulary, supports 100+ languages
+- **[Field Theory](https://www.fieldtheory.dev/)** — clipboard-based context capture for AI workflows on Apple Silicon; offline voice transcription via Parakeet, screenshot annotation, stacking of images and markdown, and portable commands that work across Claude, ChatGPT, and Cursor
 
 ## Curated app lists
 

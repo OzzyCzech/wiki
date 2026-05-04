@@ -100,6 +100,7 @@ export default defineConfig({
 				{label: 'Movies & TV', collapsed: true, autogenerate: {directory: 'Movies & TV', collapsed: false}},
 				{label: 'Knihy', collapsed: true, autogenerate: {directory: 'Knihy'}},
 				{label: 'Povídky', collapsed: true, autogenerate: {directory: 'Povidky'}},
+				{label: 'Cestování', collapsed: true, autogenerate: {directory: 'Travel', collapsed: true}},
 			]
 		})
 	],

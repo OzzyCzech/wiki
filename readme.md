@@ -2,13 +2,9 @@
 
 Visit https://ozzyczech.cz
 
-## Development
+This repo holds the markdown content of an LLM Wiki — a personal knowledge base maintained with AI assistance. Each push to `main` triggers a rebuild of the public site via [OzzyCzech/wiki-publisher](https://github.com/OzzyCzech/wiki-publisher), which bundles the Astro Starlight template and deploys to GitHub Pages.
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+See [`CLAUDE.md`](./CLAUDE.md) for content authoring conventions.
 
 ## Contact
 

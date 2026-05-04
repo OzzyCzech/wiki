@@ -2,15 +2,13 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-04-29
+updated: 2026-05-04
 ---
-
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
-
 
 ### 🆕 New and noteworthy
 
-- **[Cogito](https://cogito.md/)** — native macOS Markdown editor (free beta, requires macOS Tahoe 26+) with wiki links, `![[embeds]]`, synced source/preview scrolling, Quick Open (⌘P), multi-tab support, and syntax highlighting for 20+ languages; stores plain files on disk with no proprietary database
+- **[Cogito](https://cogito.md/)** — native macOS Markdown editor (free beta, requires macOS Tahoe 26+) with wiki links, `!`[[embeds]], synced source/preview scrolling, Quick Open (⌘P), multi-tab support, and syntax highlighting for 20+ languages; stores plain files on disk with no proprietary database
 - **[Tolaria](https://tolaria.md/)** — free, [open-source](https://github.com/refactoringhq/tolaria) Markdown note app for macOS with block-based editing, wikilinks, built-in Git client, and native Claude Code integration via MCP server; no account required
 - **[Clearly](https://clearly.md/)** — native SwiftUI/AppKit Markdown editor for macOS with GitHub Flavored Markdown preview, Mermaid diagrams, KaTeX math, callouts, footnotes, PDF export, menubar scratchpad, and QuickLook integration; open source and free
 
@@ -22,8 +20,9 @@ Markdown-focused writing and note apps for macOS. For note-taking apps see also 
 ### 📝 Note centric
 
 - **[Bear](https://bear.app/)** — polished Markdown editor for Mac and iOS with tags and iCloud sync
-- **[FSNotes](https://fsnot.es/)** — fast note manager supporting GitHub Flavored Markdown, TextBundle, iCloud sync, `[[wikilinks]]`, Mermaid, MathJax, tags, and optional Git versioning
+- **[FSNotes](https://fsnot.es/)** — fast note manager supporting GitHub Flavored Markdown, TextBundle, iCloud sync, [[wikilinks]], Mermaid, MathJax, tags, and optional Git versioning
 - **[Nota](https://nota.md/)** — pro Markdown notes app for local files; no account or subscription required
+- **[Soba Notes](https://sobanotes.app/)** — native macOS Markdown notes app for local files
 - **[Joplin](https://joplinapp.org/)** — open-source note-taking app with end-to-end encryption and sync via Nextcloud, Dropbox, or WebDAV
 - **[Notable](https://notable.app/)** — Markdown note-taking app with tags, dark theme, and multi-note editing
 

@@ -4,7 +4,7 @@ ARGUMENTS: a topic, question, or area to research (e.g. "local-first databases",
 
 ## 1. Check the wiki first
 
-**Always start here, before anything else.** Browse `src/content/docs/` and search it with `Grep` and `Glob`:
+**Always start here, before anything else.** Browse `./` and search it with `Grep` and `Glob`:
 
 - Is there already a page on this topic? → suggest extending it instead of creating a new one.
 - Are there adjacent pages that constrain placement or naming? → note them.

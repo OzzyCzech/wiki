@@ -2,7 +2,7 @@ Randomly sample pages from the wiki and audit their quality.
 
 ## 1. Select pages to audit
 
-Pick 5–10 pages at random from `src/content/docs/` (across different categories). If the user specifies a category or number, use that instead.
+Pick 5–10 pages at random from `./` (across different categories). If the user specifies a category or number, use that instead.
 
 ## 2. For each page, check
 

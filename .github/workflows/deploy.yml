@@ -19,10 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: withastro/action@v6
-        with:
-          node-version: 24
-          package-manager: npm@latest
+      - uses: OzzyCzech/wiki-publisher@v1
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 

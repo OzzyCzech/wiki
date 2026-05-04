@@ -5,10 +5,10 @@ Process a new source or input into the wiki using the following steps:
 Fetch URLs, read files, or parse text to identify the topic and content type.
 If a URL is unreachable, ask the user to paste the content. If the input is ambiguous, ask before proceeding.
 
-**Markdown files outside `src/content/docs/`** (e.g. `~/Downloads/*.md`, `input/*.md`) are unstructured inputs — AI research output, process notes, personal notes, guides, article drafts, etc. Handle them as follows:
+**Markdown files outside `./`** (e.g. `~/Downloads/*.md`, `input/*.md`) are unstructured inputs — AI research output, process notes, personal notes, guides, article drafts, etc. Handle them as follows:
 
 1. Read the file and understand the topic.
-2. Compare with existing structure in `src/content/docs/` to find where the content belongs.
+2. Compare with existing structure in `./` to find where the content belongs.
 3. Decide what to do:
    - **Fits an existing article** → incorporate relevant information into that file.
    - **Forms a complete new topic** → create a new article in the appropriate section, following the existing format (frontmatter, structure, style).
@@ -17,7 +17,7 @@ If a URL is unreachable, ask the user to paste the content. If the input is ambi
 
 ## 2. Find the right place
 
-Search the existing wiki structure in `src/content/docs/` and decide where the content belongs:
+Search the existing wiki structure in `./` and decide where the content belongs:
 
 1. **Exact page exists** → update it
 2. **Related page exists** → add a section or list item there

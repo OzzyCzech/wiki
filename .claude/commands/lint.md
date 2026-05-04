@@ -2,7 +2,7 @@ Scan the wiki for structural and consistency issues.
 
 ## 1. Frontmatter issues
 
-Check every `.md`/`.mdx` file in `src/content/docs/` for:
+Check every `.md`/`.mdx` file in `./` for:
 - Missing `title`
 - Missing `description`
 - Missing `created` or `updated`
@@ -63,25 +63,25 @@ Report by issue type:
 
 ```
 ## Frontmatter issues
-- src/content/docs/AI/Example.md — missing `description`
+- ./AI/Example.md — missing `description`
 
 ## Orphan pages
-- src/content/docs/AI/Example.md — no inbound links
+- ./AI/Example.md — no inbound links
 
 ## Missing sources
-- src/content/docs/AI/Example.md — factual claims lack attribution
+- ./AI/Example.md — factual claims lack attribution
 
 ## Broken internal links
-- src/content/docs/AI/Example.md:12 — links to /AI/Nonexistent
+- ./AI/Example.md:12 — links to /AI/Nonexistent
 
 ## Page structure
-- src/content/docs/AI/Example.md — missing introductory paragraph
+- ./AI/Example.md — missing introductory paragraph
 
 ## Images and assets
-- src/content/docs/AI/Example.md — image has empty alt text
+- ./AI/Example.md — image has empty alt text
 
 ## Filename diacritics
-- src/content/docs/LifeHack/Nemusíš.md → Nemusis.md
+- ./LifeHack/Nemusíš.md → Nemusis.md
 ```
 
 Use `None found.` for empty categories.

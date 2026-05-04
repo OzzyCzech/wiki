@@ -11,14 +11,14 @@
 	},
 	"overrides": {
 		"defu": ">=6.1.7",
-		"yaml": ">=2.8.3"
+		"yaml": ">=2.8.4"
 	},
 	"dependencies": {
-		"@astrojs/check": "^0.9.8",
+		"@astrojs/check": "^0.9.9",
 		"@astrojs/rss": "^4.0.18",
 		"@astrojs/starlight": "0.38.2",
 		"@tailwindcss/vite": "^4.2.4",
-		"astro": "^6.1.9",
+		"astro": "^6.2.1",
 		"prettier": "^3.8.3",
 		"rehype-external-links": "^3.0.0",
 		"sharp": "^0.34.5",

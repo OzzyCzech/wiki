@@ -22,3 +22,6 @@ pnpm-debug.log*
 .DS_Store
 tmp
 input
+
+# wiki content — pulled at build time from github.com/OzzyCzech/wiki
+src/content/docs/

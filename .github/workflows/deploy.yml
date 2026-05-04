@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types: [wiki-content-updated]
 
 permissions:
   contents: read
@@ -19,6 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Checkout wiki content
+        uses: actions/checkout@v6
+        with:
+          repository: OzzyCzech/wiki
+          path: src/content/docs
       - uses: withastro/action@v6
         with:
           node-version: 24

@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: OzzyCzech/starlight@main
+      - uses: OzzyCzech/starlight@v2
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 

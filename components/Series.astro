@@ -1,0 +1,44 @@
+---
+const { title, href } = Astro.props;
+
+const apiKey = import.meta.env.TMDB_API_KEY;
+if (!apiKey) {
+	return;
+}
+
+// search titles in the Free movie directory API
+const url = new URL('https://api.themoviedb.org/3/search/tv');
+url.searchParams.append('api_key', apiKey);
+url.searchParams.append('include_adult', 'true');
+
+// year if included in title
+if (title.match(/\((\d{4})\)/)) {
+	url.searchParams.append('year', title.match(/\((\d{4})\)/)![1]);
+	// remove year from title
+	url.searchParams.append('query', title.replace(/\s*\(\d{4}\)/, '').trim());
+} else {
+	url.searchParams.append('query', title);
+}
+
+let result: any = null;
+try {
+	const res = await fetch(url);
+	if (!res.ok) return;
+	const response = await res.json();
+	if (!response?.results) return;
+	result = response.results.find((r: { name: string }) => r.name.toLowerCase() === title.toLowerCase()) ?? response.results[0] ?? null;
+} catch {
+	return;
+}
+if (!result) return;
+
+const img = result.poster_path ? `https://image.tmdb.org/t/p/w500${result.poster_path}` : '';
+const link = result.id ? `https://www.themoviedb.org/tv/${result.id}` : '#';
+const name = result.name ?? title
+---
+<li class="text-center m-0!">
+	<a href={href ?? link} target="_blank" class="p-0 m-0">
+		<img src={img} alt={name} class="rounded-lg shadow-sm"/>
+	</a>
+	<a href={link} title={name} target="_blank" class="inline-flex text-sm leading-normal no-underline hover:underline text-inherit!">{name}</a>
+</li>

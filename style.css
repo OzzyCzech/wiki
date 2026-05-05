@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+}
+
+/* Markdown tables: full width of the content column (Starlight uses display:block for overflow; unlayered rule wins over @layer starlight.core). */
+.sl-markdown-content table:not(:where(.not-content *)) {
+	display: table;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+@layer components {
+	blockquote {
+		@apply p-4 bg-gray-100 dark:bg-gray-800;
+	}
+
+	blockquote em {
+		@apply block text-right my-3 text-gray-600 dark:text-gray-400;
+		@apply before:content-['»_'] after:content-['_«'];
+	}
+}

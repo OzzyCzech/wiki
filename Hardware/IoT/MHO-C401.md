@@ -26,7 +26,7 @@ sudo hcitool lescan
 
 You will get output similar to this one:
 
-```
+```text
 49:01:7D:E8:21:CF (unknown)
 4D:E8:5B:D3:56:7E (unknown)
 5C:6D:23:6F:57:14 (unknown)
@@ -78,7 +78,7 @@ finally:
 
 Output will looks like that:
 
-```
+```text
 Connecting to device...
 Service <uuid=Generic Access handleStart=1 handleEnd=7>
  Characteristic <Device Name>

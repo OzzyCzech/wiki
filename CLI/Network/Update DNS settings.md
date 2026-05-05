@@ -1,5 +1,8 @@
 ---
 title: Update DNS settings
+description: Configure DNS servers on Linux using resolvconf and prevent systemd-resolved from overwriting them.
+created: 2026-05-04
+updated: 2026-05-04
 ---
 
 All DNS settings are stored in `/etc/resolv.conf` file, but it is not recommended to edit this file directly.

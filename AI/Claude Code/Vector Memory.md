@@ -9,7 +9,7 @@ Lokální vektorová paměť dává Claude Code persistentní sémantickou pamě
 
 ## Architektura
 
-```
+```text
 Claude Code
     │
     ▼

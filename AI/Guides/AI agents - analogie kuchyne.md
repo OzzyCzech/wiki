@@ -7,7 +7,7 @@ updated: 2026-04-07
 
 Moderní AI systémy se čím dál tím více skládají z více spolupracujících agentů. Jak celou tuto architekturu pochopit? Nejlépe pomocí analogie **restaurační kuchyně**.
 
-![Architektura AI agentů – analogie kuchyně](AI-agents-kitchen-analogy.png)
+![Architektura AI agentů – analogie kuchyně](./ai-agents-kitchen-analogy.png)
 
 ## Šéfkuchař – Lead Agent
 

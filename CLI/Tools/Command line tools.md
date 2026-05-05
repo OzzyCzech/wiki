@@ -21,7 +21,7 @@ brew install ack
 
 `bat` is a `cat` clone with syntax highlighting and Git integration.
 
-![](https://i.imgur.com/2lSW4RE.png)
+![bat syntax-highlighting screenshot](https://i.imgur.com/2lSW4RE.png)
 
 ```shell
 brew install bat
@@ -31,7 +31,7 @@ brew install bat
 
 `fd` is a fast and user-friendly alternative to `find`
 
-![](https://github.com/sharkdp/fd/raw/master/doc/screencast.svg)
+![fd screencast](https://github.com/sharkdp/fd/raw/master/doc/screencast.svg)
 
 ```shell
 brew install fd
@@ -67,7 +67,7 @@ exa -l
 
 ````shell
 
-![](https://github.com/ogham/dog/raw/master/dog-screenshot.png)
+![dog screenshot](https://github.com/ogham/dog/raw/master/dog-screenshot.png)
 
 ```shell
 brew install dog

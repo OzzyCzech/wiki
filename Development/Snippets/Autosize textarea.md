@@ -26,7 +26,7 @@ to dynamically resize itself as the user types.
 
 ### Step-by-Step Implementation
 
-##### Step 1: Import the Autosize Library
+#### Step 1: Import the Autosize Library
 
 First, we need to import the `autosize` library. For simplicity, we’ll use a CDN
 to include it in our project.
@@ -35,7 +35,7 @@ to include it in our project.
 import * as autosize from "https://esm.run/autosize";
 ```
 
-##### Step 2: Create the Custom Element
+#### Step 2: Create the Custom Element
 
 Next, we define a custom element called `AutoExpand` that extends the
 `HTMLTextAreaElement`. In the constructor, we call the autosize function,
@@ -52,7 +52,7 @@ class AutoExpand extends HTMLTextAreaElement {
 customElements.define("auto-expand", AutoExpand, { extends: "textarea" });
 ```
 
-##### Step 3: Use the Custom Element in HTML
+#### Step 3: Use the Custom Element in HTML
 
 Finally, we can use our custom element in HTML. By specifying
 `is="auto-expand"`, we tell the browser to use our `AutoExpand` class for this

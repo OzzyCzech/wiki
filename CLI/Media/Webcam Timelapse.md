@@ -23,7 +23,7 @@ crontab -e
 
 Přidej řádek (uprav cestu `/home/pi/images/` podle svého):
 
-```
+```bash
 *  5-19 * * * fswebcam --jpeg 95 -r 1024x768 -S 100 --no-banner /home/pi/images/$(date +\%Y\%m\%d\%H\%M\%S).jpg
 ```
 

@@ -49,4 +49,4 @@ It collects multiple runs, asserts against budgets, and uploads reports to a ser
 
 ## Related
 
-- [SEO Tools](../../development/tools/seo-tools/) — broader list of performance and SEO services
+- [SEO Tools](/development/tools/seo-tools/) — broader list of performance and SEO services

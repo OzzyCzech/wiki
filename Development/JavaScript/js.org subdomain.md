@@ -16,7 +16,7 @@ Vytvořte soubor `CNAME` s názvem subdomény (bez nového řádku na konci). Um
 - **Vite** / **Next.js**: `public/CNAME` (kopíruje se do výstupu buildu automaticky)
 - **Bez build nástroje**: `CNAME` v rootu repozitáře
 
-```
+```text
 muj-projekt.js.org
 ```
 

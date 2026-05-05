@@ -24,7 +24,7 @@ Older marketing URLs (e.g. “Original version”) may 404 — use the regional 
 
 ### [Benro Theta](https://www.benro.com/en/campaign/theta.html)
 
-![](https://ozzyczech.cz/i/benro-theta.png)
+![Benro Theta motorised auto-levelling travel tripod](https://ozzyczech.cz/i/benro-theta.png)
 
 Travel tripod with **motorised auto-levelling** (optional modules: battery / camera control / GoLive streaming / optical matrix for timelapse exposure assist). Carbon legs, aluminium ball head; dual ball + pan/tilt video modes; Auto-Lock QR plate.
 

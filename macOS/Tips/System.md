@@ -97,7 +97,7 @@ networkQuality -v
 
 Output will looks like follow:
 
-```
+```text
 ==== SUMMARY ====
 Upload capacity: 16.239 Mbps
 Download capacity: 475.129 Mbps
@@ -136,7 +136,7 @@ ippfind
 
 Then you get local address of printer (Internet Printing Protocol (IPP, [RFC 2911](https://tools.ietf.org/html/rfc2911))):
 
-```
+```text
 ipp://3036B5000000.local:XXX/ipp/print
 ```
 

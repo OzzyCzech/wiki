@@ -13,7 +13,7 @@ Docker Desktop. In newer versions of Docker Desktop and Docker Engine, you’re 
 by default when you invoke the `docker build` command. In earlier versions, to build using
 Buildx you would use the `docker buildx build` command.
 
-![](https://docs.docker.com/build/images/build-high-level-arch.png)
+![Docker buildx high-level architecture diagram](https://docs.docker.com/build/images/build-high-level-arch.png)
 
 As of Docker Engine 23.0 and Docker Desktop 4.19, Buildx is the default build client.
 

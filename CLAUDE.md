@@ -11,11 +11,11 @@ The LLM owns the wiki layer — it creates pages, updates them, maintains cross-
 
 ## Structure
 
-This repo holds **only content**. The Astro Starlight template, sidebar config, and build pipeline live in [OzzyCzech/wiki-publisher](https://github.com/OzzyCzech/wiki-publisher), which is invoked by `.github/workflows/deploy.yml` on every push.
+This repo holds **only content**. The Astro Starlight template, sidebar config, and build pipeline live in [OzzyCzech/starlight](https://github.com/OzzyCzech/starlight), which is invoked by `.github/workflows/deploy.yml` on every push.
 
 Content lives at the **root of this repo**, organized by topic (AI, Development, macOS, …). Each `.md` or `.mdx` file is one wiki page. Use `.mdx` only when the page needs Astro components.
 
-Sidebar navigation is configured in `astro.config.mjs` in the **publisher repo**, not here. When adding a new top-level category, ask the user — it requires a coordinated change in `wiki-publisher`. Do not change directory structure without asking first.
+Sidebar navigation is configured in `starlight.config.mjs` at the **root of this repo**. When adding a new top-level category, update both the sidebar and the directory structure together.
 
 ## File naming
 

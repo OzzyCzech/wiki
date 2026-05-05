@@ -25,7 +25,7 @@ random things I've **googled a lot** and want to remember.
 Two repositories work together:
 
 - [**OzzyCzech/wiki**](https://github.com/OzzyCzech/wiki) — the markdown content of this site.
-- [**OzzyCzech/wiki-publisher**](https://github.com/OzzyCzech/wiki-publisher) — a GitHub Action
+- [**OzzyCzech/starlight**](https://github.com/OzzyCzech/starlight) — a GitHub Action
   with a bundled [Astro Starlight](https://starlight.astro.build/) template that builds
   and deploys the site to GitHub Pages on every push.
 

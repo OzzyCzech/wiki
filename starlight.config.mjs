@@ -42,6 +42,7 @@ export default {
 			{ label: 'macOS', collapsed: true, autogenerate: { directory: 'macOS', collapsed: true } },
 			{ label: 'Awesome', collapsed: true, autogenerate: { directory: 'Awesome', collapsed: false } },
 			{ label: 'Life Hack', collapsed: true, autogenerate: { directory: 'LifeHack' } },
+			{ label: 'Health', collapsed: true, autogenerate: { directory: 'Health' } },
 			{
 				label: 'Photography',
 				collapsed: true,

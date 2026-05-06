@@ -2,7 +2,7 @@
 title: Tik v oku
 description: Příčiny a řešení nepříjemného škubání víčka oka — vitamíny, odpočinek a prevence.
 created: 2015-11-12
-updated: 2024-05-27
+updated: 2026-05-06
 tableOfContents: false
 ---
 

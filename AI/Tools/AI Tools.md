@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-04-27
+updated: 2026-05-06
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -51,6 +51,7 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 
 - **[Stitch](https://stitch.withgoogle.com/)** — AI design nástroj od Googlu; generování UI návrhů z textu nebo obrázků
 - **[Pencil](https://www.pencil.dev/)** — přináší design přímo do IDE; odstraňuje přepínání mezi designovým nástrojem a editorem
+- **[Maket](https://www.maket.ai/)** — AI generátor půdorysů pro rezidenční architekturu; z popisu místností a rozměrů vytvoří editovatelný půdorys s přesnými mírami a vizualizacemi v různých architektonických stylech
 
 ## 🖼️ Image & Video
 

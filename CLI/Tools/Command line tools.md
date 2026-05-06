@@ -1,86 +1,36 @@
 ---
 title: Command line tools
-description: Essential command line tools — ack, bat, fd, and other useful CLI utilities.
+description: Curated list of CLI tools — search, file handling, HTTP, JSON processing, and modern alternatives to classic Unix utilities.
 created: 2023-03-20
 updated: 2026-05-06
 ---
 
-## [ack](https://beyondgrep.com)
+Useful CLI utilities, mostly modern Rust/Go rewrites of classic Unix tools. On macOS install via [Homebrew](https://brew.sh/) (`brew install <name>`).
 
-`ack` is a grep-like source code search tool.
+## Search & navigation
 
-```shell
-ack 'foo' --js
-```
+- **[ripgrep](https://github.com/BurntSushi/ripgrep)** (`rg`) — fast recursive code search; respects `.gitignore` and skips binaries by default; powers search in VS Code and Helix
+- **[ack](https://beyondgrep.com/)** — older grep-like source code search tool, predecessor to ripgrep
+- **[fd](https://github.com/sharkdp/fd)** — fast, user-friendly alternative to `find` with sane defaults
+- **[sd](https://github.com/chmln/sd)** — intuitive `find & replace` alternative to `sed`
 
-```shell
-brew install ack
-```
+## File viewing & manipulation
 
-## [ripgrep](https://github.com/BurntSushi/ripgrep)
+- **[bat](https://github.com/sharkdp/bat)** — `cat` clone with syntax highlighting, line numbers, and Git diff integration
+- **[eza](https://github.com/eza-community/eza)** — modern replacement for `ls` (maintained fork of the now-archived `exa`); colored output, Git status, tree mode
+- **[trash](https://hasseg.org/trash/)** — moves files to the macOS Trash instead of permanent deletion (`rm`-safe alternative)
 
-`ripgrep` (`rg`) is a fast recursive code search tool that respects `.gitignore` and skips binary files by default. Powers the search in VS Code and Helix.
+## HTTP & networking
 
-```shell
-rg 'foo' --type js
-```
+- **[curl](https://curl.se/)** — universal data transfer; included on macOS by default but `brew install curl` gives you the latest
+- **[HTTPie](https://httpie.io/)** — human-friendly HTTP client; intuitive flags, JSON-aware syntax, formatted output
+- **[dog](https://github.com/ogham/dog)** — modern DNS client, alternative to `dig`
 
-```shell
-brew install ripgrep
-```
+## Data processing
 
-## [bat](https://github.com/sharkdp/bat)
+- **[jq](https://jqlang.github.io/jq/)** — command-line JSON processor with its own query language
 
-`bat` is a `cat` clone with syntax highlighting and Git integration.
+## Productivity
 
-![bat syntax-highlighting screenshot](https://i.imgur.com/2lSW4RE.png)
-
-```shell
-brew install bat
-```
-
-## [fd](https://github.com/sharkdp/fd)
-
-`fd` is a fast and user-friendly alternative to `find`
-
-![fd screencast](https://github.com/sharkdp/fd/raw/master/doc/screencast.svg)
-
-```shell
-brew install fd
-```
-
-## [sd](https://github.com/chmln/sd)
-
-`sd` is an intuitive find & replace command-line tool, it is an alternative to `sed`
-
-```shell
-sd 'foo' 'bar' foo.txt
-```
-
-```shell
-brew install sd
-```
-
-## [dog](https://github.com/ogham/dog)
-
-`dog` is a command-line DNS client, like `dig`
-
-```shell
-dog google.com
-```
-
-## [exa](https://the.exa.website/)
-
-`exa` is a modern replacement for `ls`.
-
-```shell
-exa -l
-```
-
-````shell
-
-![dog screenshot](https://github.com/ogham/dog/raw/master/dog-screenshot.png)
-
-```shell
-brew install dog
-````
+- **[git](https://git-scm.com/)** — distributed version control
+- **[tldr](https://tldr.sh/)** — simplified, community-driven man pages with practical examples

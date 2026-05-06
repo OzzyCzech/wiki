@@ -20,5 +20,5 @@ grep -Rsnw "/your/folder" -e "string"
 - `n` - Print the line number where the match was found.
 - `w` - Only match whole words, not strings contained in larger words.
 
-For source code search prefer [`ripgrep`](../../tools/command-line-tools/#ripgrep) — significantly faster than `grep -R`, respects `.gitignore`, skips binary files automatically.
+For source code search prefer [`ripgrep`](../../tools/command-line-tools/) — significantly faster than `grep -R`, respects `.gitignore`, skips binary files automatically.
 

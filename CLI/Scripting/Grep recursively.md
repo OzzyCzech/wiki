@@ -2,7 +2,7 @@
 title: Grep recursively
 description: Search recursively through all files under a directory and its subdirectories.
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-05-06
 ---
 
 ## Search recursively through all files
@@ -19,4 +19,6 @@ grep -Rsnw "/your/folder" -e "string"
 - `s` - Suppress error messages for nonexistent or unreadable files.
 - `n` - Print the line number where the match was found.
 - `w` - Only match whole words, not strings contained in larger words.
+
+For source code search prefer [`ripgrep`](../../tools/command-line-tools/#ripgrep) — significantly faster than `grep -R`, respects `.gitignore`, skips binary files automatically.
 

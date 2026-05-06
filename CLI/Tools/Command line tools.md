@@ -2,7 +2,7 @@
 title: Command line tools
 description: Essential command line tools — ack, bat, fd, and other useful CLI utilities.
 created: 2023-03-20
-updated: 2026-04-06
+updated: 2026-05-06
 ---
 
 ## [ack](https://beyondgrep.com)
@@ -15,6 +15,18 @@ ack 'foo' --js
 
 ```shell
 brew install ack
+```
+
+## [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+`ripgrep` (`rg`) is a fast recursive code search tool that respects `.gitignore` and skips binary files by default. Powers the search in VS Code and Helix.
+
+```shell
+rg 'foo' --type js
+```
+
+```shell
+brew install ripgrep
 ```
 
 ## [bat](https://github.com/sharkdp/bat)

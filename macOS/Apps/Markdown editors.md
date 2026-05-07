@@ -2,7 +2,7 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-05-05
+updated: 2026-05-07
 ---
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
 
@@ -39,6 +39,12 @@ Markdown-focused writing and note apps for macOS. For note-taking apps see also 
 
 - **[MacDown](https://macdown.uranusjr.com/)** — free and open-source split-pane Markdown editor with live preview
 - **[MarkText](https://github.com/marktext/marktext)** — open-source WYSIWYG Markdown editor for Linux, macOS, and Windows
+
+### 👀 Viewers
+
+Read-only Markdown apps focused on rendering rather than authoring.
+
+- **[Markdown Preview](https://markdownpreview.app/)** — native, open-source (MIT) macOS reader for `.md` files (macOS 15+); document outline sidebar, Quick Look extension for Finder, Spotlight preview, hand-off to external editors (VS Code, Cursor, Zed, Sublime); no account or setup
 
 ### 🌐 Online
 

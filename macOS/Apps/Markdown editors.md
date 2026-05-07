@@ -3,6 +3,7 @@ title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
 updated: 2026-05-07
+_width: normal
 ---
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
 

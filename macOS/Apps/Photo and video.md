@@ -2,7 +2,7 @@
 title: Photo and video
 description: Image viewers, photo editors, video players, and screen recorders for macOS.
 created: 2026-04-01
-updated: 2026-04-14
+updated: 2026-05-06
 ---
 
 Apps for viewing, editing, and recording photos and video on macOS.
@@ -14,8 +14,8 @@ Apps for viewing, editing, and recording photos and video on macOS.
 
 ## Image editing
 
-- **[Affinity Suite](https://www.affinity.studio)** — vector design (Designer), photo editing (Photo), and desktop publishing (Publisher) tools
-- **[Pixelmator Pro](https://www.pixelmator.com/pro/)** — native macOS image editor with ML-powered tools and a layer-based workflow
+- **[Affinity](https://affinity.serif.com/)** — free professional creative app from Canva combining vector design, photo editing, and page layout tools
+- **[Pixelmator Pro](https://www.pixelmator.com/pro/)** — Apple image editor for Mac and iPad with AI-assisted tools, layer-based editing, and Apple Creator Studio integration
 - **[Procreate](https://procreate.art/)** — professional digital illustration app for iPad (not macOS)
 
 ## Video players
@@ -26,13 +26,13 @@ Apps for viewing, editing, and recording photos and video on macOS.
 ## Video editing
 
 - **[DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)** — professional video editor with color grading, audio post, and VFX tools; free version available
-- **[LumaFusion](https://luma-touch.com/)** — professional multi-track video editor for iPad and iPhone
+- **[LumaFusion](https://luma-touch.com/)** — touch-first multi-track video editor for iPad, iPhone, Apple Silicon Macs, Android, and Chromebook
 - **[Final Cut Pro](https://www.apple.com/final-cut-pro/)** — Apple's professional video editor for Mac with a magnetic timeline
 - **[iMovie](https://www.apple.com/imovie/)** — Apple's free video editor for Mac with basic trimming, titles, and transitions
 
 ## Screen recorders
 
-- **[Kap](https://getkap.co/)** — open-source screen recorder that exports to GIF, MP4, WebM, and APNG
+- **[Kap](https://getkap.co/)** — older open-source screen recorder that exports to GIF, MP4, WebM, and APNG; check current macOS compatibility before relying on it
 - **[Screen Studio](https://www.screen.studio/)** — screen recording app with automatic zoom, cursor effects, and background styling
 - **[MacShot](https://macshot.io/)** — free, open-source screenshot and recording tool with annotation, OCR, scroll capture, and cloud upload; GPLv3
 
@@ -50,8 +50,6 @@ For ProRes output (supported in iMovie 10+):
 ffmpeg -i input.avi -c:v prores -c:a pcm_s16le output.mov
 ```
 
-macOS Catalina and later support these video codecs: Apple ProRes, AVCHD, DV/DVCPRO, H.264, HEVC, HDV, iFrame, Motion JPEG (OpenDML), MPEG-4 SP, Photo JPEG, XAVC-S.
+For Apple-native workflows, prefer common MP4/MOV exports with H.264, HEVC, or Apple ProRes. Older or specialized codecs may require conversion or a third-party player.
 
-Container formats: 3GP, AVI, M4V, MOV, MP4. Audio formats: AAC, AIFF, BWF, CAF, MP3, MP4, RF64, WAV.
-
-See [Apple's incompatible media guide](https://support.apple.com/en-us/HT209029) for details.
+See [Apple's media compatibility guide](https://support.apple.com/en-is/102644) for current troubleshooting guidance.

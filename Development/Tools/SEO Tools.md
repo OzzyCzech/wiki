@@ -1,9 +1,11 @@
 ---
 title: SEO Tools
-description: SEO tools and services including Google Search Console, PageSpeed, and structured data testing.
+description: SEO tools and services including Google Search Console, PageSpeed, structured data testing, and open-source alternatives to Semrush/Ahrefs.
 created: 2024-04-02
-updated: 2026-05-04
+updated: 2026-05-11
 ---
+
+Tools for SEO auditing, structured data validation, performance testing, and keyword/backlink research.
 
 ### Google
 
@@ -20,6 +22,10 @@ updated: 2026-05-04
 
 - [SEO Site Tools](https://technicalseo.com/tools/)
 - [OpenScreen](https://openscreen.vercel.app/) - open graph image generator
+
+### Competitor & keyword research
+
+- **[OpenSEO](https://openseo.so/)** — open-source (MIT) alternative to Semrush/Ahrefs for keyword research, backlink analysis, rank tracking, competitor insights, and AI visibility; self-hostable via Docker or Cloudflare, or use the managed version at [app.openseo.so](https://app.openseo.so/); requires bringing your own DataForSEO API key
 
 ### Performance testing
 

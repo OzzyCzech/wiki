@@ -2,7 +2,7 @@
 title: 📖 Beletrie
 description: Osobní výběr beletrie — romány, sci-fi, krimi a historická fikce.
 created: 2024-01-01
-updated: 2026-04-10
+updated: 2026-05-15
 ---
 
 Osobní výběr beletrie — romány, sci-fi, krimi a historická fikce.
@@ -36,6 +36,7 @@ Osobní výběr beletrie — romány, sci-fi, krimi a historická fikce.
 - [James S. A. Corey](https://www.databazeknih.cz/vydane-knihy/james-s-a-corey-128931) — autor série The Expanse
 - [Skleněný trůn](https://www.databazeknih.cz/knihy/skleneny-trun-tron-zo-skla-skleneny-trun-235352) — Sarah J. Maas
 - [Nonstop](https://www.databazeknih.cz/knihy/nonstop-21308) — Brian W. Aldiss
+- [Bobiverzum: My jsme legie](https://www.databazeknih.cz/knihy/bobiverzum-my-jsme-legie-364823) — Dennis E. Taylor (1. díl série Bobiverse)
 - [Keltské mýty a legendy](https://www.databazeknih.cz/knihy/keltske-myty-a-legendy-45670) — Ivan Sec
 
 ## Krimi a thrillery

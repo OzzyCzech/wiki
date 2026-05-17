@@ -2,7 +2,7 @@
 title: JavaScript testing
 description: JavaScript testing frameworks, linters, and formatters for modern web development.
 created: 2024-05-25
-updated: 2026-04-10
+updated: 2026-05-11
 ---
 
 Testing frameworks, linters, formatters, and automation tools for JavaScript and TypeScript projects.
@@ -25,6 +25,7 @@ Testing frameworks, linters, formatters, and automation tools for JavaScript and
 - **[Playwright](https://playwright.dev/)** — cross-browser testing and automation for Chromium, Firefox, and WebKit; by Microsoft
 - **[Puppeteer](https://pptr.dev/)** — headless Chrome/Chromium automation via Node.js API; by Google
 - **[Cypress](https://www.cypress.io/)** — browser-based E2E testing with time-travel debugging and automatic waiting
+- **[CloakBrowser](https://cloakbrowser.dev/)** — stealth Chromium fork that drops into Playwright/Puppeteer with identical APIs; 32 C++ source-level patches modify fingerprints at compile time plus driver-level CDP leak removal, defeats reCAPTCHA v3, Cloudflare Turnstile, and 30+ detection services; bundles a self-hosted Browser Profile Manager (Multilogin/GoLogin alternative) and integrates with Selenium, browser-use, Crawl4AI, and Claude computer use; wrapper MIT, binary proprietary
 
 ## 📦 Utilities
 

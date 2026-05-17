@@ -2,7 +2,7 @@
 title: HTTP tools
 description: Online HTTP tools, DNS utilities, and favicon services for web development and testing.
 created: 2024-04-30
-updated: 2026-04-09
+updated: 2026-05-17
 ---
 
 Quick-reference collection of online and CLI tools for HTTP inspection, DNS lookups, SSL analysis, and local development.
@@ -12,6 +12,10 @@ Quick-reference collection of online and CLI tools for HTTP inspection, DNS look
 - **[httpbin](https://httpbin.org)** — returns request/response data as JSON; useful for testing HTTP clients and inspecting headers, auth, and redirects
 - **[httpie](https://httpie.org/)** — command-line HTTP client with human-friendly syntax; alternative to curl with color output and JSON support
 - **[GeoIP](https://redirect.li/)** — shows HTTP request details and GeoIP information for the incoming connection
+
+## API clients
+
+- **[Bruno](https://github.com/usebruno/bruno)** — open-source desktop API client and Postman/Insomnia alternative; offline-first, stores collections as plain-text `.bru` files on the filesystem so they can be versioned with Git; supports REST and GraphQL, runs on macOS, Windows and Linux
 
 ## Favicon
 

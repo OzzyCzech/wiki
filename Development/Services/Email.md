@@ -2,7 +2,7 @@
 title: Email
 description: Email hosting providers and transactional email services for developers.
 created: 2022-01-20
-updated: 2026-04-09
+updated: 2026-05-11
 ---
 
 Reference for email hosting, transactional APIs, newsletter platforms, and disposable email tools.
@@ -29,6 +29,7 @@ Reference for email hosting, transactional APIs, newsletter platforms, and dispo
 
 ## Newsletter services
 
+- **[listmonk](https://listmonk.app/)** — self-hosted, [open-source (AGPLv3)](https://github.com/knadh/listmonk) newsletter, mailing list manager, and transactional sender; single Go binary or Docker container, multi-threaded multi-SMTP queue, SQL-based subscriber segmentation, Go-template campaigns with visual + code editors, OIDC SSO, REST API, extensible messengers for email/SMS/WhatsApp; runs comfortably on tiny resources (millions of emails on a fraction of a core)
 - **[Sendy](https://sendy.co/)** — self-hosted newsletter tool that sends via [AWS SES](https://aws.amazon.com/ses/)
 - **[Substack](https://substack.com/)** — newsletter and subscription publishing platform
 

@@ -2,7 +2,7 @@
 title: Skills
 description: Curated open-source skill collections for Claude Code and AI coding agents.
 created: 2026-04-08
-updated: 2026-04-30
+updated: 2026-05-11
 ---
 
 Open-source skill collections that extend Claude Code and other AI coding agents with specialized workflows.
@@ -29,6 +29,14 @@ Open-source skill collections that extend Claude Code and other AI coding agents
   ```
 
   Key skills: `spec-driven-development`, `test-driven-development`, `security-and-hardening`, `performance-optimization`, `code-review-and-quality`, `shipping-and-launch`
+
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** — pragmatic engineering skills by Matt Pocock (Total TypeScript / AI Hero); addresses four common agent failure modes — misalignment (`/grill-me`, `/grill-with-docs` for upfront requirements interrogation), verbosity (shared-language `CONTEXT.md` + ADRs built from grilling), broken feedback loops (`/tdd` red-green-refactor, `/diagnose` debugging), and architectural drift; small composable skills, model-agnostic; includes a `/setup-matt-pocock-skills` wizard that asks for issue-tracker preference (GitHub/Linear/local), triage labels, and doc location
+
+  Install:
+
+  ```bash
+  npx skills@latest add mattpocock/skills
+  ```
 
 - **[caveman](https://github.com/JuliusBrussee/caveman)** — "why use many token when few do trick" — skill/plugin that makes the agent talk like a caveman, cutting ~75% of output tokens while keeping full technical accuracy; includes intensity levels (Lite / Full / Ultra), 文言文 classical Chinese mode, terse commit messages (`caveman-commit`), one-line code reviews (`caveman-review`), and a `caveman-compress` tool that rewrites memory files (e.g. `CLAUDE.md`) into compressed prose saving ~45% of input tokens
 

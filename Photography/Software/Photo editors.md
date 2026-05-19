@@ -2,7 +2,7 @@
 title: Photo editors
 description: RAW and pixel editors for photography — mainstream commercial apps, FOSS options, and preset / style marketplaces.
 created: 2024-05-24
-updated: 2026-04-06
+updated: 2026-05-19
 ---
 
 Desktop (and some mobile) tools for **RAW development**, **layers**, and **local edits**. The list favours apps still common in **2025–2026** workflows; verify **OS support** and **subscription vs perpetual** licensing before buying.
@@ -22,6 +22,7 @@ Desktop (and some mobile) tools for **RAW development**, **layers**, and **local
 - [Darkroom](https://darkroom.co/) — macOS / iOS RAW editor
 - [DXO PhotoLab](https://www.dxo.com/dxo-photolab/)
 - [Darktable](https://www.darktable.org/) — free and open source
+- [RapidRAW](https://www.getrapidraw.com/) — lightweight GPU-accelerated RAW editor in Rust/Tauri with AI masking and non-destructive sidecar workflow; AGPL-3.0, Windows/macOS/Linux ([source](https://github.com/CyberTimon/RapidRAW))
 - [Rawsie](https://rawsie.co/) — lossy / compact RAW preprocessing (evaluate quality trade-offs)
 
 ## Presets and styles

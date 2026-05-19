@@ -2,7 +2,7 @@
 title: Security List
 description: Přehled nástrojů pro soukromí a bezpečnost — prohlížeče, hesla, VPN, messaging a šifrované úložiště.
 created: 2026-04-08
-updated: 2026-04-23
+updated: 2026-05-19
 ---
 
 Osobní přehled nástrojů pro digitální bezpečnost a soukromí.
@@ -47,6 +47,12 @@ Vyhledávače bez sledování uživatelů:
 - **[Keeper](https://www.keepersecurity.com/)** — správce hesel zaměřený na firmy s zero-knowledge architekturou
 - **[Buttercup](https://buttercup.pw/)** — open-source správce hesel pro desktop a mobil; ukládá do vlastního souboru
 - **[iCloud Keychain](https://support.apple.com/en-us/HT204085)** — vestavěný správce hesel na Apple zařízeních; integrovaný s Safari a systémem
+- **[Proton Pass](https://proton.me/pass)** — open-source E2E šifrovaný správce hesel od Protonu se švýcarskou jurisdikcí; integrované email aliasy (Hide-my-email) a passkeys
+- **[KeePassXC](https://keepassxc.org/)** — community fork KeePassX; offline-first open-source správce hesel s lokálním šifrovaným souborem (KDBX), bez cloudové synchronizace
+- **[Psono](https://psono.com/)** — open-source správce hesel z Německa zaměřený na týmy; self-hostable, podporuje sdílení hesel, souborů a SSH klíčů
+- **[Padloc](https://padloc.app/)** — open-source správce hesel s moderním UI; self-hostable, podporuje passkeys a sdílení v rámci rodiny/týmu
+- **[gopass](https://www.gopass.pw/)** — minimalistický CLI správce hesel v Go postavený nad `pass` a GPG; vhodný pro skripty a server prostředí
+- **[Passbolt](https://www.passbolt.com/)** — open-source správce hesel pro týmy s důrazem na sdílení; self-hostable, OpenPGP-based šifrování
 
 ## 💬 Messaging
 

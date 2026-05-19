@@ -39,20 +39,12 @@ Vyhledávače bez sledování uživatelů:
 
 ## 🔑 Správci hesel
 
-- **[1Password](https://1password.com/)** — komerční správce hesel s podporou týmů a bezpečnostními audity; doporučeno pro firemní použití
-- **[Bitwarden](https://bitwarden.com/)** — open-source správce hesel; lze self-hostovat; auditovaný třetí stranou
-- **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** — neoficiální Bitwarden-kompatibilní server napsaný v Rustu; výrazně nižší nároky na paměť a CPU než oficiální server, ideální pro self-hosting na malých VPS nebo Raspberry Pi
-- **[Dashlane](https://www.dashlane.com/)** — komerční správce hesel s VPN a dark web monitoringem
-- **[NordPass](https://nordpass.com/)** — správce hesel od NordVPN; XChaCha20 šifrování
-- **[Keeper](https://www.keepersecurity.com/)** — správce hesel zaměřený na firmy s zero-knowledge architekturou
-- **[Buttercup](https://buttercup.pw/)** — open-source správce hesel pro desktop a mobil; ukládá do vlastního souboru
-- **[iCloud Keychain](https://support.apple.com/en-us/HT204085)** — vestavěný správce hesel na Apple zařízeních; integrovaný s Safari a systémem
+- **[1Password](https://1password.com/)** — komerční správce hesel s podporou týmů, pravidelnými nezávislými audity a SOC 2 certifikací; nejlepší volba pro rodiny a firmy
+- **[Bitwarden](https://bitwarden.com/)** — open-source správce hesel auditovaný třetí stranou; lze provozovat v cloudu nebo self-hostovat; štědrý free tier
+- **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** — neoficiální Bitwarden-kompatibilní server v Rustu; výrazně nižší nároky na paměť a CPU, ideální pro self-hosting na VPS nebo Raspberry Pi
 - **[Proton Pass](https://proton.me/pass)** — open-source E2E šifrovaný správce hesel od Protonu se švýcarskou jurisdikcí; integrované email aliasy (Hide-my-email) a passkeys
-- **[KeePassXC](https://keepassxc.org/)** — community fork KeePassX; offline-first open-source správce hesel s lokálním šifrovaným souborem (KDBX), bez cloudové synchronizace
-- **[Psono](https://psono.com/)** — open-source správce hesel z Německa zaměřený na týmy; self-hostable, podporuje sdílení hesel, souborů a SSH klíčů
-- **[Padloc](https://padloc.app/)** — open-source správce hesel s moderním UI; self-hostable, podporuje passkeys a sdílení v rámci rodiny/týmu
-- **[gopass](https://www.gopass.pw/)** — minimalistický CLI správce hesel v Go postavený nad `pass` a GPG; vhodný pro skripty a server prostředí
-- **[Passbolt](https://www.passbolt.com/)** — open-source správce hesel pro týmy s důrazem na sdílení; self-hostable, OpenPGP-based šifrování
+- **[KeePassXC](https://keepassxc.org/)** — community fork KeePassX; offline-first open-source manažer s lokálním KDBX souborem, bez cloudové závislosti
+- **[iCloud Keychain](https://support.apple.com/en-us/HT204085)** — vestavěný správce hesel na Apple zařízeních; integrovaný s Safari, systémem a passkeys
 
 ## 💬 Messaging
 

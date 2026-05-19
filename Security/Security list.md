@@ -41,6 +41,7 @@ Vyhledávače bez sledování uživatelů:
 
 - **[1Password](https://1password.com/)** — komerční správce hesel s podporou týmů, pravidelnými nezávislými audity a SOC 2 certifikací; nejlepší volba pro rodiny a firmy
 - **[Bitwarden](https://bitwarden.com/)** — open-source správce hesel auditovaný třetí stranou; lze provozovat v cloudu nebo self-hostovat; štědrý free tier
+- **[Dashlane](https://www.dashlane.com/)** — etablovaný komerční správce hesel s nezávislými audity, zero-knowledge architekturou a podporou passkeys; integrovaný dark web monitoring
 - **[Vaultwarden](https://github.com/dani-garcia/vaultwarden)** — neoficiální Bitwarden-kompatibilní server v Rustu; výrazně nižší nároky na paměť a CPU, ideální pro self-hosting na VPS nebo Raspberry Pi
 - **[Proton Pass](https://proton.me/pass)** — open-source E2E šifrovaný správce hesel od Protonu se švýcarskou jurisdikcí; integrované email aliasy (Hide-my-email) a passkeys
 - **[KeePassXC](https://keepassxc.org/)** — community fork KeePassX; offline-first open-source manažer s lokálním KDBX souborem, bez cloudové závislosti

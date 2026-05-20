@@ -2,7 +2,7 @@
 title: NPM packages
 description: Curated list of useful NPM packages for charts, utilities, UI, and web development.
 created: 2024-05-25
-updated: 2026-04-10
+updated: 2026-05-20
 ---
 
 Curated npm packages by category. For publishing packages, see [Publikování npm přes GitHub Actions](../publikovani-npm-pres-github-actions).
@@ -67,6 +67,7 @@ Curated npm packages by category. For publishing packages, see [Publikování np
 ## CLI
 
 - **[Ink](https://github.com/vadimdemedes/ink)** — React renderer for interactive command-line apps; uses Yoga for Flexbox layouts in the terminal
+- **[OpenTUI](https://opentui.com/)** — native terminal UI core in Zig with TypeScript bindings, Yoga flexbox layout, tree-sitter syntax highlighting, and first-class React/Solid support; powers OpenCode in production
 
 ## Services
 

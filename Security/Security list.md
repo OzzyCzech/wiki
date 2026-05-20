@@ -67,6 +67,7 @@ Srovnání bezpečnosti: **[securemessagingapps.com](https://www.securemessaging
 - **[IVPN](https://www.ivpn.net/)** — VPN s důrazem na anonymitu; nezaznamenává logy; auditovaný
 - **[ProtonVPN](https://protonvpn.com/)** — švýcarský VPN od tvůrců ProtonMail; open-source klienti; auditovaný
 - **[Njalla](https://njal.la/)** — privacy-first doménový registrátor a VPN provozovaný spoluzakladatelem Pirate Bay
+- **[Obscura](https://obscura.com/)** — open-source two-party relay VPN nad WireGuard-over-QUIC; provoz vychází přes Mullvad exit servery, takže provozovatel nevidí cíl a Mullvad nevidí identitu uživatele; platba kartou, Bitcoin Lightning nebo Monero
 - **[Nostr VPN](https://nostrvpn.org/)** — mesh VPN bez účtů a centrálního koordinačního serveru; využívá Nostr pro discovery a šifrovanou signalizaci, WireGuard pro tunelový provoz, propojení přes invite link/QR a stabilní `.nvpn` hostnames (alternativa k Tailscale)
 
 ## 🗂️ Šifrované úložiště

@@ -2,7 +2,7 @@
 title: Security List
 description: Přehled nástrojů pro soukromí a bezpečnost — prohlížeče, hesla, VPN, messaging a šifrované úložiště.
 created: 2026-04-08
-updated: 2026-05-19
+updated: 2026-05-20
 ---
 
 Osobní přehled nástrojů pro digitální bezpečnost a soukromí.
@@ -67,6 +67,7 @@ Srovnání bezpečnosti: **[securemessagingapps.com](https://www.securemessaging
 - **[IVPN](https://www.ivpn.net/)** — VPN s důrazem na anonymitu; nezaznamenává logy; auditovaný
 - **[ProtonVPN](https://protonvpn.com/)** — švýcarský VPN od tvůrců ProtonMail; open-source klienti; auditovaný
 - **[Njalla](https://njal.la/)** — privacy-first doménový registrátor a VPN provozovaný spoluzakladatelem Pirate Bay
+- **[Nostr VPN](https://nostrvpn.org/)** — mesh VPN bez účtů a centrálního koordinačního serveru; využívá Nostr pro discovery a šifrovanou signalizaci, WireGuard pro tunelový provoz, propojení přes invite link/QR a stabilní `.nvpn` hostnames (alternativa k Tailscale)
 
 ## 🗂️ Šifrované úložiště
 

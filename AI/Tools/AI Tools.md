@@ -46,6 +46,7 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 - **[Cursor](https://cursor.com/)** — AI-powered IDE
 - **[Antigravity](https://antigravity.google/)** — AI-powered IDE by Google
 - **[Zed](https://zed.dev/)** — vysokovýkonný editor s vestavěnou AI
+- **[Emdash](https://www.emdash.sh/)** — open-source desktop dashboard pro orchestraci 25+ coding agentů (Claude Code, Codex, Cursor, Gemini, OpenCode aj.) paralelně, každý v izolovaném Git worktree; integrovaný diff view, MCP klient, vzdálené spouštění přes SSH a napojení na Linear/Jira/GitHub issues
 
 ## 🎨 Design & Prototyping
 

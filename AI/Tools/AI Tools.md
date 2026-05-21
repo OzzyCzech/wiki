@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-05-06
+updated: 2026-05-21
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -21,7 +21,7 @@ Hlavní AI chatboti dostupné jako webová rozhraní.
 - **[Hugging Face](https://huggingface.co/)** — kolaborativní platforma pro sdílení AI modelů, datasetů a aplikací
 - **[Ollama](https://ollama.com/)** — spouštění LLM lokálně na vlastním počítači
 - **[Replicate](https://replicate.com/)** — spouštění open-source AI modelů v cloudu přes jednoduché API
-- **[OpenRouter](https://openrouter.ai/)** — jednotné API pro přístup k modelům od OpenAI, Anthropic, Google, Meta a dalších
+- **[OpenRouter](https://openrouter.ai/)** — OpenAI-kompatibilní brána ke 400+ modelům od 60+ poskytovatelů (OpenAI, Anthropic, Google, Meta a další); automatický fallback při výpadku poskytovatele, granulární data policies a kreditový model bez předplatného
 - **[LM Studio](https://lmstudio.ai/)** — desktopová aplikace pro spouštění lokálních LLM s jednoduchým GUI
 
 ## 🏗️ App Builders

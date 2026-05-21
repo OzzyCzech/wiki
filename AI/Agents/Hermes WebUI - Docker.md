@@ -4,7 +4,7 @@ description: Nasazení komunitního webového rozhraní pro Hermes Agent v Docke
 created: 2026-05-21
 updated: 2026-05-21
 ---
-[Hermes WebUI](https://github.com/nesquena/hermes-webui) je komunitní browserové rozhraní pro [[Hermes Agent]]. Tříbloková Claude-style stránka: vlevo sessions, uprostřed chat, vpravo workspace. Plná parita s CLI — vše co umí terminál umí i toto UI.
+[Hermes WebUI](https://github.com/nesquena/hermes-webui) je komunitní browserové rozhraní pro [Hermes Agent](../hermes-agent). Tříbloková Claude-style stránka: vlevo sessions, uprostřed chat, vpravo workspace. Plná parita s CLI — vše co umí terminál umí i toto UI.
 
 ## ✅ Předpoklady
 
@@ -167,7 +167,7 @@ curl -sI https://ai.example.com/ | head -3
 
 ## 🔗 Související
 
-- [[Hermes Agent]] — popis samotného agenta
+- [Hermes Agent](../hermes-agent) — popis samotného agenta
 - [hermes-webui na GitHubu](https://github.com/nesquena/hermes-webui)
 - [Oficiální docker-compose příklad](https://github.com/nesquena/hermes-webui/blob/main/docker-compose.yml)
 - [docs/docker.md](https://github.com/nesquena/hermes-webui/blob/main/docs/docker.md) — multi-container setupy a troubleshooting

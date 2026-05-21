@@ -1,8 +1,8 @@
 ---
 title: Document conversion
-description: Self-hosted and cloud services for converting HTML, Office documents, and Markdown to PDF.
+description: Self-hosted and cloud services for converting HTML, Office documents, and Markdown to and from PDF.
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-05-21
 ---
 
 Services for converting documents between formats — typically HTML, Office, or Markdown into PDF — exposed as HTTP APIs for easy integration.
@@ -16,3 +16,7 @@ Services for converting documents between formats — typically HTML, Office, or
 
 - **[CloudConvert](https://cloudconvert.com/)** — hosted conversion API supporting 200+ formats including audio, video, images, and documents
 - **[DocRaptor](https://docraptor.com/)** — HTML-to-PDF API based on Prince XML; high-fidelity rendering for invoices and reports
+
+## To Markdown
+
+- **[MarkItDown](https://github.com/microsoft/markitdown)** — Python CLI and library from Microsoft that converts PDFs, Office documents (Word/Excel/PowerPoint), images (OCR), audio (transcription), HTML, EPub, CSV/JSON/XML and YouTube URLs into Markdown optimized for LLM pipelines; preserves headings, lists, tables, and links; optional OpenAI client for image captions; MIT licensed

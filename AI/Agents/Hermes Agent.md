@@ -1,10 +1,11 @@
 ---
 title: Hermes Agent
-description: Open-source autonomous agent by Nous Research that runs on your server, persists memory across sessions, and grows more capable over time.
+description: Self-hosted autonomous agent runtime from Nous Research with persistent memory, auto-generated skills, subagents, and multi-platform messaging gateways.
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-05-21
 ---
-Hermes Agent is an open-source autonomous agent developed by Nous Research (MIT license). Unlike IDE copilots or chatbot wrappers, it runs persistently on your own infrastructure, learns from every session, and self-improves by generating new skills over time.
+
+Hermes Agent is a self-hosted autonomous agent runtime built by [Nous Research](https://nousresearch.com/) and released under the MIT license. It is a long-running process that maintains its own persistent memory and skill library across sessions, exposes the agent through messaging gateways and a CLI, and orchestrates tool calls, subagents, and scheduled tasks on the user's own infrastructure rather than a vendor cloud.
 
 ## 🔑 Key capabilities
 

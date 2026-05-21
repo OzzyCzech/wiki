@@ -2,7 +2,7 @@
 title: Security List
 description: Přehled nástrojů pro soukromí a bezpečnost — prohlížeče, hesla, VPN, messaging a šifrované úložiště.
 created: 2026-04-08
-updated: 2026-05-20
+updated: 2026-05-21
 ---
 
 Osobní přehled nástrojů pro digitální bezpečnost a soukromí.
@@ -12,6 +12,7 @@ Osobní přehled nástrojů pro digitální bezpečnost a soukromí.
 - **[Brave](https://brave.com/)** — Chromium-based prohlížeč s vestavěným blokátorem reklam a trackerů
 - **[Firefox](https://www.mozilla.org/firefox/)** — open-source prohlížeč od Mozilla; dobrý základ pro privacy hardening
 - **[LibreWolf](https://librewolf.net/)** — fork Firefoxu s předkonfigurovaným privacy nastavením a odstraněnou telemetrií
+- **[Helium](https://helium.computer/)** — open-source Chromium-based prohlížeč s privacy by default; blokuje reklamy, trackery a third-party cookies, split-view, nativní !bangs, podpora MV2 rozšíření; macOS, Linux, Windows
 
 Srovnání prohlížečů z hlediska soukromí: **[privacytests.org](https://privacytests.org/)**
 

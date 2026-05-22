@@ -2,7 +2,7 @@
 title: Welcome to my notes
 description: A personal knowledge base about web development and more by Roman Ožana. Maintained as an LLM Wiki — curated by a human, structured by AI. Open source on GitHub.
 created: 2024-05-24
-updated: 2026-05-04
+updated: 2026-05-22
 tableOfContents: false
 ---
 
@@ -33,5 +33,3 @@ Two repositories work together:
 
 Yes. The content is on [GitHub](https://github.com/OzzyCzech/wiki).
 If you find any bugs or outdated information, please open a [pull request](https://github.com/OzzyCzech/wiki/pulls).
-
-If you want to support me, you can [buy me a coffee](https://buymeacoffee.com/ozzyczech).

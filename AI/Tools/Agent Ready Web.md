@@ -2,7 +2,7 @@
 title: Agent-Ready Web
 description: Nástroje a standardy pro testování a zlepšení přístupnosti webů pro AI agenty — content negotiation, content signals a diagnostické skenery.
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-22
 ---
 
 AI agenti přistupují k webu jinak než lidé — potřebují strojově čitelný obsah, jasná pravidla přístupu a efektivní formáty. Vznikají proto nové standardy a nástroje, které pomáhají webům komunikovat s autonomními AI systémy.
@@ -18,6 +18,10 @@ AI agenti přistupují k webu jinak než lidé — potřebují strojově čiteln
 - **Commerce** — agentic commerce standardy (x402, UCP, ACP)
 
 Skener generuje skóre připravenosti a doporučuje konkrétní kroky ke zlepšení. Nabízí i AI-generované implementační instrukce pro coding agenty (Claude Code, Cursor).
+
+**[Ora](https://ora.ai/)** — „Agent Experience Ranking" platforma od Era Labs. Spouští **Deep Scan** nad doménami a MCP servery a hodnotí, jak dobře dokáží AI agenti web najít a používat. Verze v1.1 provádí reálnou exekuci agentů ve více vrstvách a hodnotí MCP endpointy proti Anthropic best-practice guidelines.
+
+Ora se prezentuje jako „benchmark, not a checklist" — žebříček vyhodnocených stránek napříč kategoriemi (AI & ML, Developer Tools, Infrastructure & DevOps, E-commerce). Z více než 10 000 oskenovaných sites dosáhnou hodnocení B nebo vyššího jen 3 %.
 
 ## 📄 Accept: text/markdown
 

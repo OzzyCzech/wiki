@@ -52,12 +52,34 @@ Projekt poskytuje implementační návody pro Nginx, Django, Next.js, Rails a da
 
 Na rozdíl od `robots.txt`, který řeší pouze crawling, aipref umožňuje granulární kontrolu — například povolit indexaci, ale zakázat použití pro trénink modelů. Specifikace reaguje na rostoucí napětí mezi tvůrci obsahu a AI systémy, které obsah stahují bez explicitního souhlasu.
 
+## 🤖 agents.txt
+
+**[agents.txt](https://agents-txt.com/)** — návrh standardu (v1.0 Draft, 2025-10-13) pro deklaraci agentích schopností webu. Zatímco `robots.txt` říká, co agent **smí číst**, `agents.txt` deklaruje, co agent **může dělat** — platit, autentizovat se, volat MCP endpointy, používat skills.
+
+Soubor se podává jako UTF-8 plain text na `<origin>/agents.txt` (doplněn strukturovaným `agents.json`). Spec definuje osm direktiv:
+
+| Direktiva | Účel |
+|---|---|
+| `Protocols:` | Podporované platební protokoly (x402, mpp, ap2) |
+| `Payments:` | Univerzální požadavek na platbu |
+| `Authorization:` | Metody autentizace (agent-auth, oauth2, auth-md) |
+| `Identity:` | Povinná autentizace |
+| `MCP:` | Endpoint Model Context Protocol |
+| `Skills:` | Balíčky Agent Skills |
+| `A2A:` | Agent2Agent protocol cards |
+| `UCP:` | Universal Commerce Protocol profil |
+
+Soubor **nesmí obsahovat** wallet adresy, API klíče ani jiné citlivé údaje — ty patří do `402 Payment Required` odpovědí nebo na endpointy typu `/.well-known/agent-configuration`. agents.txt je veřejný discovery artefakt.
+
+Vztah k ostatním souborům: `llms.txt` kurátoruje obsah **pro LLM inferenci**, `agents.txt` deklaruje **runtime schopnosti** agenta. Spec se vědomě inspiruje dvojicí `llms.txt` + `llms-full.txt` (stručný signál + strukturovaný companion).
+
 ## Jak spolu souvisí
 
 | Standard / Nástroj | Řeší |
 |---|---|
 | `robots.txt` + aipref | Kdo smí přistupovat a co smí s obsahem dělat |
 | `Accept: text/markdown` | Jak efektivně doručit obsah AI agentovi |
-| Is It Agent Ready? | Komplexní audit všech výše uvedených standardů |
+| `agents.txt` + `agents.json` | Jaké akce agent na webu může provádět |
+| Is It Agent Ready?, Ora | Komplexní audit výše uvedených standardů |
 
 Společně tvoří základ „agent-ready webu" — webu, který je připravený na autonomní AI agenty jako plnohodnotné uživatele.

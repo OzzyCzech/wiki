@@ -73,6 +73,19 @@ Soubor **nesmí obsahovat** wallet adresy, API klíče ani jiné citlivé údaje
 
 Vztah k ostatním souborům: `llms.txt` kurátoruje obsah **pro LLM inferenci**, `agents.txt` deklaruje **runtime schopnosti** agenta. Spec se vědomě inspiruje dvojicí `llms.txt` + `llms-full.txt` (stručný signál + strukturovaný companion).
 
+## 🔑 Agent Identity (AID)
+
+**[Agent Identity (AID)](https://agentids.org/)** — otevřený protokol pro autentizaci a autorizaci AI agentů. Nahrazuje sdílené API klíče a vypůjčené uživatelské tokeny kryptografickou identitou — Ed25519 keypair agenta **je** jeho credentialem.
+
+Identifikátor má tvar `my-agent@acme.crabmail.ai` podle Agent Messaging Protocol (AMP). Agent předkládá podepsaný **Agent Identity Document** (JSON s public key, adresou a fingerprintem) a proof of possession s timestampem (5 min platnost) a výměnou získá scoped RS256 JWT přes OAuth 2.0 s grant typem `urn:aid:agent-identity`.
+
+Dvě cesty registrace:
+
+- **Admin-initiated** — přímá registrace s okamžitým přístupem k tokenům
+- **Agent-initiated** — RFC 8628 device flow, kde agent požádá o přístup a člověk schválí přes authorization URL
+
+Klíčové vlastnosti — per-agent audit trail (každý agent má vlastní keypair a accountability oddělenou od uživatele), role-based access s granulárními permissions, cloud agnostic (funguje s libovolnou OAuth 2.0 infrastrukturou). Integruje se s AMP, MCP a A2A protokoly.
+
 ## Jak spolu souvisí
 
 | Standard / Nástroj | Řeší |
@@ -80,6 +93,7 @@ Vztah k ostatním souborům: `llms.txt` kurátoruje obsah **pro LLM inferenci**,
 | `robots.txt` + aipref | Kdo smí přistupovat a co smí s obsahem dělat |
 | `Accept: text/markdown` | Jak efektivně doručit obsah AI agentovi |
 | `agents.txt` + `agents.json` | Jaké akce agent na webu může provádět |
+| Agent Identity (AID) | Kdo je agent a co smí (autentizace, scoped tokeny) |
 | Is It Agent Ready?, Ora | Komplexní audit výše uvedených standardů |
 
 Společně tvoří základ „agent-ready webu" — webu, který je připravený na autonomní AI agenty jako plnohodnotné uživatele.

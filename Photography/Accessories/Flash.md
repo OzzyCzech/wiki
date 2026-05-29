@@ -2,7 +2,7 @@
 title: Flash
 description: Compact on-camera speedlights (2025–2026) — comparison, Godox iT/V/TT, Viltrox, Sony, Canon, LightPix X20, discontinued Nissin/Metz, and picks by use case.
 created: 2022-06-27
-updated: 2026-05-26
+updated: 2026-05-29
 ---
 
 Compact **TTL** and **manual** shoe flashes for **Fujifilm**, **Sony**, **Canon**, and other mirrorless systems: **size**, **guide number**, **radio** (especially **Godox X**), and **HSS** when you want a pocketable fill light instead of a full-size speedlight.

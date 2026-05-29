@@ -2,7 +2,7 @@
 title: Flash
 description: Compact on-camera speedlights (2025–2026) — comparison, Godox iT/V/TT, Viltrox, Sony, Canon, LightPix X20, discontinued Nissin/Metz, and picks by use case.
 created: 2022-06-27
-updated: 2026-04-06
+updated: 2026-05-26
 ---
 
 Compact **TTL** and **manual** shoe flashes for **Fujifilm**, **Sony**, **Canon**, and other mirrorless systems: **size**, **guide number**, **radio** (especially **Godox X**), and **HSS** when you want a pocketable fill light instead of a full-size speedlight.
@@ -25,6 +25,7 @@ Systems: **C** Canon, **N** Nikon, **S** Sony, **F** Fujifilm, **O** OM System. 
 | [Godox Lux Elf](https://www.godox.com/product-a/Flash/LUX-ELF.html) | ~6 | 96 g | Manual | S1/S2 | — | Li-ion USB-C | ~1 130 |
 | **[Godox iT30 Pro](https://www.godox.com/product-e/iT30Pro.html)** | **15** | **120 g** | **Y** | **Godox X** | —* | Li-ion USB-C | **~2 290** |
 | [Viltrox Z1 / Z1+](https://viltrox.com/collections/camera-flash) | ~12 | 116–132 g | Manual | S1/S2 | — | Li-ion USB-C | ~1 150 |
+| [Viltrox Vintage Z1 Pro](https://viltrox.com/products/vintage-z1-pro-camera-flash) | ~14 ‡‡‡ | 136 g | Y C/N/S/F | S1/S2 | — | Li-ion USB-C | TBD |
 | [LightPix FlashQ X20](https://www.lightpixlabs.com/pages/x20) ‡ | 20 | ~115 g | Y **S/F** | FlashQ 2.4 GHz | 90° | 2× AA | ~3 000 |
 | [SmallRig RS20](https://www.smallrig.com/RS20-mini-Speedlite-Flash-5374.html) | ~12 ‡‡ | 128 g | Manual | — | — | Li-ion USB-C | TBD |
 | [Viltrox Spark Z3](https://viltrox.com/products/z3-camera-flash) | ~16 | 144 g | Y C/N/S/F | S1/S2 | — | Li-ion USB-C | ~1 265 |
@@ -46,7 +47,8 @@ Systems: **C** Canon, **N** Nikon, **S** Sony, **F** Fujifilm, **O** OM System. 
 \* **Godox** documents **HSS** and **tilt** for **iT20** / **iT22** together with the optional **TR TTL Hot Shoe Riser** — see the [iT20 / iT22](https://www.godox.com/product-e/iT20-iT22.html) page. **iT30 Pro** needs a riser or modifier strategy for ceiling bounce (no built-in tilt).  
 † **iM30**: optical slave **S1/S2**; **iM20**/**iM22**: typically no slave in the same way — check SKU.  
 ‡ **X20**: **TTL** only with bundled **Fujifilm** or **Sony** transmitter; slow full-power recycle (**~5–6 s**), **2× AA**.  
-‡‡ **RS20**: check **SmallRig** sheet for exact **GN** / sync limits (survey: “**12**” class).
+‡‡ **RS20**: check **SmallRig** sheet for exact **GN** / sync limits (survey: “**12**” class).  
+‡‡‡ **Vintage Z1 Pro**: **GN** not stated by Viltrox; **24 Ws** with **28 mm** coverage maps to roughly **GN 14** class — confirm in reviews.
 
 ![Godox iT30 S Pro compact on-camera flash: rectangular black body, large Fresnel front window, knurled top dial, “iT30 S Pro” label and small status window](./godox-it30-s-pro.png)
 
@@ -69,6 +71,8 @@ Systems: **C** Canon, **N** Nikon, **S** Sony, **F** Fujifilm, **O** OM System. 
 **[Godox iT32 + X5](https://www.godox.com/product-e/iT32-X5.html)** — Modular head (**~169 g**, **GN ~18**) on mount-specific **X5** shoe; **90° / 270°** tilt/swivel for **bounce**, **modelling LED**, magnetic modifiers. **X5** modules are bought **per system** (survey: **~460–780 CZK** for the trigger slice depending on mount). Same shop class: **[Megapixel.cz](https://www.megapixel.cz/)** — search **Godox iT32**.
 
 **[Viltrox Spark Z3](https://viltrox.com/products/z3-camera-flash)** — **Cyber** styling, **~26 Ws** marketing, fast recycle in reviews; survey warns **no** **HSS**, **no** tilt, **no** **Godox**-style radio, and weak or missing **TTL FEC** depending on firmware — confirm before import.
+
+**[Viltrox Vintage Z1 Pro](https://viltrox.com/products/vintage-z1-pro-camera-flash)** — Retro leather-clad body (**~136 g**) with round touchscreen and **2.5D** curved glass. SKUs **Z1-Pro S / N / F / C** for Sony, Nikon, Fujifilm, Canon. **24 Ws**, **TTL** + **manual** (**1/1–1/64** in **1/3** stops), **HSS** to **1/8000 s**, front/rear curtain, **S1/S2** optical slave. **800 mAh** Li-ion via **USB-C** (charges while shooting), **~1 s** recycle, **350** full-power flashes per charge, **6000 K ±200 K** color, flash duration up to **1/50 000 s**. **No** Godox X radio, **no** tilt — head fixed at **28 mm** coverage. Step up from the manual **Z1 / Z1+** for shooters who want **TTL + HSS** in a vintage form factor.
 
 **[LightPix FlashQ X20](https://www.lightpixlabs.com/pages/x20)** — Detachable **2.4 GHz** transmitter; **GN 20**, **90°** tilt, bi-colour LED; **TTL** only for **[Fujifilm](https://www.lightpixlabs.com/products/flashq-x20-for-fujifilm)** / **[Sony](https://www.lightpixlabs.com/products/flashq-x20)** bundles. Trade-off: **slow** full-power recycle (**~5–6 s**), **2× AA**.
 

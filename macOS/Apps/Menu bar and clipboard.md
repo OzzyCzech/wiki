@@ -2,7 +2,7 @@
 title: Menu bar and clipboard
 description: macOS menu bar management tools, window managers, and clipboard history managers.
 created: 2026-04-01
-updated: 2026-04-07
+updated: 2026-06-04
 ---
 
 Apps for managing the macOS menu bar, controlling window layout, and tracking clipboard history.
@@ -22,3 +22,4 @@ Apps for managing the macOS menu bar, controlling window layout, and tracking cl
 - **[ClipBook](https://clipbook.app/)** — plain-text-only clipboard history with a clean interface
 - **[PasteBar](https://www.pastebar.app/)** — clipboard manager with pinned items, collections, and history search
 - **[Paste](https://pasteapp.me/)** — clipboard history manager with iCloud sync and visual layout
+- **[Supaste](https://www.supaste.com/)** — local-first clipboard and screenshot history manager (macOS Sonoma+); search by app or content type, automatic grouping, sensitive content detection, drag-and-drop from notch shelf; supports text, links, images, files, code, colors, SVG and screenshots; one-time payment, no cloud sync

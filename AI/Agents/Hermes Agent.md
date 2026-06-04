@@ -2,7 +2,7 @@
 title: Hermes Agent
 description: Self-hosted autonomous agent runtime from Nous Research with persistent memory, auto-generated skills, subagents, and multi-platform messaging gateways.
 created: 2026-04-08
-updated: 2026-05-21
+updated: 2026-06-04
 ---
 
 Hermes Agent is a self-hosted autonomous agent runtime built by [Nous Research](https://nousresearch.com/) and released under the MIT license. It is a long-running process that maintains its own persistent memory and skill library across sessions, exposes the agent through messaging gateways and a CLI, and orchestrates tool calls, subagents, and scheduled tasks on the user's own infrastructure rather than a vendor cloud.
@@ -29,6 +29,16 @@ Supports 14+ platforms: CLI, Telegram, Discord, Slack, WhatsApp, Signal, Matrix,
 | SSH             | Remote execution                            |
 | Singularity     | HPC environments                            |
 | Modal / Daytona | Serverless, near-zero cost when idle        |
+
+## 💻 Desktop app
+
+[Hermes Desktop](https://hermes-ai.net/desktop/) is a native installer that bundles the agent runtime with a GUI.
+
+- **macOS 12+** — DMG installer
+- **Windows 10/11** — EXE installer
+- **Linux** — curl installer (terminal-based)
+
+The desktop app exposes the same capabilities as the headless runtime — persistent memory, auto-generated skills, subagents, scheduling, 47+ built-in tools, MCP — and adds direct integration with Nous Portal (subscription tiers with monthly credits and access to 300+ models). Sandboxing offers five backends: **local**, **Docker**, **SSH**, **Singularity**, **Modal**.
 
 ## 🤖 Model support
 

@@ -10,7 +10,7 @@ Hermes Agent is a self-hosted autonomous agent runtime built by [Nous Research](
 ## 🔑 Key capabilities
 
 - **Persistent memory** — agent-curated knowledge base with full-text search (FTS5) and cross-session recall via LLM summarization
-- **Auto-generated skills** — the agent creates reusable skills during operation; community-contributed skills are available via [agentskills.io](https://agentskills.io)
+- **Auto-generated skills** — the agent creates reusable skills during operation using the open [Agent Skills](../../tools/agent-skills) format; community-contributed skills are available via [agentskills.io](https://agentskills.io)
 - **Subagents** — isolated subagents with their own conversations, terminals, and Python RPC scripts for parallel, zero-context-cost pipelines
 - **Built-in scheduling** — natural language cron jobs for reports, backups, and briefings running unattended
 - **47 built-in tools** — web search, browser automation, vision, image generation, text-to-speech, and more

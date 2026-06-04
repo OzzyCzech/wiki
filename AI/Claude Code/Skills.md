@@ -2,10 +2,10 @@
 title: Skills
 description: Curated open-source skill collections for Claude Code and AI coding agents.
 created: 2026-04-08
-updated: 2026-05-11
+updated: 2026-06-04
 ---
 
-Open-source skill collections that extend Claude Code and other AI coding agents with specialized workflows.
+Open-source skill collections that extend Claude Code and other AI coding agents with specialized workflows. The underlying format is the open [Agent Skills](../../tools/agent-skills) standard from Anthropic.
 
 ## 🛠️ Skills
 

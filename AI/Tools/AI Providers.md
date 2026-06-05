@@ -5,11 +5,9 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
-Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API. Výběr podle ceny, spolehlivosti (SLA), latence a data residency. Ceny jsou orientační pro Llama 3.3 70B (vstup/výstup za 1M tokenů) a v čase se mění.
+Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API. Ceny jsou orientační pro Llama 3.3 70B (vstup/výstup za 1M tokenů) a v čase se mění.
 
-## Primární
-
-### Nebius — EU-friendly
+## [Nebius](https://nebius.com)
 
 OpenAI-kompatibilní API s dedikovanými endpointy, 99.9% SLA a autoscalingem.
 
@@ -18,7 +16,7 @@ OpenAI-kompatibilní API s dedikovanými endpointy, 99.9% SLA a autoscalingem.
 - Katalog: Llama, Qwen 3.6, Gemma
 - Amsterdamská firma, Nasdaq (NBIS), žádná vazba na Čínu/Rusko
 
-### Together AI — „common" volba (US)
+## [Together AI](https://www.together.ai)
 
 Nejčastěji doporučovaný produkční host open-weight modelů, OpenAI-kompatibilní.
 
@@ -26,25 +24,22 @@ Nejčastěji doporučovaný produkční host open-weight modelů, OpenAI-kompati
 - Spolehlivý provoz, ~220 ms P50 TTFT; $5 kredit na start, bez minim
 - Llama 3.3 70B ~$0.88/$0.88 — dražší než Nebius, ale předvídatelné a bez skrytých poplatků
 
-## Zálohy
-
-### Cloudflare Workers AI
+## [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)
 
 OpenAI-kompatibilní inference běžící na edge (300+ PoP), nízká latence.
 
 - Štědrý free tier: 10 000 Neuronů/den zdarma, pak $0.011 / 1 000 Neuronů
 - Llama 3.3 70B fp8-fast za $0.293 vstup / $2.253 výstup → vstup levný, výstup drahý (3–7× víc než alternativy)
-- Jako fallback OK pro nárazový/nízký objem; nevhodné pro output-heavy provoz
+- Vhodné pro nárazový/nízký objem; nevhodné pro output-heavy provoz
 - Pozor na egress ($0.09/GB) a účtování streamovacího času
 
-### OpenRouter — router
+## [OpenRouter](https://openrouter.ai/)
 
-Žádný měsíční poplatek, router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele.
+Router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele. Bez měsíčního poplatku. Viz též [AI Tools](../ai-tools/).
 
 - Llama 3.3 70B nejlevněji (~$0.10/$0.32) + free endpoint (20 req/min, 200 req/den)
 - 5,5% poplatek při nákupu kreditu (5,0% krypto, min. $0.80), žádné objemové slevy
-- Bez SLA (3 výpadky za 8 měsíců po 35–50 min) → jen jako sekundární vrstva, ne sólo produkce; maskuje, kde data fyzicky běží
-- Viz též [AI Tools](../ai-tools/)
+- Bez SLA (3 výpadky za 8 měsíců po 35–50 min); maskuje, kde data fyzicky běží
 
 ## Sources
 

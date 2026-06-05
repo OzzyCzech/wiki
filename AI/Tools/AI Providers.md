@@ -16,12 +16,3 @@ Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-ko
 
 - **[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)** — OpenAI-kompatibilní inference na edge (300+ PoP), nízká latence a štědrý free tier. Vstup levný, ale výstup výrazně dražší než alternativy → vhodné jako fallback pro nárazový/nízký objem, nevhodné pro output-heavy provoz. Pozor na egress poplatky a účtování streamovacího času.
 - **[OpenRouter](https://openrouter.ai/)** — router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele. Nabízí jedny z nejnižších cen za Llama 3.3 70B i free endpoint s limity. Bez SLA (více výpadků za posledních měsíců) → jen jako sekundární vrstva, ne sólo produkce; maskuje, kde data fyzicky běží. Viz též [AI Tools](../ai-tools/).
-
-## Výběr poskytovatele
-
-| Kritérium | Doporučení |
-| --- | --- |
-| Nejnižší cena + EU data residency | Nebius |
-| Spolehlivost a fine-tuning | Together AI |
-| Edge latence / nárazový objem | Cloudflare Workers AI |
-| Fallback a routing přes více modelů | OpenRouter |

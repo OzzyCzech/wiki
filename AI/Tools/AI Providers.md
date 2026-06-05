@@ -1,18 +1,53 @@
 ---
 title: AI Providers
-description: Hostingoví poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API — porovnání a doporučení.
+description: Hostingoví poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API — porovnání ceny, SLA, latence a data residency.
 created: 2026-06-05
 updated: 2026-06-05
 ---
 
-Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API. Výběr podle ceny, spolehlivosti (SLA), latence a data residency.
+Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API. Výběr podle ceny, spolehlivosti (SLA), latence a data residency. Ceny jsou orientační pro Llama 3.3 70B (vstup/výstup za 1M tokenů) a v čase se mění.
 
 ## Primární
 
-- **[Nebius](https://nebius.com)** — EU-friendly host (datacentra ve Finsku a Francii + US), dedikované endpointy s 99.9% SLA a autoscalingem; zero-retention mód a jasná data residency. Amsterdamská firma na Nasdaqu (NBIS), bez vazby na Čínu/Rusko. Patří k nejlevnějším seriózním hostům pro Llama 3.3 70B; v katalogu Llama, Qwen 3.6 a Gemma.
-- **[Together AI](https://www.together.ai)** — nejčastěji doporučovaný produkční host open-weight modelů, US. Nejširší katalog (Llama 3.3 70B, Qwen 3.6, Gemma pod jednou střechou), silný fine-tuning, spolehlivý provoz a nízká TTFT (~220 ms P50). Předvídatelné účtování bez skrytých poplatků; dražší než Nebius.
+### Nebius — EU-friendly
+
+OpenAI-kompatibilní API s dedikovanými endpointy, 99.9% SLA a autoscalingem.
+
+- EU datacentra (Finsko, Francie) + US → vhodné, pokud je data residency téma; zero-retention mód
+- Llama 3.3 70B ~$0.13/$0.40 — jeden z nejlevnějších seriózních hostů
+- Katalog: Llama, Qwen 3.6, Gemma
+- Amsterdamská firma, Nasdaq (NBIS), žádná vazba na Čínu/Rusko
+
+### Together AI — „common" volba (US)
+
+Nejčastěji doporučovaný produkční host open-weight modelů, OpenAI-kompatibilní.
+
+- Nejširší katalog (Llama 3.3 70B, Qwen 3.6, Gemma pod jednou střechou), silný fine-tuning
+- Spolehlivý provoz, ~220 ms P50 TTFT; $5 kredit na start, bez minim
+- Llama 3.3 70B ~$0.88/$0.88 — dražší než Nebius, ale předvídatelné a bez skrytých poplatků
 
 ## Zálohy
 
-- **[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)** — OpenAI-kompatibilní inference na edge (300+ PoP), nízká latence a štědrý free tier. Vstup levný, ale výstup výrazně dražší než alternativy → vhodné jako fallback pro nárazový/nízký objem, nevhodné pro output-heavy provoz. Pozor na egress poplatky a účtování streamovacího času.
-- **[OpenRouter](https://openrouter.ai/)** — router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele. Nabízí jedny z nejnižších cen za Llama 3.3 70B i free endpoint s limity. Bez SLA (více výpadků za posledních měsíců) → jen jako sekundární vrstva, ne sólo produkce; maskuje, kde data fyzicky běží. Viz též [AI Tools](../ai-tools/).
+### Cloudflare Workers AI
+
+OpenAI-kompatibilní inference běžící na edge (300+ PoP), nízká latence.
+
+- Štědrý free tier: 10 000 Neuronů/den zdarma, pak $0.011 / 1 000 Neuronů
+- Llama 3.3 70B fp8-fast za $0.293 vstup / $2.253 výstup → vstup levný, výstup drahý (3–7× víc než alternativy)
+- Jako fallback OK pro nárazový/nízký objem; nevhodné pro output-heavy provoz
+- Pozor na egress ($0.09/GB) a účtování streamovacího času
+
+### OpenRouter — router
+
+Žádný měsíční poplatek, router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele.
+
+- Llama 3.3 70B nejlevněji (~$0.10/$0.32) + free endpoint (20 req/min, 200 req/den)
+- 5,5% poplatek při nákupu kreditu (5,0% krypto, min. $0.80), žádné objemové slevy
+- Bez SLA (3 výpadky za 8 měsíců po 35–50 min) → jen jako sekundární vrstva, ne sólo produkce; maskuje, kde data fyzicky běží
+- Viz též [AI Tools](../ai-tools/)
+
+## Sources
+
+- [Nebius — Artificial Analysis](https://artificialanalysis.ai/providers/nebius) — cena a výkon Llama 3.3 70B
+- [Llama 3.3 70B providers — Artificial Analysis](https://artificialanalysis.ai/models/llama-3-3-instruct-70b/providers) — porovnání hostů, TTFT
+- [Together AI pricing](https://www.together.ai/pricing) — ceník a fine-tuning

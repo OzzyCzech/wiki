@@ -2,7 +2,7 @@
 title: Quotes
 description: Collection of memorable quotes about technology, life, and society.
 created: 2015-05-25
-updated: 2025-06-06
+updated: 2026-06-10
 tableOfContents: false
 ---
 
@@ -90,3 +90,5 @@ tableOfContents: false
 
 > It's a sad day for capitalism when a man can't fly a midget on a kite over Central Park
 > _Jim Moran_
+
+> Neexistoval žádný zlatý věk. Existuje jen tady a teď. Nostalgie je nástrojem fašismu a propagandy, vyhřátou idealizovanou verzí minulosti, která ve skutečnosti nikdy neexistovala.

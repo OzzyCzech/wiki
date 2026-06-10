@@ -92,3 +92,4 @@ tableOfContents: false
 > _Jim Moran_
 
 > Neexistoval žádný zlatý věk. Existuje jen tady a teď. Nostalgie je nástrojem fašismu a propagandy, vyhřátou idealizovanou verzí minulosti, která ve skutečnosti nikdy neexistovala.
+> _Roman Ožana_

@@ -2,7 +2,7 @@
 title: Command line tools
 description: Curated list of CLI tools — search, file handling, HTTP, JSON processing, and modern alternatives to classic Unix utilities.
 created: 2023-03-20
-updated: 2026-05-06
+updated: 2026-06-11
 ---
 
 Useful CLI utilities, mostly modern Rust/Go rewrites of classic Unix tools. On macOS install via [Homebrew](https://brew.sh/) (`brew install <name>`).
@@ -18,6 +18,7 @@ Useful CLI utilities, mostly modern Rust/Go rewrites of classic Unix tools. On m
 
 - **[bat](https://github.com/sharkdp/bat)** — `cat` clone with syntax highlighting, line numbers, and Git diff integration
 - **[eza](https://github.com/eza-community/eza)** — modern replacement for `ls` (maintained fork of the now-archived `exa`); colored output, Git status, tree mode
+- **[ncdu](https://dev.yorhel.nl/ncdu)** — ncurses disk usage analyzer; interactive `du` alternative for finding what fills up a filesystem
 - **[trash](https://hasseg.org/trash/)** — moves files to the macOS Trash instead of permanent deletion (`rm`-safe alternative)
 
 ## HTTP & networking

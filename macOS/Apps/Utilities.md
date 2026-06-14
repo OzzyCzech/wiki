@@ -2,7 +2,7 @@
 title: Utilities
 description: macOS utility apps for system optimization, file automation, and app management.
 created: 2026-04-01
-updated: 2026-05-06
+updated: 2026-06-14
 ---
 
 Miscellaneous macOS utilities for managing apps, files, and system behavior.
@@ -17,6 +17,7 @@ Miscellaneous macOS utilities for managing apps, files, and system behavior.
 - **[Open Screen](https://openscreen.vercel.app/)** — share your Mac screen to a phone or tablet over the local network via a browser
 - **[Wispr Flow](https://wisprflow.ai/)** — AI voice dictation that transcribes speech into edited text in any app; auto-removes filler words, learns personal vocabulary, supports 100+ languages
 - **[Field Theory](https://www.fieldtheory.dev/)** — clipboard-based context capture for AI workflows on Apple Silicon; offline voice transcription via Parakeet, screenshot annotation, stacking of images and markdown, and portable commands that work across Claude, ChatGPT, and Cursor
+- **[mac-ocr](https://github.com/privatenumber/mac-ocr)** — CLI that reads text from images and PDFs and builds searchable PDFs using Apple's Vision framework; runs fully on-device (nothing uploaded), installs via npm, and ships an agent skill so AI agents can OCR locally instead of spending vision tokens
 
 ## Curated app lists
 

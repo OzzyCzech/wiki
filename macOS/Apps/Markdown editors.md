@@ -2,13 +2,14 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-05-07
+updated: 2026-06-19
 _width: normal
 ---
 Markdown-focused writing and note apps for macOS. For note-taking apps see also [Notes and calendar](/macos/apps/notes-and-calendar/).
 
 ### 🆕 New and noteworthy
 
+- **[Lettera](https://lettera.md/)** — native macOS Markdown editor from Shiny Frog (the team behind [Bear](https://bear.app/)); single-file and folder-workspace modes, live rendering with tables, inline images, checkboxes, code blocks and LaTeX/MathJax, table-of-contents navigation, multi-tab editing, and export to PDF, PNG, ePub, HTML, RTF and plain text
 - **[Cogito](https://cogito.md/)** — native macOS Markdown editor (free beta, requires macOS Tahoe 26+) with wiki links, `!`[[embeds]], synced source/preview scrolling, Quick Open (⌘P), multi-tab support, and syntax highlighting for 20+ languages; stores plain files on disk with no proprietary database
 - **[Tolaria](https://tolaria.md/)** — free, [open-source](https://github.com/refactoringhq/tolaria) Markdown note app for macOS with block-based editing, wikilinks, built-in Git client, and native Claude Code integration via MCP server; no account required
 - **[Clearly](https://clearly.md/)** — native SwiftUI/AppKit Markdown editor for macOS with GitHub Flavored Markdown preview, Mermaid diagrams, KaTeX math, callouts, footnotes, PDF export, menubar scratchpad, and QuickLook integration; open source and free

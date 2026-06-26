@@ -2,7 +2,7 @@
 title: Quotes
 description: Collection of memorable quotes about technology, life, and society.
 created: 2015-05-25
-updated: 2026-06-10
+updated: 2026-06-26
 tableOfContents: false
 ---
 
@@ -92,3 +92,5 @@ tableOfContents: false
 > _Jim Moran_
 
 > Neexistoval žádný zlatý věk. Existuje jen tady a teď. Nostalgie je nástrojem fašismu a propagandy, vyhřátou idealizovanou verzí minulosti, která ve skutečnosti nikdy neexistovala.
+
+> Čím jsem starší, tím víc si uvědomuji, že skutečná moudrost často spočívá v tom nechat ostatní, ať si myslí, že mají pravdu.

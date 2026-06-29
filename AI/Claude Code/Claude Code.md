@@ -2,7 +2,7 @@
 title: Claude Code
 description: AI-powered code agent by Anthropic — commands, skills, plugins, and settings.
 created: 2025-01-01
-updated: 2026-04-09
+updated: 2026-06-29
 sidebar:
   order: 1
 ---
@@ -36,6 +36,21 @@ Skills are specialized prompts that extend Claude Code capabilities. They are in
 | `/schedule`          | Manage scheduled remote agents         |
 | `/claude-api`        | Help building apps with Claude API     |
 | `/update-config`     | Configure Claude Code settings         |
+
+## Context files
+
+A persistent set of Markdown files seeds Claude with memory, rules, examples, and vocabulary so you don't re-explain everything each session. Only `CLAUDE.md` is auto-loaded; the rest are referenced or imported from it. This setup, shared by [José Siles](https://x.com/josesilesdata), recommends creating these before starting a project:
+
+| File            | Purpose                                                                                 |
+| --------------- | --------------------------------------------------------------------------------------- |
+| `CLAUDE.md`     | General rules — the "constitution". Everything here becomes a premise of every conversation. |
+| `persona.md`    | Tone and voice — how you speak, how sentences end, which first person, energy level.    |
+| `lessons.md`    | Error log — one line per mistake, so the same error isn't repeated twice.               |
+| `references.md` | Good examples and patterns to point at ("do it like this") — shortens instructions, raises accuracy. |
+| `ng-rules.md`   | Forbidden expressions, structures, or styles you never want to see again.               |
+| `glossary.md`   | Internal slang, abbreviations, and terms of your world — kills the "I don't know what you mean" replies. |
+
+The author singles out `lessons.md` as the most powerful of the early files. The original thread numbers seven files but only six are shown in the captured post.
 
 ## Troubleshooting
 

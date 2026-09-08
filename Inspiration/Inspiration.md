@@ -2,10 +2,10 @@
 title: Inspiration
 description: Zajímavé projekty, nástroje a weby, které stojí za pozornost.
 created: 2026-04-06
-updated: 2026-06-08
+updated: 2026-09-08
 ---
 
-Sbírka zajímavých projektů a webů — bez konkrétní kategorie, ale hodných pozornosti. Self-hosted aplikace jsou na stránce [Selfhosted](/inspiration/selfhosted/).
+Sbírka zajímavých projektů a webů — bez konkrétní kategorie, ale hodných pozornosti. Self-hosted aplikace jsou na stránce [Selfhosted](/inspiration/selfhosted/), galerie webdesignové inspirace na stránce [Web design galleries](/inspiration/web-design-galleries/).
 
 - **[Cozy Journal](https://cozyjournal.app/)** — local-first deníková aplikace (Mac/Windows, mobil v přípravě) s útulným designem — teplá krémová paleta, ručně kreslené botanické ilustrace, serifová typografie; data zůstávají lokálně, žádný server ani AI, import z Day One, Obsidian a Bear
 - **[TrustMRR](https://trustmrr.com/)** — veřejná databáze MRR startupů s ověřením přes Stripe, RevenueCat, Superwall a Creem; žebříček, feed, marketplace a veřejné API

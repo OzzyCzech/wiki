@@ -2,7 +2,7 @@
 title: SEO Tools
 description: SEO tools and services including Google Search Console, PageSpeed, structured data testing, and open-source alternatives to Semrush/Ahrefs.
 created: 2024-04-02
-updated: 2026-08-26
+updated: 2026-09-13
 ---
 
 Tools for SEO auditing, structured data validation, performance testing, and keyword/backlink research.
@@ -17,6 +17,7 @@ Tools for SEO auditing, structured data validation, performance testing, and key
 ### Browser Extensions
 
 - [Meta Explorer](https://www.metaexplorer.co/)
+- [Detailed SEO Extension](https://detailed.com/extension/) — free Chrome and Firefox extension for quick on-page SEO checks, including heading structure, schema markup, hreflang, and link/image exports
 
 ### Online Tools
 

@@ -16,7 +16,7 @@ Tools for SEO auditing, structured data validation, performance testing, and key
 
 ### Browser Extensions
 
-- [Meta Explorer](https://www.metaexplorer.co/)
+- [Meta Explorer](https://www.metaexplorer.co/) — free Chrome extension for inspecting SEO meta tags and identifying on-page issues by severity; stays open across page reloads and updates automatically on single-page apps
 - [Detailed SEO Extension](https://detailed.com/extension/) — free Chrome and Firefox extension for quick on-page SEO checks, including heading structure, schema markup, hreflang, and link/image exports
 
 ### Online Tools

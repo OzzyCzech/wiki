@@ -2,7 +2,7 @@
 title: Coding Agent Tools
 description: Přehled nástrojů pro správu a orchestraci AI coding agentů — paralelní běh, izolace worktrees, multi-agent workflows.
 created: 2026-04-06
-updated: 2026-04-15
+updated: 2026-09-14
 ---
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
@@ -37,9 +37,13 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
 - **[JetBrains Air](https://air.dev/)**
   Standalone agentic vývojové prostředí od JetBrains — paralelní agenti (Claude, Codex, Gemini CLI, Junie) s izolací přes Docker nebo Git worktrees; vyžaduje JetBrains AI Pro nebo Ultimate, případně vlastní API klíč (BYOK).
 
+- **[Emdash](https://emdash.com/)**
+  Open source agentic development environment (Apache-2.0, YC W26) pro paralelní běh coding agentů — každý úkol v izolovaném Git worktree, vestavěný code review, editor souborů a prohlížeč pro náhled aplikace; správa promptů, skills a MCP nástrojů na jednom místě. Podporuje macOS, Windows a Linux a přes 25 agentů (Claude Code, Codex, Cursor, Amp, Antigravity) bez vendor lock-inu.
+
 - **[Conductor](https://www.conductor.build/)**
   Mac app pro orchestraci více AI coding agentů (Claude Code, Codex) současně v izolovaných pracovních prostorech — placený nástroj.
 
 ## Sources
 
 - [stablyai/orca (GitHub)](https://github.com/stablyai/orca) — README: positioning, supported platforms, supported agents, and core features (accessed 2026-04-15)
+- [generalaction/emdash (GitHub)](https://github.com/generalaction/emdash) — license (Apache-2.0) and project description for Emdash (accessed 2026-09-14)

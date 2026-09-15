@@ -2,7 +2,7 @@
 title: Install Docker
 description: How to install Docker on Linux using the official convenience script.
 created: 2026-04-02
-updated: 2026-04-06
+updated: 2026-09-15
 ---
 
 The recommended way to install Docker on Linux is using the official [convenience script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script):
@@ -16,3 +16,5 @@ fi
 ```
 
 This script automatically detects your Linux distribution and installs Docker Engine with all required dependencies.
+
+On macOS, Docker needs a Linux VM — see [Docker on macOS](../docker-on-macos) for OrbStack and Colima.

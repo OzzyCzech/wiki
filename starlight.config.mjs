@@ -61,6 +61,7 @@ export default {
 			},
 			{ label: 'Security', collapsed: true, items: [{ autogenerate: { directory: 'Security' } }] },
 			{ label: 'Hardware', collapsed: true, items: [{ autogenerate: { directory: 'Hardware', collapsed: true } }] },
+			{ label: 'Gear', collapsed: true, items: [{ autogenerate: { directory: 'Gear' } }] },
 			{ label: 'Movies & TV', collapsed: true, items: [{ autogenerate: { directory: 'Movies & TV', collapsed: false } }] },
 			{ label: 'Knihy', collapsed: true, items: [{ autogenerate: { directory: 'Knihy' } }] },
 			{ label: 'Povídky', collapsed: true, items: [{ autogenerate: { directory: 'Povidky' } }] },

@@ -2,7 +2,7 @@
 title: Menu bar and clipboard
 description: macOS menu bar management tools, window managers, and clipboard history managers.
 created: 2026-04-01
-updated: 2026-06-04
+updated: 2026-09-18
 ---
 
 Apps for managing the macOS menu bar, controlling window layout, and tracking clipboard history.
@@ -15,6 +15,7 @@ Apps for managing the macOS menu bar, controlling window layout, and tracking cl
 - **[KeepingYouAwake](https://keepingyouawake.app/)** — menu bar app that prevents macOS from sleeping on demand
 - **[Rectangle](https://rectangleapp.com/)** — window snapping and resizing via keyboard shortcuts or drag-to-edge
 - **[LeaderKey](https://github.com/mikker/LeaderKey.app)** — open-source launcher that chains keyboard shortcuts for launching apps and running scripts
+- **[Vorssaint](../vorssaint)** — free open-source menu bar app bundling audio mixing, system monitoring, window snapping, clipboard history and text expansion in one icon (Apple Silicon, macOS 14+)
 
 ## Clipboard managers
 

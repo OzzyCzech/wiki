@@ -2,7 +2,7 @@
 title: Backend frameworks
 description: Node.js and JavaScript runtime frameworks for building servers and APIs.
 created: 2026-02-13
-updated: 2026-04-06
+updated: 2026-09-18
 ---
 
 A curated list of **backend** JavaScript frameworks for Node.js and other runtimes: APIs, web servers, and full-stack apps.
@@ -17,3 +17,7 @@ A curated list of **backend** JavaScript frameworks for Node.js and other runtim
 ## Full-stack / structured
 
 - **[NestJS](https://nestjs.com/)** — TypeScript-first Node.js framework with dependency injection, modules, and structure inspired by Angular.
+
+## Backend platforms
+
+- **[Convex](../convex)** — reactive TypeScript backend that bundles a document database, serverless functions, file storage, search and real-time sync into one system; hosted or self-hosted, source available under FSL.

@@ -2,7 +2,7 @@
 title: HTTP tools
 description: Online HTTP tools, DNS utilities, and favicon services for web development and testing.
 created: 2024-04-30
-updated: 2026-05-17
+updated: 2026-09-21
 ---
 
 Quick-reference collection of online and CLI tools for HTTP inspection, DNS lookups, SSL analysis, and local development.
@@ -27,6 +27,7 @@ Quick-reference collection of online and CLI tools for HTTP inspection, DNS look
 
 ## Local development
 
+- **[TryCloudflare](https://try.cloudflare.com/)** — exposes a local port on a random `*.trycloudflare.com` HTTPS URL with a single command, without an account, DNS record or open port: `cloudflared tunnel --url http://localhost:8080` (`brew install cloudflared`). The tunnel lives only as long as the process runs. Cloudflare [caps quick tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/do-more-with-tunnels/trycloudflare/) at 200 concurrent in-flight requests (HTTP 429 beyond that), gives no SLA and does not support Server-Sent Events — for anything persistent create a named Cloudflare Tunnel instead
 - **[Slim](https://slim.sh/)** — CLI that gives localhost a local HTTPS domain (`.test`, `.loc`, `.dev`) or a public URL via `slim.show`; supports path-based routing, WebSocket, HMR, and per-project config via `.slim.yaml`
 
 ## SSL certificates

@@ -2,7 +2,7 @@
 title: NPM packages
 description: Curated list of useful NPM packages for charts, utilities, UI, and web development.
 created: 2024-05-25
-updated: 2026-05-20
+updated: 2026-09-21
 ---
 
 Curated npm packages by category. For publishing packages, see [Publikování npm přes GitHub Actions](../publikovani-npm-pres-github-actions).
@@ -54,6 +54,7 @@ Curated npm packages by category. For publishing packages, see [Publikování np
 - **[jsPDF](https://github.com/parallax/jsPDF)** — generate PDF files client-side in JavaScript
 - **[PDF.js](https://github.com/mozilla/pdf.js)** — Mozilla's PDF renderer for the browser
 - **[PDFKit](https://github.com/foliojs/pdfkit)** — PDF generation library for Node.js with text, image, and vector support
+- **[pdfcn](https://www.pdfcn.dev/)** — copy-paste PDF components for React, distributed through the shadcn registry instead of as a dependency (`npx shadcn@latest add @pdfcn/takumi/text`), so the code lands in your project and stays yours ([MIT](https://github.com/shadcn-labs/pdfcn)); one TypeScript component API over two renderers — [Takumi](https://takumi.kane.tw/docs/pdf) or [Forme](https://docs.formepdf.com) — covering tables, SVG charts, QR codes, watermarks, repeating page headers/footers, page numbering and keep-together page-break control, plus theme presets and ready-made blocks such as invoices
 
 ## Templating
 

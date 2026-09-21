@@ -2,7 +2,7 @@
 title: Kindle
 description: Kindle tips — sending documents, managing content, converters, and Calibre setup.
 created: 2023-02-20
-updated: 2025-10-02
+updated: 2026-09-21
 ---
 
 ## Send to kindle
@@ -14,6 +14,10 @@ https://www.amazon.com/sendtokindle
 ## Manage digital content
 
 Manage Your [Content](https://www.amazon.com/hz/mycd/digital-console/contentlist/pdocs) and Devices
+
+## Highlights
+
+Kindle highlights can be synced out of Amazon and into a searchable, exportable library with [Readwise](../readwise), which also sends documents back to the Kindle.
 
 ## Converters
 

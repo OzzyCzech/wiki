@@ -2,7 +2,7 @@
 title: Photo hosting
 description: Cloud and self-hosted options for photo libraries — Apple, Google, SmugMug, backup-oriented services, and open-source gallery stacks.
 created: 2022-06-27
-updated: 2026-04-06
+updated: 2026-09-24
 ---
 
 Where to **store**, **sync**, and **publish** large photo collections: mainstream cloud lockers, pro-oriented sharing sites, backup-first vendors, and **self-hosted** stacks you control.
@@ -11,19 +11,13 @@ Where to **store**, **sync**, and **publish** large photo collections: mainstrea
 
 [Apple Photos](https://www.icloud.com/photos) is Apple’s library app for **macOS** and **iOS**: organisation, light edits, shared albums, and **iCloud** sync. Bundled with the OS; extra storage is a paid **iCloud** tier.
 
-![Apple Photos library interface on desktop](https://ozzyczech.cz/i/apple-photos.png)
-
 ## Backblaze
 
 [Backblaze](https://www.backblaze.com) is a **cloud backup** provider (personal computer backup and **B2** object storage). Common pattern: archive originals off-site, not a full social gallery replacement.
 
-![Backblaze backup service branding](https://ozzyczech.cz/i/backblaze.png)
-
 ## SmugMug
 
 [SmugMug](https://www.smugmug.com) — paid **portfolio / client delivery** hosting with unlimited uploads on personal plans (terms change — check current plans). Geared toward photographers who want branded sites and selling tools.
-
-![SmugMug website hero](https://ozzyczech.cz/i/smugmug.png)
 
 ## Flickr
 

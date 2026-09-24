@@ -1,11 +1,11 @@
 ---
 title: Compact cameras
-description: Fixed-lens compact and bridge cameras — premium primes, travel zooms, and current specialist models with indicative Czech prices.
+description: Fixed-lens compact cameras — premium primes, travel zooms, and current specialist models with indicative Czech prices.
 created: 2026-04-05
 updated: 2026-09-24
 ---
 
-Fixed-lens cameras ranging from pocketable **APS-C prime-lens compacts** to premium travel zooms and bridge cameras. Prices are indicative **CZK**; confirm current SKUs locally.
+Fixed-lens cameras ranging from pocketable **APS-C prime-lens compacts** to premium travel zooms. Prices are indicative **CZK**; confirm current SKUs locally.
 
 ## Fujifilm
 
@@ -36,15 +36,14 @@ Fixed-lens cameras ranging from pocketable **APS-C prime-lens compacts** to prem
 
 **GR IIIx** — varianta s 40mm ekvivalentem (oproti standardním 28mm); vhodná pro portréty a street.
 
-## Zoom compacts and bridge cameras
+## Zoom compacts
 
 | Camera | Sensor | MP | Lens (eq.) | Year | Price |
 |--------|--------|----|------------|------|-------|
 | [Panasonic Lumix L10](https://www.panasonic.com/cz/consumer/fotoaparaty-a-videokamery/fotoaparaty-lumix-g-dslm-learn/clanky/dc-l10-hero.html) | Four Thirds (BSI) | 20.4 | 24–75 mm f/1.7–2.8 | 2026 | ~36&nbsp;800&nbsp;Kč |
 | [Panasonic Lumix TZ300](https://www.panasonic.com/es/consumer/camaras-y-videocamaras/camaras-compactas/dc-tz300.html) | 1-inch (BSI) | 20.1 | 24–360 mm | 2026 | ~24&nbsp;400&nbsp;Kč |
-| [Sony RX10 V](https://www.sony.cz/electronics/kompaktni-fotoaparaty-cyber-shot/dsc-rx10m5) | 1-inch (Stacked) | 20.1 | 24–600 mm f/2.4–4 | 2026 | 62&nbsp;990&nbsp;Kč |
 
-The **L10** emphasizes image quality and lens speed, the **TZ300** prioritizes pocketable travel reach, and the larger **RX10 V** pairs a 25× zoom with fast subject recognition and 30 fps blackout-free shooting.
+The **L10** emphasizes image quality and lens speed, while the **TZ300** prioritizes pocketable travel reach.
 
 ## Full-frame alternativy
 

@@ -1,12 +1,12 @@
 ---
 title: Sony
-description: Sony Alpha E-mount mirrorless cameras and premium fixed-lens models with sensor class, MP, year, and indicative Czech prices.
+description: Sony Alpha E-mount mirrorless cameras — full-frame and APS-C models with sensor class, MP, year, and indicative Czech prices.
 created: 2026-04-05
 updated: 2026-09-24
 slug: photography/sony/cameras
 ---
 
-Quick reference for **Alpha** and **ZV** system bodies plus selected premium fixed-lens cameras: sensor architecture, resolution, launch year, and rough CZK levels. **FE** and crop-native **E** lenses live on separate pages below.
+Quick reference for **Alpha** and **ZV** system bodies: sensor architecture, resolution, launch year, and rough CZK levels. **FE** and crop-native **E** lenses live on separate pages below.
 
 
 ## Full Frame
@@ -31,14 +31,6 @@ The sixth-generation high-resolution Alpha combines a 66.8 MP fully stacked sens
 |--------|--------|----|------|-------|
 | [Sony A6700](https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6700) | APS-C | 26 | 2023 | ~29&nbsp;000&nbsp;Kč |
 | [Sony ZV-E10 II](https://www.sony.com/electronics/interchangeable-lens-cameras/zv-e10m2) | APS-C | 26 | 2024 | ~20&nbsp;000&nbsp;Kč |
-
-## Fixed-lens
-
-| Camera | Sensor | MP | Lens (eq.) | Year | Price |
-|--------|--------|----|------------|------|-------|
-| [Sony RX10 V](https://www.sony.cz/electronics/kompaktni-fotoaparaty-cyber-shot/dsc-rx10m5) | 1-inch (Stacked) | 20.1 | 24–600 mm f/2.4–4 | 2026 | 62&nbsp;990&nbsp;Kč |
-
-The **RX10 V** is a bridge camera with a fixed 25× ZEISS zoom, AI subject recognition, blackout-free bursts up to 30 fps, and 4K/120p video. It uses the larger NP-FZ100 battery and supports Sony's Creators' App.
 
 ## Batteries
 

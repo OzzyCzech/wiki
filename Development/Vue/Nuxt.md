@@ -2,7 +2,7 @@
 title: Nuxt
 description: Full-stack Vue framework with file-based routing, SSR, SSG, and great developer experience.
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-09-24
 ---
 
 Nuxt is the standard full-stack framework for Vue. It adds file-based routing, server-side rendering, static site generation, and API routes on top of Vue 3.
@@ -29,6 +29,7 @@ pnpm dev
 | Module | Purpose |
 |---|---|
 | [Nuxt Content](https://content.nuxt.com/) | File-based CMS for Markdown, YAML, JSON |
+| [Nuxt UI](../nuxt-ui/) | Accessible Tailwind-based component library for Nuxt and Vue |
 | [Nuxt Auth Utils](https://github.com/Atinux/nuxt-auth-utils) | Session-based auth with OAuth providers |
 | [Nuxt Image](https://image.nuxt.com/) | Optimized `<NuxtImg>` and `<NuxtPicture>` components |
 | [Nuxt I18n](https://i18n.nuxtjs.org/) | Internationalization |

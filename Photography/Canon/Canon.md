@@ -2,29 +2,34 @@
 title: Canon
 description: Canon EOS R mirrorless lineup — full-frame and APS-C bodies with sensor type, resolution, and rough Czech street prices.
 created: 2026-04-05
-updated: 2026-04-06
+updated: 2026-09-24
 slug: photography/canon/cameras
 ---
 
-Quick reference for current **EOS R** system cameras: stacked vs conventional sensors, megapixels, introduction year, and indicative pricing in CZK. RF-mount lens notes live on separate pages linked below.
+Quick reference for current **EOS R** system cameras: stacked vs conventional sensors, megapixels, introduction year, and representative Czech body-only retail prices. Prices were checked against [current Czech retail listings](https://digitalni-fotoaparaty.heureka.cz/) on **24 September 2026** and are rounded to avoid short-lived promotions. RF-mount lens notes live on separate pages linked below.
 
 ## Full Frame
 
 | Camera | Sensor | MP | Year | Price |
 |--------|--------|----|------|-------|
-| [Canon EOS R1](https://www.usa.canon.com/shop/p/eos-r1) | Full Frame (Stacked) | 24 | 2024 | ~184&nbsp;000&nbsp;Kč |
+| [Canon EOS R1](https://www.usa.canon.com/shop/p/eos-r1) | Full Frame (Stacked) | 24 | 2024 | ~190&nbsp;000&nbsp;Kč |
 | [Canon EOS R5 Mark II](https://www.usa.canon.com/shop/p/eos-r5-mark-ii) | Full Frame | 45 | 2024 | ~108&nbsp;000&nbsp;Kč |
-| [Canon EOS R6 Mark III](https://www.usa.canon.com/shop/p/eos-r6-mark-iii) | Full Frame | 32.5 | 2025 | ~72&nbsp;000&nbsp;Kč |
-| [Canon EOS R8](https://www.usa.canon.com/shop/p/eos-r8) | Full Frame | 24.2 | 2023 | ~30&nbsp;000&nbsp;Kč |
+| [Canon EOS R6 Mark III](https://www.usa.canon.com/shop/p/eos-r6-mark-iii) | Full Frame | 32.5 | 2025 | ~74&nbsp;000&nbsp;Kč |
+| [Canon EOS R8 Mark II](https://www.canon.cz/cameras/eos-r8-mark-ii/) | Full Frame | 24.2 | 2026 | ~46&nbsp;000&nbsp;Kč |
+| [Canon EOS R8](https://www.usa.canon.com/shop/p/eos-r8) | Full Frame | 24.2 | 2023 | ~33&nbsp;000&nbsp;Kč |
+
+### Canon EOS R8 Mark II
+
+The EOS R8 Mark II adds 5-axis in-body image stabilization rated up to 7.5 stops and a multi-controller to a compact 24.2 MP full-frame body with DIGIC X. It shoots up to 40 fps with the electronic shutter and records 6K-oversampled 4K/60p video.
 
 ## APS-C
 
 | Camera | Sensor | MP | Year | Price |
 |--------|--------|----|------|-------|
-| [Canon EOS R7](https://www.usa.canon.com/shop/p/eos-r7) | APS-C | 32.5 | 2022 | ~26&nbsp;000&nbsp;Kč |
-| [Canon EOS R50 V](https://www.usa.canon.com/shop/p/eos-r50-v) | APS-C | 24.2 | 2025 | ~19&nbsp;500&nbsp;Kč |
-| [Canon EOS R10](https://www.usa.canon.com/shop/p/eos-r10) | APS-C | 24.2 | 2022 | ~19&nbsp;000&nbsp;Kč |
-| [Canon EOS R50](https://www.usa.canon.com/shop/p/eos-r50) | APS-C | 24.2 | 2023 | ~15&nbsp;000&nbsp;Kč |
+| [Canon EOS R7](https://www.usa.canon.com/shop/p/eos-r7) | APS-C | 32.5 | 2022 | ~31&nbsp;500&nbsp;Kč |
+| [Canon EOS R50 V](https://www.usa.canon.com/shop/p/eos-r50-v) | APS-C | 24.2 | 2025 | ~16&nbsp;500&nbsp;Kč |
+| [Canon EOS R10](https://www.usa.canon.com/shop/p/eos-r10) | APS-C | 24.2 | 2022 | ~24&nbsp;000&nbsp;Kč |
+| [Canon EOS R50](https://www.usa.canon.com/shop/p/eos-r50) | APS-C | 24.2 | 2023 | ~19&nbsp;000&nbsp;Kč |
 
 ## Lenses
 

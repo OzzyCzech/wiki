@@ -6,7 +6,7 @@ updated: 2026-09-24
 slug: photography/om-system/cameras
 ---
 
-Quick reference for current **OM System** interchangeable-lens cameras. All use the **Micro Four Thirds** mount and share the **M.Zuiko** lens ecosystem. Prices are official Czech body prices checked on **24 September 2026**; sale prices follow the struck-through regular price.
+Quick reference for current **OM System** interchangeable-lens cameras. All use the **Micro Four Thirds** mount and share the **M.Zuiko** lens ecosystem. Prices are current official Czech body prices checked on **24 September 2026**.
 
 ## PEN
 
@@ -24,10 +24,10 @@ The [OM-D range](https://explore.omsystem.com/cz/cs/cameras/om-d) uses a traditi
 
 | Camera | Sensor | MP | Year | Stabilization | Price |
 |--------|--------|----|------|---------------|-------|
-| [OM-1 Mark II](https://explore.omsystem.com/cz/cs/om-1-mark-ii-body) | Four Thirds (Stacked BSI) | 20.4 | 2024 | 5-axis, up to 8.5 stops | ~~54&nbsp;990&nbsp;Kč~~ 49&nbsp;990&nbsp;Kč |
-| [OM-3](https://explore.omsystem.com/cz/cs/om-3-body) | Four Thirds (Stacked BSI) | 20.4 | 2025 | 5-axis, up to 7.5 stops | ~~49&nbsp;990&nbsp;Kč~~ 44&nbsp;990&nbsp;Kč |
-| [OM-5 Mark II](https://explore.omsystem.com/cz/cs/om-5-mark-ii-body-silver) | Four Thirds Live MOS | 20.4 | 2025 | 5-axis, up to 7.5 stops | ~~33&nbsp;990&nbsp;Kč~~ 31&nbsp;990&nbsp;Kč |
-| [OM-D E-M10 Mark IV](https://explore.omsystem.com/cz/cs/om-d-e-m10-mark-iv-body-black) | Four Thirds Live MOS | 20.3 | 2020 | 5-axis, up to 4.5 stops | ~~19&nbsp;999&nbsp;Kč~~ 17&nbsp;999&nbsp;Kč |
+| [OM-1 Mark II](https://explore.omsystem.com/cz/cs/om-1-mark-ii-body) | Four Thirds (Stacked BSI) | 20.4 | 2024 | 5-axis, up to 8.5 stops | 49&nbsp;990&nbsp;Kč |
+| [OM-3](https://explore.omsystem.com/cz/cs/om-3-body) | Four Thirds (Stacked BSI) | 20.4 | 2025 | 5-axis, up to 7.5 stops | 44&nbsp;990&nbsp;Kč |
+| [OM-5 Mark II](https://explore.omsystem.com/cz/cs/om-5-mark-ii-body-silver) | Four Thirds Live MOS | 20.4 | 2025 | 5-axis, up to 7.5 stops | 31&nbsp;990&nbsp;Kč |
+| [OM-D E-M10 Mark IV](https://explore.omsystem.com/cz/cs/om-d-e-m10-mark-iv-body-black) | Four Thirds Live MOS | 20.3 | 2020 | 5-axis, up to 4.5 stops | 17&nbsp;999&nbsp;Kč |
 
 ## Lenses
 

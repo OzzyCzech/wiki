@@ -3,7 +3,7 @@ description: Research a topic on the web and propose where it fits into the wiki
 argument-hint: [topic or question]
 ---
 
-Research a topic across the web and propose where it fits into the wiki. Unlike `/process`, the input is a question or topic — not a known source (e.g. "local-first databases", "Rust HTTP clients", "AI code review tools"). Stop for review before writing.
+Research a topic across the web and propose where it fits into the wiki. Unlike `/add`, the input is a question or topic — not a known source (e.g. "local-first databases", "Rust HTTP clients", "AI code review tools"). Stop for review before writing.
 
 ## 1. Check the wiki first
 
@@ -39,7 +39,7 @@ Ask the subagent to return:
 - A short synthesis (what is this, why it matters, key concepts)
 - A list of concrete tools/projects/resources with URLs and one-line descriptions
 - Notable disagreements between sources, if any
-- Time-sensitive claims flagged as such (so we discard them per `/process` rules)
+- Time-sensitive claims flagged as such (so we discard them per `/add` rules)
 
 Run searches in parallel, not serially.
 
@@ -55,9 +55,9 @@ Before writing anything to the wiki, present:
 
 Then **wait for the user to approve, redirect, or refine.** Do not write to the wiki yet.
 
-## 5. After approval — hand off to `/process` flow
+## 5. After approval — hand off to `/add` flow
 
-Once approved, follow the steps from `.claude/commands/process.md` starting at step 3 (Process the content). The only delta: commit as `docs: research [topic] — add [page]` (or `update [page]`).
+Once approved, follow the steps from `.claude/commands/add.md` starting at step 3 (Process the content). The only delta: commit as `docs: research [topic] — add [page]` (or `update [page]`).
 
 ## Defaults
 

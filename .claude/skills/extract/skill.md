@@ -23,7 +23,7 @@ Extract information from a URL into clean, reusable Markdown. Prefer durable fac
    - commands, APIs, options, examples, and important terminology
    - source attribution when a claim is not already tied to the linked URL in the content
 4. Discard launch hype, pricing/free-tier details, repeated navigation text, cookie banners, social widgets, and unsupported claims.
-5. If the user wants wiki processing, hand the result to the `/process` workflow instead of saving a standalone extraction.
+5. If the user wants wiki processing, hand the result to the `/add` workflow instead of saving a standalone extraction.
 
 ## `mreader` options
 

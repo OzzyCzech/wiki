@@ -15,8 +15,13 @@ Quick reference for current **EOS R** system cameras: stacked vs conventional se
 | [Canon EOS R1](https://www.usa.canon.com/shop/p/eos-r1) | Full Frame (Stacked) | 24 | 2024 | ~190&nbsp;000&nbsp;Kč |
 | [Canon EOS R5 Mark II](https://www.usa.canon.com/shop/p/eos-r5-mark-ii) | Full Frame | 45 | 2024 | ~108&nbsp;000&nbsp;Kč |
 | [Canon EOS R6 Mark III](https://www.usa.canon.com/shop/p/eos-r6-mark-iii) | Full Frame | 32.5 | 2025 | ~74&nbsp;000&nbsp;Kč |
+| [Canon EOS R6 V](https://www.usa.canon.com/newsroom/2026/20260513-products) | Full Frame | 32.5 | 2026 | 64&nbsp;990&nbsp;Kč |
 | [Canon EOS R8 Mark II](https://www.canon.cz/cameras/eos-r8-mark-ii/) | Full Frame | 24.2 | 2026 | ~46&nbsp;000&nbsp;Kč |
 | [Canon EOS R8](https://www.usa.canon.com/shop/p/eos-r8) | Full Frame | 24.2 | 2023 | ~33&nbsp;000&nbsp;Kč |
+
+### Canon EOS R6 V
+
+The EOS R6 V is a video-first RF-mount hybrid built around the R6 Mark III's 32.5 MP sensor. It trades the electronic viewfinder for active cooling and creator-oriented controls, and supports internal 7K/60p RAW, 7K/30p Open Gate, uncropped 4K/120p, in-body stabilization, and bursts up to 40 fps.
 
 ### Canon EOS R8 Mark II
 

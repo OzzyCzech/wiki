@@ -1,11 +1,11 @@
 ---
 title: Compact cameras
-description: Premium fixed-lens compacts — Fujifilm X100 and Ricoh GR family with sensor class, MP, focal length, year, and indicative Czech prices.
+description: Fixed-lens compact and bridge cameras — premium primes, travel zooms, and current specialist models with indicative Czech prices.
 created: 2026-04-05
-updated: 2026-04-09
+updated: 2026-09-24
 ---
 
-Fixed-lens **enthusiast compacts** with **APS-C** sensors: pocketable alternatives to ILC kits when you want one focal length done well. Prices are indicative **CZK**; confirm current SKUs locally.
+Fixed-lens cameras ranging from pocketable **APS-C prime-lens compacts** to premium travel zooms and bridge cameras. Prices are indicative **CZK**; confirm current SKUs locally.
 
 ## Fujifilm
 
@@ -22,6 +22,7 @@ Fixed-lens **enthusiast compacts** with **APS-C** sensors: pocketable alternativ
 | [Ricoh GR IV](https://us.ricoh-imaging.com/ricoh-launches-latest-model-in-acclaimed-gr-compact-camera-series-ricoh-gr-iv-2/) | APS-C | 26 | 28 mm | 2025 | 31&nbsp;990&nbsp;Kč |
 | [Ricoh GR IV HDF](https://us.ricoh-imaging.com/ricoh-launches-ricoh-gr-iv-hdf/) | APS-C | 26 | 28 mm | 2026 | 34&nbsp;490&nbsp;Kč |
 | [Ricoh GR IV Monochrome](https://us.ricoh-imaging.com/ricoh-gr-iv-monochrome-high-end-compact-digital-camera-development-news/) | APS-C (Mono) | 26 | 28 mm | 2026 | 42&nbsp;990&nbsp;Kč |
+| [Ricoh GR IV 30th Anniversary Edition](https://www.ricoh-imaging.co.jp/english/products/gr-4/special/30th/) | APS-C | 26 | 28 mm | 2026 | — |
 | [Ricoh GR IIIx](https://us.ricoh-imaging.com/product/griiix/) | APS-C | 24 | 40 mm | 2021 | 25&nbsp;677&nbsp;Kč |
 | [Ricoh GR IIIx HDF](https://us.ricoh-imaging.com/product/gr-iiix-hdf/) | APS-C | 24 | 40 mm | 2023 | — |
 
@@ -31,7 +32,19 @@ Fixed-lens **enthusiast compacts** with **APS-C** sensors: pocketable alternativ
 
 **GR IV Monochrome** — senzor bez Bayerovy masky; každý pixel zachycuje plné spektrum světla → vyšší rozlišení a lepší výkon za šera; ISO 160–409 600; fyzický červený filtr v balení.
 
+**GR IV 30th Anniversary Edition** — limitovaný kit o 6,000 kusech vychází ze standardního GR IV a přidává barvy tlačítek inspirované GR1, speciální prstenec objektivu, vypínací obrazovku, řemínek, krytku sáněk a sadu odznaků; obrazové specifikace zůstávají stejné.
+
 **GR IIIx** — varianta s 40mm ekvivalentem (oproti standardním 28mm); vhodná pro portréty a street.
+
+## Zoom compacts and bridge cameras
+
+| Camera | Sensor | MP | Lens (eq.) | Year | Price |
+|--------|--------|----|------------|------|-------|
+| [Panasonic Lumix L10](https://www.panasonic.com/cz/consumer/fotoaparaty-a-videokamery/fotoaparaty-lumix-g-dslm-learn/clanky/dc-l10-hero.html) | Four Thirds (BSI) | 20.4 | 24–75 mm f/1.7–2.8 | 2026 | ~36&nbsp;800&nbsp;Kč |
+| [Panasonic Lumix TZ300](https://www.panasonic.com/es/consumer/camaras-y-videocamaras/camaras-compactas/dc-tz300.html) | 1-inch (BSI) | 20.1 | 24–360 mm | 2026 | ~24&nbsp;400&nbsp;Kč |
+| [Sony RX10 V](https://www.sony.cz/electronics/kompaktni-fotoaparaty-cyber-shot/dsc-rx10m5) | 1-inch (Stacked) | 20.1 | 24–600 mm f/2.4–4 | 2026 | 62&nbsp;990&nbsp;Kč |
+
+The **L10** emphasizes image quality and lens speed, the **TZ300** prioritizes pocketable travel reach, and the larger **RX10 V** pairs a 25× zoom with fast subject recognition and 30 fps blackout-free shooting.
 
 ## Full-frame alternativy
 

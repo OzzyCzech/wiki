@@ -53,6 +53,7 @@ export default {
 					{ label: 'Panasonic', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Panasonic', collapsed: false } }] },
 					{ label: 'OM System', collapsed: false, items: [{ autogenerate: { directory: 'Photography/OM System', collapsed: false } }] },
 					{ label: 'Canon', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Canon', collapsed: false } }] },
+					{ label: 'Leica', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Leica', collapsed: false } }] },
 					'photography/compact-cameras',
 					'photography/action-cameras',
 					'photography/photo-hosting',

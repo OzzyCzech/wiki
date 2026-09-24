@@ -51,6 +51,7 @@ export default {
 					{ label: 'Fujifilm', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Fujifilm', collapsed: false } }] },
 					{ label: 'Nikon', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Nikon', collapsed: false } }] },
 					{ label: 'Panasonic', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Panasonic', collapsed: false } }] },
+					{ label: 'OM System', collapsed: false, items: [{ autogenerate: { directory: 'Photography/OM System', collapsed: false } }] },
 					{ label: 'Canon', collapsed: false, items: [{ autogenerate: { directory: 'Photography/Canon', collapsed: false } }] },
 					'photography/compact-cameras',
 					'photography/action-cameras',

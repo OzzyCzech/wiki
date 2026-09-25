@@ -2,7 +2,7 @@
 title: Coding Agent Tools
 description: Přehled nástrojů pro správu a orchestraci AI coding agentů — paralelní běh, izolace worktrees, multi-agent workflows.
 created: 2026-04-06
-updated: 2026-09-18
+updated: 2026-09-25
 ---
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
@@ -14,6 +14,8 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
   ```
 
 - **[Orca](https://onorca.dev/)** — agent development environment pro paralelní běh více než 25 agentů (Claude Code, Codex, Cursor CLI, Copilot, Gemini, Grok, OpenCode, goose a další), každý ve vlastním izolovaném Git worktree. GPU renderovaný terminál s dělením panelů, vestavěný Chromium s design mode pro inspekci UI, nativní integrace GitHubu a Linearu, inline anotace diffů posílané zpět agentovi a vlastní CLI, kterým agent řídí prostředí. Desktop pro macOS (ARM i Intel), Windows a Linux, companion aplikace pro iOS a Android, plus režim remote worktrees přes SSH s automatickým reconnectem a port forwardingem. Open source (MIT), zdroják na [GitHubu](https://github.com/stablyai/orca).
+
+- **[Paseo](https://paseo.sh/)** — open-source control plane pro coding agenty, který sjednocuje Claude Code, Codex, OpenCode, Pi, Cursor a další providery v desktopové, mobilní a webové aplikaci. Agenti běží lokálně nebo na vzdáleném stroji s vlastními přihlašovacími údaji; přístup zvenčí lze řešit end-to-end šifrovaným relayem, lokální sítí nebo vlastním tunelem. Podporuje izolované Git worktrees, plánované úlohy, spolupráci v týmu a automatizaci přes MCP, CLI či TypeScript SDK. Apache-2.0.
 
 - **[Superset](https://superset.sh/)** — desktop app pro paralelní spouštění agentů (Claude, Codex, Cursor, OpenCode, Gemini, Grok CLI a další) v izolovaných Git worktrees. Umí naplánované automatizace typu issue triage nebo aktualizace závislostí, běh workspace na vzdáleném stroji přes SSH, CLI a SDK pro skriptování a otevření worktree ve VS Code, Cursoru, Xcode, JetBrains IDE nebo terminálu. Kód a session zůstávají lokálně, cloud sync se týká jen metadat účtu. Zdrojový kód na GitHubu pod Elastic License 2.0 (ELv2).
 

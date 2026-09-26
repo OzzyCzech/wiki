@@ -20,8 +20,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: OzzyCzech/starlight@v2
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
   deploy:
     needs: build

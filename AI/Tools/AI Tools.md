@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-09-22
+updated: 2026-09-26
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -63,6 +63,7 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 - **[Ideogram](https://ideogram.ai/)** — AI generátor obrázků zaměřený na renderování textu a typografie; canvas s vrstvami, Magic Prompt rozšiřování zadání a Remix existujících obrázků
 - **[Luma](../luma)** — generování videa (Ray 3.2 — keyframe control, 16bit HDR, EXR export) a obrázků (Uni-1); web app i API ([lumalabs.ai](https://lumalabs.ai/))
 - **[Sora / Veo](https://veo.google/)** — špičkové nástroje pro kinematografické video generování od OpenAI a Googlu
+- **[OpenMontage](https://github.com/calesthio/OpenMontage)** — open-source systém pro tvorbu videí řízený AI coding asistentem; produkční pipeline vedou tvorbu scénáře, získávání skutečných či AI generovaných záběrů, hlasu a hudby až po render přes Remotion nebo FFmpeg a kontrolu výsledku
 
 ## 📓 Notebooks & Knowledge Management
 

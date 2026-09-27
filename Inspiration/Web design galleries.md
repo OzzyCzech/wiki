@@ -2,7 +2,7 @@
 title: Web design galleries
 description: Curated galleries of web design inspiration — navbars, hero sections, footers, landing pages, animations, rebrands, and OG images.
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-27
 ---
 
 Curated galleries for web design inspiration, grouped by what they collect. Most are narrow on purpose — one gallery per page element — which makes them far more useful than a general showcase when you are stuck on a single section.
@@ -31,6 +31,7 @@ Curated galleries for web design inspiration, grouped by what they collect. Most
 - **[Bento Grids](https://bentogrids.com/)** — bento-box grid layouts
 - **[60fps](https://60fps.design/)** — UI/UX animation and interaction details from iOS and web apps
 - **[Design Spells](https://designspells.com/)** — micro-interactions, easter eggs and small delightful details, tagged by platform and brand
+- **[Kinetics](https://kinetics.colorion.co/)** — interactive library of spring-inspired UI effects with live previews and copyable CSS, React, and AI prompt examples
 
 ## Branding and social images
 

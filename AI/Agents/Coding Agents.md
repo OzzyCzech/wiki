@@ -2,7 +2,7 @@
 title: Coding Agent Tools
 description: Přehled nástrojů pro správu a orchestraci AI coding agentů — paralelní běh, izolace worktrees, multi-agent workflows.
 created: 2026-04-06
-updated: 2026-09-25
+updated: 2026-10-01
 ---
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
@@ -14,6 +14,8 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
   ```
 
 - **[Orca](https://onorca.dev/)** — agent development environment pro paralelní běh více než 25 agentů (Claude Code, Codex, Cursor CLI, Copilot, Gemini, Grok, OpenCode, goose a další), každý ve vlastním izolovaném Git worktree. GPU renderovaný terminál s dělením panelů, vestavěný Chromium s design mode pro inspekci UI, nativní integrace GitHubu a Linearu, inline anotace diffů posílané zpět agentovi a vlastní CLI, kterým agent řídí prostředí. Desktop pro macOS (ARM i Intel), Windows a Linux, companion aplikace pro iOS a Android, plus režim remote worktrees přes SSH s automatickým reconnectem a port forwardingem. Open source (MIT), zdroják na [GitHubu](https://github.com/stablyai/orca).
+
+- **[MonoCode](https://www.usemono.dev/)** — open-source desktopové GUI (MIT) pro Claude Code, Codex, Cursor, Grok Build, OpenCode, Antigravity, Pi, Oh My Pi, fx a Hermes Agent. Sessions běží v tabech a vstup se zadává přes společný composer; používá již nainstalované a přihlášené agenty a jejich předplatné. Dostupné pro macOS (Apple Silicon i Intel), Windows a Linux. Experimentálně podporuje vzdálené sessions; projekt je v rané fázi. Zdrojový kód a instalace na [GitHubu](https://github.com/hardbeat920/monocode) (ověřeno 2026-10-01).
 
 - **[Paseo](https://paseo.sh/)** — open-source control plane pro coding agenty, který sjednocuje Claude Code, Codex, OpenCode, Pi, Cursor a další providery v desktopové, mobilní a webové aplikaci. Agenti běží lokálně nebo na vzdáleném stroji s vlastními přihlašovacími údaji; přístup zvenčí lze řešit end-to-end šifrovaným relayem, lokální sítí nebo vlastním tunelem. Podporuje izolované Git worktrees, plánované úlohy, spolupráci v týmu a automatizaci přes MCP, CLI či TypeScript SDK. Apache-2.0.
 

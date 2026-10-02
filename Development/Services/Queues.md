@@ -2,7 +2,7 @@
 title: Queues
 description: Message queue and job processing services for distributed application architectures.
 created: 2024-05-24
-updated: 2026-04-28
+updated: 2026-10-02
 ---
 
 Message brokers, job queues, and background processing systems for distributing work across services and processes.
@@ -40,3 +40,4 @@ Fronty postavené přímo nad PostgreSQL pomocí `SELECT ... FOR UPDATE SKIP LOC
 - **[Faktory](https://contribsys.com/faktory/)** — language-agnostic job server od autora Sidekiqu
 - **[Gearman](http://gearman.org/)** — job server for distributing work to multiple workers across languages and machines
 - **[Temporal](https://temporal.io/)** — durable execution engine pro dlouhé workflow s retry, timeoutem a state managementem
+- **[Trigger.dev](https://trigger.dev/)** — durable execution pro TypeScript; úlohy jsou běžné funkce v adresáři `/trigger`, ke kterým platforma dodává retry s exponenciálním backoffem, fronty a řízení konkurence, cron a čekání (`wait.for`, HTTP callback). Stav se checkpointuje, takže běh přežije pád i redeploy, a [`maxDuration`](https://trigger.dev/docs/runs/max-duration) omezuje jen skutečný výpočetní čas — doba čekání se do něj nepočítá. Realtime API pro sledování běhů ve frontendu a streamování odpovědí LLM rovnou klientovi, build extensions pro Python, Puppeteer, FFmpeg nebo Prismu. Apache-2.0, cloud i [self-hosting](https://trigger.dev/docs/self-hosting/overview); start přes `npx trigger.dev@latest init`

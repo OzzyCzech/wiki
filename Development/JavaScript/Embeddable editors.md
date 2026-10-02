@@ -48,6 +48,8 @@ Editors for Markdown with preview, often used in comment forms or docs.
 
 Infinite-canvas editors for whiteboards, diagrams and spatial interfaces.
 
+- **[Excalidraw](https://excalidraw.com/)** — whiteboard with a deliberately hand-drawn look, usable as the free hosted app or embedded in a React app via the `@excalidraw/excalidraw` package (`npm install react react-dom @excalidraw/excalidraw`). Real-time collaboration is end-to-end encrypted, drawings autosave locally to the browser, and it installs as a PWA for offline use; exports to PNG, SVG, the clipboard and the `.excalidraw` JSON format, with reusable shape libraries and read-only share links. A single MIT [licence](https://github.com/excalidraw/excalidraw) covers both the app and the npm package; Excalidraw+ is a separate paid hosted tier.
+
 - **[tldraw](https://tldraw.dev/)** — React SDK for infinite canvas apps, built around an `Editor` class over a reactive record store with signals; custom shapes and tools, multiplayer sync, persistence, cross-tab sync, undo/redo and image export to SVG and PNG. Installs as the `tldraw` npm package, scaffolded with `npm create tldraw`. The free collaborative whiteboard at [tldraw.com](https://www.tldraw.com/) is the same SDK in product form.
 
   Note the licensing: tldraw is source-available under its [own license](https://github.com/tldraw/tldraw/blob/main/LICENSE.md), not open source. Development environments are free, but production use requires a license key — free for non-commercial hobby projects, paid otherwise — and the SDK ships technical enforcement that validates the key, detects the deployment environment, controls watermark display and may transmit usage data back to tldraw.

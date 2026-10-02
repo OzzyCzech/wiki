@@ -1,11 +1,11 @@
 ---
 title: Embeddable editors
-description: JavaScript code editors, block editors, and WYSIWYG editors for the web.
+description: JavaScript code editors, block editors, WYSIWYG editors and canvas editors for the web.
 created: 2023-02-13
-updated: 2026-04-06
+updated: 2026-10-02
 ---
 
-Embeddable **code editors**, **block-style editors**, and **rich text (WYSIWYG)** editors you can use in web apps.
+Embeddable **code editors**, **block-style editors**, **rich text (WYSIWYG)** editors and **canvas editors** you can use in web apps.
 
 ## Code editors
 
@@ -43,3 +43,11 @@ Editors for Markdown with preview, often used in comment forms or docs.
 - **[EasyMDE](https://github.com/Ionaru/easy-markdown-editor)** — Simple, embeddable Markdown editor (maintained fork of SimpleMDE).
 - **[SimpleMDE](https://simplemde.com/)** — Original embeddable Markdown editor; consider EasyMDE for updates.
 - **[Editor (lepture)](https://github.com/lepture/editor)** — Markdown editor with live preview ([demo](https://lab.lepture.com/editor/)).
+
+## Canvas editors
+
+Infinite-canvas editors for whiteboards, diagrams and spatial interfaces.
+
+- **[tldraw](https://tldraw.dev/)** — React SDK for infinite canvas apps, built around an `Editor` class over a reactive record store with signals; custom shapes and tools, multiplayer sync, persistence, cross-tab sync, undo/redo and image export to SVG and PNG. Installs as the `tldraw` npm package, scaffolded with `npm create tldraw`. The free collaborative whiteboard at [tldraw.com](https://www.tldraw.com/) is the same SDK in product form.
+
+  Note the licensing: tldraw is source-available under its [own license](https://github.com/tldraw/tldraw/blob/main/LICENSE.md), not open source. Development environments are free, but production use requires a license key — free for non-commercial hobby projects, paid otherwise — and the SDK ships technical enforcement that validates the key, detects the deployment environment, controls watermark display and may transmit usage data back to tldraw.

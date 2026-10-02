@@ -2,7 +2,7 @@
 title: Backend frameworks
 description: Node.js and JavaScript runtime frameworks for building servers and APIs.
 created: 2026-02-13
-updated: 2026-09-18
+updated: 2026-10-02
 ---
 
 A curated list of **backend** JavaScript frameworks for Node.js and other runtimes: APIs, web servers, and full-stack apps.
@@ -21,3 +21,4 @@ A curated list of **backend** JavaScript frameworks for Node.js and other runtim
 ## Backend platforms
 
 - **[Convex](../convex)** — reactive TypeScript backend that bundles a document database, serverless functions, file storage, search and real-time sync into one system; hosted or self-hosted, source available under FSL.
+- **[Supabase](../supabase)** — open source backend on a dedicated Postgres database per project, adding auth, S3-compatible storage, Deno edge functions, realtime and pgvector; the CLI runs the full stack locally in Docker.

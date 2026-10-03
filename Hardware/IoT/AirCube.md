@@ -2,7 +2,7 @@
 title: AirCube
 description: Zigbee air quality sensor for Home Assistant — VOC, CO2, temperature, humidity, and AQI; local-only, open hardware from StuckAtPrototype.
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-10-03
 sidebar:
   order: 10
 ---
@@ -46,6 +46,10 @@ Without Home Assistant or a coordinator, powering the cube via **USB-C** makes t
 | Enclosure | 3D-printed PLA with diffused top |
 
 Firmware, schematics, PCB layout, and BOM are described as **open source** on the vendor’s GitHub; the product is designed and assembled in Texas (USA).
+
+## Related
+
+- [MikroTik CLAIRÉ](../mikrotik-claire) — another indoor air quality monitor in this wiki.
 
 ## Sources
 

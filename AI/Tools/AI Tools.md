@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-09-26
+updated: 2026-10-06
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -77,6 +77,7 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 
 ## 🎙️ Speech & Audio
 
+- **[Willow Voice](https://willowvoice.com/)** — AI diktování pro macOS, Windows a iPhone; vkládá přepis přímo do aktivní aplikace, odstraňuje výplňová slova, doplňuje interpunkci a učí se vlastní slovník; Willow Scribe převádí mluvené zadání na hotový text (ověřeno 2026-10-06)
 - **[VibeVoice-ASR](https://huggingface.co/microsoft/VibeVoice-ASR)** — open-source speech-to-text model od Microsoft Research; 9B parametrů, MIT licence, zpracuje až 60 minut audia v jednom průchodu, 50+ jazyků, vrací transkripci se speaker diarization, časovými značkami a podporou hotwords ([GitHub](https://github.com/microsoft/VibeVoice))
 
 ## 📝 Text Processing & Translation

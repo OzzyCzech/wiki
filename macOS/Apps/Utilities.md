@@ -2,7 +2,7 @@
 title: Utilities
 description: macOS utility apps for system optimization, file automation, app management, and text input.
 created: 2026-04-01
-updated: 2026-09-01
+updated: 2026-10-06
 ---
 
 Miscellaneous macOS utilities for managing apps, files, and system behavior, plus text-input helpers like dictation and OCR.
@@ -17,6 +17,7 @@ Miscellaneous macOS utilities for managing apps, files, and system behavior, plu
 - **[Hazel](https://www.noodlesoft.com/)** — rule-based file organization automation; watches folders and applies actions on matching files
 - **[Open Screen](https://openscreen.vercel.app/)** — share your Mac screen to a phone or tablet over the local network via a browser
 - **[Wispr Flow](https://wisprflow.ai/)** — AI voice dictation that transcribes speech into edited text in any app; works from intent rather than word-for-word, so it drops filler, resolves mid-sentence corrections and punctuates on its own; learns personal vocabulary and snippets, supports 100+ languages with auto-detection, and runs on macOS, Windows, iOS and Android
+- **[Willow Voice](https://willowvoice.com/)** — AI dictation for macOS, Windows, and iPhone; inserts speech as text into the active app, removes filler words and adds punctuation, learns personal vocabulary, and offers Willow Scribe for turning spoken instructions into polished writing (accessed 2026-10-06)
 - **[Uttero](https://danielgamrot.cz/nastroje/uttero/)** — free dictation utility for macOS 14+ from Czech developer [Daniel Gamrot](https://danielgamrot.cz/); hold a key, speak, and the text lands straight in the active app; transcribes locally via WhisperKit or streams in real time through Soniox, then has Claude or GPT fix punctuation and adjust the wording to context
 - **[Field Theory](https://www.fieldtheory.dev/)** — clipboard-based context capture for AI workflows on Apple Silicon; offline voice transcription via Parakeet, screenshot annotation, stacking of images and markdown, and portable commands that work across Claude, ChatGPT, and Cursor
 - **[mac-ocr](https://github.com/privatenumber/mac-ocr)** — CLI that reads text from images and PDFs and builds searchable PDFs using Apple's Vision framework; runs fully on-device (nothing uploaded), installs via npm, and ships an agent skill so AI agents can OCR locally instead of spending vision tokens

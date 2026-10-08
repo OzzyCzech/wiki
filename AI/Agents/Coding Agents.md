@@ -7,6 +7,8 @@ updated: 2026-10-08
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
 
+- **[Graftty](https://github.com/btucker/graftty)** — open-source (MIT) terminálový multiplexer pro macOS na libghostty a zmx; persistentní sessions sdružuje podle Git worktree, každý s vlastním rozložením panelů. Volitelný režim Agent Teams přes pluginy pro Codex a Claude přidává instrukce pro jednotlivé worktrees, zprávy mezi agenty a reakce na události PR a CI. Vlastní CLI ovládá UI a koordinaci; vzdálený přístup mezi Macy přes LAN nebo Tailscale (ověřeno 2026-10-08).
+
 - **[Vertical Tabs](https://verticaltabs.com/)** — terminálové prostředí pro macOS s projektovými workspaces, vertikálními taby a rychlým přepínáním přes Cmd+K. Spouští Claude Code, Codex, Gemini CLI, GitHub Copilot i další terminálové procesy; indikátory rozlišují běžící agenty, čekání na oprávnění a dokončení připravené k review. Vestavěné Git GUI pro staging, diffy, commity a push, včetně podpory Git worktrees. Verze pro Windows a Linux jsou plánované (ověřeno 2026-10-08).
 
 - **[Wortel](https://wortel.sh/)** — nativní macOS terminál (Swift + AppKit) na libghostty pro coding agenty jako Claude Code, Codex a Aider. Pojmenované sessions, samostatný Git worktree pro každou branch, vestavěné diffy, historie a prohlížeč souborů; upozornění při nečinnosti agenta na pozadí. Shelly běží v odděleném procesu a pokračují i po zavření aplikace. Zdarma pro macOS 14+, pevné nastavení kromě velikosti písma (ověřeno 2026-10-08).

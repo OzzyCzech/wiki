@@ -2,13 +2,14 @@
 title: Terminals
 description: Terminal emulators for macOS — general-purpose GPU-accelerated apps and newer workspaces built around projects and AI agents.
 created: 2026-04-01
-updated: 2026-09-18
+updated: 2026-10-08
 ---
 
 Terminal emulators for macOS, split into two groups: general-purpose emulators, and the newer wave of workspaces that organize shells by project and are built for running several CLI agents side by side. Most of the general-purpose ones install via `brew install --cask <name>`.
 
 ## Agent and project workspaces
 
+- **[Wortel](https://wortel.sh/)** — native macOS terminal in Swift and AppKit built on libghostty, with named persistent sessions, a separate Git worktree per branch, built-in diffs, history and file browsing, and notifications when background agents become idle. Shells run in a separate process and keep working after the app closes; supports terminal-based agents such as Claude Code, Codex and Aider. Free for macOS 14+, with fixed bundled settings except for font size (verified 2026-10-08)
 - **[Okena](https://www.okena.dev/)** — native terminal multiplexer in Rust with GPU-accelerated rendering on GPUI (the framework behind Zed), built for running multiple CLI agents such as Claude Code across projects; resizable project columns side by side, session restore of terminals, agents and layouts, git branch tracking and worktree management, keyboard-first controls; macOS, Linux and Windows, open source (MIT), installed by shell script or from source via Cargo
 - **[cmux](https://cmux.com/)** — macOS terminal built on libghostty (used as a library, not a Ghostty fork) for managing multiple AI coding agents; vertical tabs showing git branch, working directory and ports, split panes, notification rings for processes needing attention, a scriptable embedded browser and a CLI/socket API; works with any terminal-runnable agent, open source (GPL), iOS companion app in beta
 - **[Kero](https://kero.sh/)** — native macOS workspace that wraps the shell in project context: projects sidebar (Cmd+1–9), persistent tabs and split panes restored on relaunch, a git panel with staging, commits and inline diffs, a file browser with syntax-highlighted editing, and browser panes for previewing local servers; agent-aware, so coding agents can delegate and coordinate work across panes; GPU terminals via Ghostty or Alacritty backends, macOS 15.6+, no telemetry, open source (GPL-3.0) — `brew install egoist/tap/kero`
@@ -17,7 +18,7 @@ Terminal emulators for macOS, split into two groups: general-purpose emulators, 
 
 ## General-purpose emulators
 
-- **[Ghostty](https://ghostty.org/)** — GPU-accelerated terminal in Zig with platform-native UI, ligatures and image protocol support; macOS 13+ as a universal binary plus Linux, open source (MIT). Its rendering core `libghostty` is reused by cmux, Kero and rootshell
+- **[Ghostty](https://ghostty.org/)** — GPU-accelerated terminal in Zig with platform-native UI, ligatures and image protocol support; macOS 13+ as a universal binary plus Linux, open source (MIT). Its rendering core `libghostty` is reused by cmux, Kero, rootshell and [Wortel](https://wortel.sh/)
 - **[iTerm2](https://iterm2.com/)** — long-standing Terminal replacement with split panes, search, autocomplete, paste history and deep customization; version 3.7 (September 2026) added tab groups, a companion iOS app and a [Claude Code integration](https://iterm2.com/claude-code-integration.html), on top of built-in [AI chat](https://iterm2.com/documentation-ai-chat.html) with configurable OpenAI-compatible providers (Ollama, OpenRouter, z.ai, Qwen, MiniMax); macOS 13+, open source
 - **[Kitty](https://sw.kovidgoyal.net/kitty/)** — GPU-accelerated terminal with ligatures, image support and a tiling window system; highly configurable via a plain-text config, open source (GPL-3.0), macOS 12+
 - **[Alacritty](https://alacritty.org/)** — minimal OpenGL-accelerated terminal in Rust focused purely on performance and simplicity, leaving tabs and splits to a multiplexer; cross-platform, open source (Apache-2.0)

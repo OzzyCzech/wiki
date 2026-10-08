@@ -7,6 +7,8 @@ updated: 2026-10-08
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
 
+- **[Vertical Tabs](https://verticaltabs.com/)** — terminálové prostředí pro macOS s projektovými workspaces, vertikálními taby a rychlým přepínáním přes Cmd+K. Spouští Claude Code, Codex, Gemini CLI, GitHub Copilot i další terminálové procesy; indikátory rozlišují běžící agenty, čekání na oprávnění a dokončení připravené k review. Vestavěné Git GUI pro staging, diffy, commity a push, včetně podpory Git worktrees. Verze pro Windows a Linux jsou plánované (ověřeno 2026-10-08).
+
 - **[Wortel](https://wortel.sh/)** — nativní macOS terminál (Swift + AppKit) na libghostty pro coding agenty jako Claude Code, Codex a Aider. Pojmenované sessions, samostatný Git worktree pro každou branch, vestavěné diffy, historie a prohlížeč souborů; upozornění při nečinnosti agenta na pozadí. Shelly běží v odděleném procesu a pokračují i po zavření aplikace. Zdarma pro macOS 14+, pevné nastavení kromě velikosti písma (ověřeno 2026-10-08).
 
 - **[cmux](https://cmux.com/)** — nativní macOS terminál (Swift + AppKit) pro paralelní běh agentů: vertikální taby s git branchí, pracovním adresářem a porty, split panely, notifikační kroužky u procesů čekajících na pozornost, skriptovatelný vestavěný browser a CLI/socket API. Funguje s libovolným agentem spustitelným z terminálu (Claude Code, Codex, OpenCode, Gemini CLI). Postavený na libghostty jako knihovně, nikoli jako fork Ghostty; open source (GPL), iOS companion app v betě.

@@ -2,13 +2,14 @@
 title: Icons
 description: Free open-source icon sets and SVG icon libraries for web projects.
 created: 2023-02-27
-updated: 2026-04-06
+updated: 2026-10-09
 ---
 
 Přehled bezplatných SVG ikon, vyhledávačů a icon fontů pro webové projekty.
 
 ## Icon sets
 
+- **[Feather Icons](https://feathericons.com/)** — původní minimalistická sada 287 ikon na mřížce 24×24 s jednotným 2px tahem (MIT); poslední vydání v4.29.2 je z května 2024, udržovaným pokračováním je Lucide níže
 - **[Lucide](https://lucide.dev/)** — moderní open-source sada ikon v konzistentním stylu; fork Feather Icons
 - **[Heroicons](https://heroicons.com/)** — hand-crafted SVG ikony od tvůrců Tailwind CSS
 - **[Tabler Icons](https://tabler-icons.io)** — 4 000+ pixel-perfect ikon pro web
@@ -23,6 +24,7 @@ Přehled bezplatných SVG ikon, vyhledávačů a icon fontů pro webové projekt
 - **[SVG Repo](https://www.svgrepo.com/)** — 500 000+ SVG ikon s otevřenou licencí
 - **[SVGBox](https://svgbox.net/)** — CDN pro ikony přes `<img>` tag
 - **[Flowbite Icons](https://flowbite.com/icons/)** — 521 free SVG ikon
+- **[Hugeicons](https://hugeicons.com/)** — balíček [`@hugeicons/core-free-icons`](https://www.npmjs.com/package/@hugeicons/core-free-icons) nabízí zdarma pod MIT 6 000+ ikon v jediném stylu Stroke Rounded na mřížce 24×24; placené Pro rozšiřuje knihovnu na 60 000+ ikon v devíti až deseti stylech. Komponenty pro React, React Native, Vue, Angular, Svelte a Flutter, icon font přes CDN, Figma plugin a MCP server
 
 ## Icon search engines
 

@@ -32,6 +32,22 @@ Agenti načítají skills ve třech fázích, aby šetřili kontext:
 
 Plné instrukce se tedy zatěžují **pouze on-demand**, takže agent může mít k dispozici velký počet skills s minimální kontextovou stopou.
 
+## Jak psát skills
+
+Aktuální doporučení Anthropic pro tvorbu a revizi skills:
+
+- **Piš stručně.** Přidávej jen znalosti, které model potřebuje navíc. Tělo `SKILL.md` drž pod 500 řádky; podrobnosti přesuň do referencí.
+- **Popiš účel i spouštěč.** `description` ve třetí osobě říká, co skill dělá a kdy ho použít; zahrň konkrétní pojmy a typy úloh.
+- **Odkazuj přímo.** Každý referenční soubor odkazuj z `SKILL.md`, bez řetězení přes další reference. Podsložky nevadí. Referencím nad 100 řádků přidej na začátek obsah — agent může číst jen úryvek.
+- **Přizpůsob volnost úloze.** Pro úsudek stačí cíl a vodítka; pro opakované výstupy šablona či parametrizovaný skript; pro křehké operace přesný postup nebo skript.
+- **Ověřuj výsledek.** Složitá workflow rozděl na kroky s checklistem. Urči kontrolu úspěchu a při chybě návrat k opravě: vytvořit → ověřit → opravit → znovu ověřit.
+- **Testuj před rozšiřováním.** Připrav alespoň tři reálné scénáře, porovnej výkon bez skillu a s ním. Testuj všechny zamýšlené modely; silnější model zbytečně nepoučuj.
+- **Uveď závislosti.** Vyjmenuj balíčky a postup přípravy. Nepředpokládej instalaci; respektuj prostředí — Claude API neumožňuje instalaci balíčků za běhu.
+
+### Specifika Claude Code
+
+Pro přenositelnost uváděj `name` i `description`, přestože je Claude Code umí doplnit. Workflow spouštěná výhradně uživatelem nastav pomocí `disable-model-invocation: true`. Pole `model` vybírá model pro spuštění; není obecnou deklarací kompatibility skillu.
+
 ## Kde se používá
 
 Standard adoptovalo přes 40 agentích produktů, mimo jiné:
@@ -56,5 +72,8 @@ Spec je otevřená k příspěvkům — vývoj probíhá v [github.com/agentskil
 
 ## Sources
 
+- [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) — oficiální doporučení pro strukturu, workflow, testování a závislosti; ověřeno 2026-10-09
+- [Extend Claude with skills](https://code.claude.com/docs/en/skills) — nastavení a chování skills v Claude Code; ověřeno 2026-10-09
+- [MindStudio: Claude Skills Are Outdated](https://www.mindstudio.ai/blog/claude-skills-best-practices-update) — výchozí přehled doporučení, ověřený proti oficiální dokumentaci
 - [agentskills.io](https://agentskills.io/) — oficiální specifikace a client showcase
 - [hermes-agent.nousresearch.com/docs/skills](https://hermes-agent.nousresearch.com/docs/skills/) — Hermes Skills Hub

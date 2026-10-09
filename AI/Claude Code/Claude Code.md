@@ -1,13 +1,13 @@
 ---
 title: Claude Code
-description: AI coding agent by Anthropic — commands, skills, plugins, and persistent context.
+description: AI coding agent by Anthropic — commands, skills, plugins, persistent context, and settings.
 created: 2025-01-01
 updated: 2026-10-09
 sidebar:
   order: 1
 ---
 
-[Claude Code](https://claude.ai/code/) is an AI coding agent by Anthropic. This page is a practical reference for commands, skills, and persistent context. Availability depends on your installed version, account, and platform; type `/` to see your session’s commands.
+[Claude Code](https://claude.ai/code/) is an AI coding agent by Anthropic. This page is a practical reference for commands, skills, persistent context, and settings. Availability depends on your installed version, account, and platform; type `/` to see your session’s commands.
 
 ## Commands
 
@@ -62,6 +62,18 @@ The following is an optional organization pattern for additional context files. 
 
 Keep startup instructions concise; move detailed examples and references to files loaded when needed.
 
+## Settings
+
+Settings have several scopes:
+
+| File | Scope |
+| --- | --- |
+| `~/.claude/settings.json` | Personal defaults across projects |
+| `.claude/settings.json` | Shared project configuration |
+| `.claude/settings.local.json` | Personal project overrides |
+
+Local settings override shared project settings, which override user settings; managed policies and command-line settings can take precedence. Keep a manually created local settings file out of Git.
+
 ## Claude Code Status
 
 - [Claude service status](https://status.claude.com/) — official incident and availability dashboard
@@ -79,3 +91,4 @@ Official documentation checked on 2026-10-09:
 - [Commands](https://code.claude.com/docs/en/commands) — built-in commands and bundled skills.
 - [Skills](https://code.claude.com/docs/en/skills) — skill structure, locations, and invocation.
 - [Memory](https://code.claude.com/docs/en/memory) — instruction loading, imports, rules, and auto memory.
+- [Settings](https://code.claude.com/docs/en/settings) — scopes and precedence.

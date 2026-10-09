@@ -68,10 +68,24 @@ Archivní třídy se hodí pro dlouhodobá, málo měněná data. Nízká cena u
 
 ## 💿 M-DISC fyzická archivace
 
-**[Verbatim M-DISC](https://www.verbatim-europe.com/en/mdisc)** je zapisovatelné optické médium pro dlouhodobou archivaci. Blu-ray varianty mají kapacitu 25, 50 a 100 GB; pro zápis 100GB disků je potřeba kompatibilní BDXL mechanika. Deklarovaná dlouhá životnost média nenahrazuje více kopií a kontrolu čitelnosti.
+**[Verbatim M-DISC](https://www.verbatim-europe.com/cs/mdisc)** jsou optická média pro dlouhodobou archivaci. Zapisují se jednou a lze je opakovaně číst; hodí se například pro uzavřené archivy fotografií a dokumentů.
 
-- **[Verbatim Ultra HD 4K Slimline Blu-ray Writer, 43888](https://www.verbatim-europe.com/cs/product/43888)** — externí USB-C mechanika s podporou M-DISC.
-- **[Verbatim External Slimline Blu-ray Writer, 43889](https://www.verbatim-europe.com/cs/product/43889)** — alternativní externí model s připojením USB-C a podporou M-DISC.
+### Blu-ray média
+
+| Médium | Kapacita | Příklad produktu |
+| --- | --- | --- |
+| BD-R | 25 GB | [Verbatim 43823 — 5 disků v krabičkách](https://www.verbatim-europe.com/cs/blu-ray/products/verbatim-mdisc-lifetime-archival-bd-r-5-pack-jewel-case-43823) |
+| BD-R DL | 50 GB | [Verbatim 43846 — 5 disků v krabičkách](https://www.verbatim-europe.com/cs/blu-ray/products/verbatim-mdisc-lifetime-archival-bd-r-dl-5-pack-jewel-case-43846) |
+| BDXL | 100 GB | [Verbatim 43833 — jeden potisknutelný disk](https://www.verbatim-europe.com/cs/blu-ray/products/verbatim-mdisc-lifetime-archival-bdxl-100gb-inkjet-printable-single-disc-43833) |
+
+Pro zápis vyber mechaniku s výslovnou podporou **M-DISC**; u 100GB médií musí podporovat také **BDXL**. Před nákupem ověř kompatibilitu konkrétního média a mechaniky.
+
+### Externí mechaniky
+
+- **[Verbatim Ultra HD 4K Slimline Blu-ray Writer, 43888](https://www.verbatim-europe.com/cs/product/43888)** — externí USB-C mechanika s podporou M-DISC a BDXL.
+- **[Verbatim External Slimline Blu-ray Writer, 43889](https://www.verbatim-europe.com/cs/product/43889)** — externí model s připojením USB-C a podporou M-DISC a BDXL.
+
+Po vypálení ověř čitelnost a shodu souborů s originálem. Uchovej druhou kopii na jiném místě a pravidelně kontroluj, že máš funkční čtecí mechaniku. Marketingové označení „doživotní archivace“ nenahrazuje test obnovy ani strategii více kopií.
 
 ## Synchronizace a sdílení
 

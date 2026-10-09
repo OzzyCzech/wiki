@@ -74,6 +74,8 @@ Settings have several scopes:
 
 Local settings override shared project settings, which override user settings; managed policies and command-line settings can take precedence. Keep a manually created local settings file out of Git.
 
+My configuration: [claude/settings.json in dotfiles](https://github.com/OzzyCzech/dotfiles/blob/main/claude/settings.json).
+
 ## Claude Code Status
 
 - [Claude service status](https://status.claude.com/) — official incident and availability dashboard

@@ -2,7 +2,7 @@
 title: Agent Harness
 description: Co je agent harness, Ralph loop a přehled harness nástrojů a CLI pro běh coding agentů ve smyčce.
 created: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-09
 ---
 
 Agent harness je softwarová vrstva kolem jazykového modelu, která z něj dělá agenta. Stránka stručně vysvětluje pojem, techniku Ralph loop a shrnuje open-source harness nástroje.
@@ -16,7 +16,7 @@ Model sám o sobě je bezstavový a umí jen generovat text. Harness mu dodává
 - **Kontext a paměť** — historie konverzace, komprese dlouhých sessions, trvalá paměť mezi sessions
 - **Bezpečnost** — oprávnění, schvalování akcí, sandbox
 
-Typickým harnessem je [Claude Code](/ai/claude-code/claude-code), Codex nebo [Oh My Pi](../oh-my-pi). Rozlišuje se *inner harness* od výrobce modelu a *outer harness*, který si nad ním skládá uživatel z vlastní konfigurace, skriptů a smyček ([Wikipedia](https://en.wikipedia.org/wiki/Agent_harness)). Nástroje níže jsou většinou outer harnessy — obalují existující CLI agenty.
+Typickým harnessem je [Claude Code](/ai/claude-code/claude-code), Codex, [Pi](../pi) nebo [Oh My Pi](../oh-my-pi). Rozlišuje se *inner harness* od výrobce modelu a *outer harness*, který si nad ním skládá uživatel z vlastní konfigurace, skriptů a smyček ([Wikipedia](https://en.wikipedia.org/wiki/Agent_harness)). Nástroje níže jsou většinou outer harnessy — obalují existující CLI agenty.
 
 ## Ralph loop
 

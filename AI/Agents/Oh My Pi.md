@@ -2,10 +2,10 @@
 title: Oh My Pi
 description: Terminal coding agent based on Pi, with built-in code intelligence, debugging, subagents, and model routing.
 created: 2026-09-22
-updated: 2026-09-22
+updated: 2026-10-09
 ---
 
-[Oh My Pi (omp)](https://omp.sh/) is an open-source terminal coding agent forked from [Pi](https://github.com/badlogic/pi-mono). It combines a terminal interface with code navigation, debugging, web and browser tools, and configurable model providers for working on a codebase.
+[Oh My Pi (omp)](https://omp.sh/) is an open-source terminal coding agent forked from [Pi](../pi). It combines a terminal interface with code navigation, debugging, web and browser tools, and configurable model providers for working on a codebase.
 
 ## What stands out
 

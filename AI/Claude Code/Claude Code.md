@@ -1,13 +1,13 @@
 ---
 title: Claude Code
-description: AI-powered code agent by Anthropic — commands, skills, plugins, and settings.
+description: AI coding agent by Anthropic — commands, skills, plugins, and persistent context.
 created: 2025-01-01
 updated: 2026-10-09
 sidebar:
   order: 1
 ---
 
-[Claude Code](https://claude.ai/code/) is an AI coding agent by Anthropic. This page is a practical reference for commands, skills, persistent context, and settings. Availability depends on your installed version, account, and platform; type `/` to see your session’s commands.
+[Claude Code](https://claude.ai/code/) is an AI coding agent by Anthropic. This page is a practical reference for commands, skills, and persistent context. Availability depends on your installed version, account, and platform; type `/` to see your session’s commands.
 
 ## Commands
 
@@ -62,113 +62,6 @@ The following is an optional organization pattern for additional context files. 
 
 Keep startup instructions concise; move detailed examples and references to files loaded when needed.
 
-## Troubleshooting
-
-### Rate limits and large context
-
-A rate-limit error does not by itself mean the context window is full. API limits can apply to requests, input tokens, or output tokens per minute; sharp traffic increases can also trigger acceleration limits. For API HTTP 429 responses, respect the `retry-after` header. For subscription usage, inspect `/usage` and the reset information shown by Claude Code.
-
-For a large conversation, inspect `/context` and use `/compact` to reduce the next request’s input. This can help with token pressure, but does not reset usage limits.
-
-To cap sessions at 200K context, start Claude Code with:
-
-```bash
-CLAUDE_CODE_DISABLE_1M_CONTEXT=1 claude
-```
-
-Selecting `opus` without `[1m]` is not a reliable way to get a 200K window: newer models can have native 1M context. Check the model configuration documentation for your model and provider.
-
-## Settings
-
-Settings have several scopes:
-
-| File | Scope |
-| --- | --- |
-| `~/.claude/settings.json` | Personal defaults across projects |
-| `.claude/settings.json` | Shared project configuration |
-| `.claude/settings.local.json` | Personal project overrides |
-
-Local settings override shared project settings, which override user settings; managed policies and command-line settings can take precedence. Keep a manually created local settings file out of Git.
-
-The following is a personal configuration example. Its broad shell allow rules also authorize package scripts and Git or GitHub mutations. Use `/permissions` to review which actions run without a prompt. `Edit` path rules cover file editing tools; legacy `MultiEdit` and `Write(path)` rules should be replaced by `Edit(path)`.
-
-```json
-{
-  "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "attribution": {
-    "commit": "",
-    "pr": ""
-  },
-  "permissions": {
-    "allow": [
-      "Read",
-      "Glob",
-      "Grep",
-      "Write",
-      "Edit",
-      "Bash(git *)",
-      "Bash(glab *)",
-      "Bash(gh *)",
-      "Bash(npm *)",
-      "Bash(npx *)",
-      "Bash(yarn *)",
-      "Bash(pnpm *)",
-      "Bash(curl *)",
-      "Bash(wget *)",
-      "Bash(ls *)",
-      "Bash(ls -la *)",
-      "Bash(cp *)",
-      "Bash(mv *)",
-      "Bash(mkdir *)",
-      "Bash(touch *)",
-      "Bash(find *)",
-      "Bash(cat *)",
-      "Bash(echo *)",
-      "Bash(pwd *)",
-      "Bash(cd *)"
-    ],
-    "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)",
-      "Read(./secrets/**)",
-      "Read(./.ssh/**)",
-      "Edit(./.env)",
-      "Edit(./.env.*)",
-      "Edit(./secrets/**)",
-      "Bash(chmod 777 *)",
-      "Bash(rm -rf *)",
-      "Bash(sudo *)",
-      "Bash(ssh *)",
-      "Bash(scp *)"
-    ]
-  },
-  "model": "opus",
-  "enabledPlugins": {
-    "nette@nette": true,
-    "impeccable@impeccable": true
-  },
-  "extraKnownMarketplaces": {
-    "nette": {
-      "source": {
-        "source": "github",
-        "repo": "nette/claude-code"
-      },
-      "autoUpdate": true
-    },
-    "impeccable": {
-      "source": {
-        "source": "github",
-        "repo": "pbakaus/impeccable"
-      },
-      "autoUpdate": true
-    }
-  },
-  "voiceEnabled": false
-}
-```
-
-`deny` rules take precedence over `allow`. File rules cover built-in file tools and recognized shell file operations, but cannot constrain arbitrary subprocesses that access files indirectly. Use sandboxing for operating-system enforcement.
-
 ## Claude Code Status
 
 - [Claude service status](https://status.claude.com/) — official incident and availability dashboard
@@ -186,7 +79,3 @@ Official documentation checked on 2026-10-09:
 - [Commands](https://code.claude.com/docs/en/commands) — built-in commands and bundled skills.
 - [Skills](https://code.claude.com/docs/en/skills) — skill structure, locations, and invocation.
 - [Memory](https://code.claude.com/docs/en/memory) — instruction loading, imports, rules, and auto memory.
-- [Settings](https://code.claude.com/docs/en/settings) — scopes and precedence.
-- [Permissions](https://code.claude.com/docs/en/permissions) — rule syntax and enforcement boundaries.
-- [Model configuration](https://code.claude.com/docs/en/model-config) — context windows and the 200K cap.
-- [API rate limits](https://platform.claude.com/docs/en/api/rate-limits) — token/request limits and HTTP 429 handling.

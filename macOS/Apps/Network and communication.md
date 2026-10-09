@@ -1,11 +1,11 @@
 ---
 title: Network and communication
-description: Browsers, VPN clients, download managers, RSS readers, and messaging apps for macOS.
+description: Browsers, VPN clients, download managers, RSS readers, email clients, and messaging apps for macOS.
 created: 2026-04-01
-updated: 2026-09-05
+updated: 2026-10-09
 ---
 
-Apps for browsing the web, managing network privacy, downloading files, reading feeds, and messaging on macOS.
+Apps for browsing the web, managing network privacy, downloading files, reading feeds, email, and messaging on macOS.
 
 ## Browsers
 
@@ -40,6 +40,10 @@ Apps for browsing the web, managing network privacy, downloading files, reading 
 - **[Reeder](https://reederapp.com/)** — RSS and read-later client with iCloud sync and a clean reading experience
 - **[Cappuccino](https://cappuccinoapp.com/)** — news inbox that summarizes articles using AI
 - **[NetNewsWire](https://netnewswire.com/)** — free and open-source RSS reader for Mac and iOS with iCloud and Feedbin sync
+
+## Email clients
+
+- **[GotEmail](https://gotemail.shipcat.app/)** — native mail app for macOS 15+ with a unified inbox for IMAP/SMTP accounts, live notifications, and on-demand AI drafts and thread summaries; AI requests go to OpenAI through the developer's service. One-time license for all your Macs (accessed 2026-10-09).
 
 ## Messaging
 

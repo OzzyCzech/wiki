@@ -17,6 +17,19 @@ Content lives at the **root of this repo**, organized by topic (AI, Development,
 
 Sidebar navigation is configured in `starlight.config.mjs` at the **root of this repo**. When adding a new top-level category, update both the sidebar and the directory structure together.
 
+### AI organization
+
+Classify AI pages by their subject and scope:
+
+- `AI/Concepts` — shared architecture, terminology, protocols and standards for agent interaction with the web.
+- `AI/Agents` — specific agents and runtimes. Keep tool-specific setup, plugins and memory recipes next to the agent, e.g. `AI/Agents/Claude Code`.
+- `AI/Skills` — the shared Agent Skills format, skill collections, skill managers and individual skills. Label tool-specific installation examples explicitly.
+- `AI/Models` — model APIs, inference providers and benchmarks. Group model-family recipes together, e.g. `AI/Models/Gemma`.
+- `AI/Tools` — applications and supporting tools, including coding-agent orchestration, vector-search libraries and media generation.
+- `AI/Guides` — workflows, practical designs and broader perspectives such as LLM Wiki, autonomous research and developer roles.
+
+Use shared categories for material that applies across agents. A collection of skills belongs in `AI/Skills` even when some examples use Claude Code commands; only documentation specific to Claude Code belongs under its agent directory.
+
 ## File naming
 
 - Use human-readable filenames with spaces: `Canon RF lenses.md`, not `canon-rf-lenses.md`

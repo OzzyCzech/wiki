@@ -2,7 +2,7 @@
 title: Terminals
 description: Terminal emulators for macOS — general-purpose GPU-accelerated apps and newer workspaces built around projects and AI agents.
 created: 2026-04-01
-updated: 2026-10-08
+updated: 2026-10-09
 ---
 
 Terminal emulators for macOS, split into two groups: general-purpose emulators, and the newer wave of workspaces that organize shells by project and are built for running several CLI agents side by side. Most of the general-purpose ones install via `brew install --cask <name>`.
@@ -28,4 +28,4 @@ Terminal emulators for macOS, split into two groups: general-purpose emulators, 
 - **[Hyper](https://hyper.is/)** — terminal built on web technologies (HTML/CSS/JS) with a plugin and theme ecosystem; open source (MIT), but the last release (3.4.1) dates to January 2023
 - **[rootshell](https://rootshell.com/)** — Metal-accelerated terminal for iPhone, iPad, Vision Pro and Mac, rendered through libghostty; integrated SSH with hardware security key support, Mosh-compatible roaming, QUIC/KCP transport and post-quantum cryptography, native Git CLI via libgit2, Vim 9, Helix and tmux control mode, screen sharing over HEVC, plus a built-in AI chat and voice agent; free, open source ([MIT](https://github.com/kitknox/rootshell))
 
-Terminals aimed primarily at orchestrating agents rather than at being a shell live in [Coding Agent Tools](/ai/agents/coding-agents/).
+Terminals aimed primarily at orchestrating agents rather than at being a shell live in [Coding Agent Tools](/ai/tools/coding-agent-tools/).

@@ -2,7 +2,7 @@
 title: Architektura AI agentů – analogie kuchyně
 description: Moderní AI architektura vysvětlená pomocí analogie restaurační kuchyně – šéfkuchař, specialista, recepty a zásobování.
 created: 2025-04-06
-updated: 2026-04-07
+updated: 2026-10-09
 ---
 
 Moderní AI systémy se čím dál tím více skládají z více spolupracujících agentů. Jak celou tuto architekturu pochopit? Nejlépe pomocí analogie **restaurační kuchyně**.

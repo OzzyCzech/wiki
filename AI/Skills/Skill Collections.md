@@ -1,11 +1,11 @@
 ---
-title: Skills
-description: Curated open-source skill collections for Claude Code and AI coding agents.
+title: Skill Collections
+description: Curated skill collections and managers for AI agents, with explicitly labeled installation examples for individual tools.
 created: 2026-04-08
-updated: 2026-06-04
+updated: 2026-10-09
 ---
 
-Open-source skill collections that extend Claude Code and other AI coding agents with specialized workflows. The underlying format is the open [Agent Skills](../../tools/agent-skills) standard from Anthropic.
+Open-source skill collections and managers for AI agents. The underlying format is the open [Agent Skills](../agent-skills) standard, shared by Claude Code, Codex and other agents. Compatibility depends on each collection and the target agent; installation examples below name the tool they apply to.
 
 ## 🛠️ Skills
 
@@ -67,6 +67,6 @@ Reusable `CLAUDE.md` behavioral guidelines that can be merged into any project's
 
 ## 🔗 Related
 
-- [Graphify](../../tools/graphify) — knowledge graph builder skill (Tree-sitter + LLM extraction) for codebase understanding
-- [Claude Code](../claude-code) — commands and settings reference
-- [Plugins](../plugins) — Claude Code plugin marketplace
+- [Graphify](../graphify) — knowledge graph builder skill (Tree-sitter + LLM extraction) for codebase understanding
+- [Claude Code](../../agents/claude-code/claude-code) — commands and settings reference
+- [Plugins](../../agents/claude-code/plugins) — Claude Code plugin marketplace

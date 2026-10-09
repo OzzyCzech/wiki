@@ -2,7 +2,7 @@
 title: Graphify
 description: Open-source knowledge graph skill for AI coding assistants — Tree-sitter, NetworkX, Leiden clustering, and assistant-facing commands.
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-10-09
 ---
 
 [Graphify](https://graphify.net) is an open-source “skill” aimed at AI coding assistants. It builds a queryable knowledge graph from a repository’s code, documentation, PDFs, and images so assistants can reason about structure and cross-file relationships, not only retrieve text chunks.

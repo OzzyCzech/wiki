@@ -2,7 +2,7 @@
 title: AI Benchmarks & Leaderboards
 description: Overview of independent AI model benchmarks and leaderboards for comparing LLM performance, including what each benchmark measures.
 created: 2026-03-19
-updated: 2026-04-08
+updated: 2026-10-09
 sidebar:
   label: AI Benchmarks
 ---

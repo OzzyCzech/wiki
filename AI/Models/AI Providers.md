@@ -2,7 +2,7 @@
 title: AI Providers
 description: Hostingoví poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API — porovnání ceny, SLA, latence a data residency.
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-10-09
 ---
 
 Poskytovatelé inference pro open-weight modely (Llama, Qwen, Gemma) s OpenAI-kompatibilním API. Ceny jsou orientační pro Llama 3.3 70B (vstup/výstup za 1M tokenů) a v čase se mění.
@@ -35,7 +35,7 @@ OpenAI-kompatibilní inference běžící na edge (300+ PoP), nízká latence.
 
 ## [OpenRouter](https://openrouter.ai/)
 
-Router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele. Bez měsíčního poplatku. Viz též [AI Tools](../ai-tools/).
+Router přes 300+ modelů přes jedno OpenAI-kompatibilní API; při výpadku přepne na jiného poskytovatele. Bez měsíčního poplatku. Viz též [AI Tools](../../tools/ai-tools/).
 
 - Llama 3.3 70B nejlevněji (~$0.10/$0.32) + free endpoint (20 req/min, 200 req/den)
 - 5,5% poplatek při nákupu kreditu (5,0% krypto, min. $0.80), žádné objemové slevy

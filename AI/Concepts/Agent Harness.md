@@ -16,7 +16,7 @@ Model sám o sobě je bezstavový a umí jen generovat text. Harness mu dodává
 - **Kontext a paměť** — historie konverzace, komprese dlouhých sessions, trvalá paměť mezi sessions
 - **Bezpečnost** — oprávnění, schvalování akcí, sandbox
 
-Typickým harnessem je [Claude Code](/ai/claude-code/claude-code), Codex, [Pi](../pi) nebo [Oh My Pi](../oh-my-pi). Rozlišuje se *inner harness* od výrobce modelu a *outer harness*, který si nad ním skládá uživatel z vlastní konfigurace, skriptů a smyček ([Wikipedia](https://en.wikipedia.org/wiki/Agent_harness)). Nástroje níže jsou většinou outer harnessy — obalují existující CLI agenty.
+Typickým harnessem je [Claude Code](/ai/agents/claude-code/claude-code), Codex, [Pi](../../agents/pi) nebo [Oh My Pi](../../agents/oh-my-pi). Rozlišuje se *inner harness* od výrobce modelu a *outer harness*, který si nad ním skládá uživatel z vlastní konfigurace, skriptů a smyček ([Wikipedia](https://en.wikipedia.org/wiki/Agent_harness)). Nástroje níže jsou většinou outer harnessy — obalují existující CLI agenty.
 
 ## Ralph loop
 
@@ -63,15 +63,15 @@ Nejlépe funguje u nových (greenfield) projektů.
 
 ## Harness frameworky
 
-- **[OpenHarness](https://github.com/HKUDS/OpenHarness)** — open-source harness v Pythonu od HKUDS se 40+ nástroji (soubory, shell, web, MCP), skills ve formátu [anthropics/skills](/ai/tools/agent-skills), pamětí v `MEMORY.md`, načítáním `CLAUDE.md` a automatickou kompresí kontextu. Má režimy oprávnění (Default/Auto/Plan), pravidla pro cesty a příkazy, subagenty a podporu pluginů pro Claude Code. Providery Claude, OpenAI, Copilot, Kimi, GLM, MiniMax a libovolné kompatibilní API. Součástí je osobní agent *ohmo* pro Slack, Telegram, Discord a Feishu. CLI příkaz `oh`, MIT.
+- **[OpenHarness](https://github.com/HKUDS/OpenHarness)** — open-source harness v Pythonu od HKUDS se 40+ nástroji (soubory, shell, web, MCP), skills ve formátu [anthropics/skills](/ai/skills/agent-skills), pamětí v `MEMORY.md`, načítáním `CLAUDE.md` a automatickou kompresí kontextu. Má režimy oprávnění (Default/Auto/Plan), pravidla pro cesty a příkazy, subagenty a podporu pluginů pro Claude Code. Providery Claude, OpenAI, Copilot, Kimi, GLM, MiniMax a libovolné kompatibilní API. Součástí je osobní agent *ohmo* pro Slack, Telegram, Discord a Feishu. CLI příkaz `oh`, MIT.
 
   ```bash
   pip install openharness-ai
   ```
 
-- **[Hermes Agent](../hermes-agent)** — self-hosted runtime od Nous Research s trvalou pamětí, samogenerovanými skills a messaging gatewayi.
+- **[Hermes Agent](../../agents/hermes-agent)** — self-hosted runtime od Nous Research s trvalou pamětí, samogenerovanými skills a messaging gatewayi.
 
-Pro správu více agentů najednou (paralelní běh, worktrees, vzdálené stroje) viz [Coding Agent Tools](../coding-agents) — patří tam i [Harness](https://github.com/autonomous-ai/openharness) od Autonomous.
+Pro správu více agentů najednou (paralelní běh, worktrees, vzdálené stroje) viz [Coding Agent Tools](../../tools/coding-agent-tools) — patří tam i [Harness](https://github.com/autonomous-ai/openharness) od Autonomous.
 
 ## Sources
 

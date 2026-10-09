@@ -24,7 +24,7 @@ pi
 
 ## Related
 
-- [Agent Harness](../agent-harness) — the layer that turns a model into an agent.
+- [Agent Harness](../../concepts/agent-harness) — the layer that turns a model into an agent.
 - [Oh My Pi](../oh-my-pi) — a coding agent forked from Pi with additional built-in capabilities.
 
 ## Sources

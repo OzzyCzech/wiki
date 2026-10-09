@@ -2,7 +2,7 @@
 title: Web design galleries
 description: Curated galleries of web design inspiration — navbars, hero sections, footers, landing pages, animations, rebrands, and OG images.
 created: 2026-09-08
-updated: 2026-09-27
+updated: 2026-10-09
 ---
 
 Curated galleries for web design inspiration, grouped by what they collect. Most are narrow on purpose — one gallery per page element — which makes them far more useful than a general showcase when you are stuck on a single section.
@@ -40,4 +40,4 @@ Curated galleries for web design inspiration, grouped by what they collect. Most
 
 ## For AI coding agents
 
-- **[Refero Styles](https://styles.refero.design/)** — `DESIGN.md` files extracted from real product websites: colors, typography, spacing, components and design rules in a form an agent can read. Drop one into [Claude Code](/ai/claude-code/claude-code/), Cursor or a similar tool to give it a concrete reference instead of generic defaults. Beta, from the team behind [Refero](https://refero.design/)
+- **[Refero Styles](https://styles.refero.design/)** — `DESIGN.md` files extracted from real product websites: colors, typography, spacing, components and design rules in a form an agent can read. Drop one into [Claude Code](/ai/agents/claude-code/claude-code/), Cursor or a similar tool to give it a concrete reference instead of generic defaults. Beta, from the team behind [Refero](https://refero.design/)

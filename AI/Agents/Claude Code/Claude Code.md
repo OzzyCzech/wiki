@@ -84,7 +84,7 @@ My configuration: [claude/settings.json in dotfiles](https://github.com/OzzyCzec
 ## 🔗 Related
 
 - [Plugins](../plugins) — plugin marketplace overview
-- [Skills](../skills) — open-source skill collections
+- [Skill Collections](../../../skills/skill-collections) — open-source skill collections
 
 ## Sources
 

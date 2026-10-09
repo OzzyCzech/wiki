@@ -2,7 +2,7 @@
 title: Welcome to my notes
 description: A personal knowledge base about web development and more by Roman Ožana. Maintained as an LLM Wiki — curated by a human, structured by AI. Open source on GitHub.
 created: 2024-05-24
-updated: 2026-05-22
+updated: 2026-10-09
 tableOfContents: false
 ---
 
@@ -15,7 +15,7 @@ Maintained by [Roman Ožana](https://ozana.cz).
 
 Notes cover topics I keep coming back to — mostly **web development**
 (JavaScript, CSS, Tailwind, Vue, WordPress, databases, Docker),
-**AI** (agents, Claude Code, tools, guides), the **command line**
+**AI** (concepts, agents, skills, models, tools, guides), the **command line**
 (git, networking, scripting, media tooling), plus a long tail of
 **hardware**, **macOS**, **security**, **photography**, and
 random things I've **googled a lot** and want to remember.

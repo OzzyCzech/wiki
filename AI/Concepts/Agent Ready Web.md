@@ -2,7 +2,7 @@
 title: Agent-Ready Web
 description: Nástroje a standardy pro testování a zlepšení přístupnosti webů pro AI agenty — content negotiation, content signals a diagnostické skenery.
 created: 2026-04-22
-updated: 2026-05-22
+updated: 2026-10-09
 ---
 
 AI agenti přistupují k webu jinak než lidé — potřebují strojově čitelný obsah, jasná pravidla přístupu a efektivní formáty. Vznikají proto nové standardy a nástroje, které pomáhají webům komunikovat s autonomními AI systémy.

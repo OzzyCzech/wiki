@@ -11,7 +11,7 @@ Plugins extend Claude Code with skills, agents, hooks, and MCP or LSP integratio
 
 - **[Nette](https://github.com/nette/agent-plugins)** — `nette@nette`: application-development skills for the Nette PHP ecosystem, including architecture, dependency injection, database access, forms, Latte, and Tracy.
 - **[Frontend Design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design)** — `frontend-design@claude-plugins-official`: guidance for creating distinctive frontend interfaces with polished design.
-- **[Agent Skills](https://github.com/addyosmani/agent-skills)** — `agent-skills@addy-agent-skills`: engineering workflows across planning, implementation, testing, review, and shipping. See [Skills](../skills) for more detail.
+- **[Agent Skills](https://github.com/addyosmani/agent-skills)** — `agent-skills@addy-agent-skills`: engineering workflows across planning, implementation, testing, review, and shipping. See [Skill Collections](../../../skills/skill-collections) for more detail.
 - **[Swift LSP](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp)** — `swift-lsp@claude-plugins-official`: Swift code intelligence through SourceKit-LSP. Its server configuration runs the `sourcekit-lsp` executable.
 - **[CLAUDE.md Management](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management)** — `claude-md-management@claude-plugins-official`: audit and improve `CLAUDE.md` files, capture session learnings, and keep project instructions current.
 
@@ -50,7 +50,7 @@ Use `/plugin` to inspect installed plugins and their scope. Adding a marketplace
 ## Related
 
 - [Claude Code](../claude-code) — commands and settings reference
-- [Skills](../skills) — open-source skill collections
+- [Skill Collections](../../../skills/skill-collections) — open-source skill collections
 
 ## Sources
 

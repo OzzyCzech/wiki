@@ -68,8 +68,6 @@ Agenti mohou používat shell a soubory. Pro síťově dostupnou instalaci READM
 
 ## Sources
 
-Ověřeno 2026-10-09:
-
 - [README](https://github.com/odysseus-dev/odysseus/blob/dev/README.md) — funkce, větve, rychlé spuštění, licence a přístup.
 - [Instalační příručka](https://github.com/odysseus-dev/odysseus/blob/dev/website/setup.md) — nativní instalace, Windows, Apple Silicon a GPU backendy.
 - [Docker Compose](https://github.com/odysseus-dev/odysseus/blob/dev/docker-compose.yml) — služby a aktuální mapování portů.

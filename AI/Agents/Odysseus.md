@@ -76,3 +76,4 @@ Ověřeno 2026-10-09:
 - [Konfigurace prostředí](https://github.com/odysseus-dev/odysseus/blob/dev/.env.example) — endpointy modelů a integrace.
 - [Python dependencies](https://github.com/odysseus-dev/odysseus/blob/dev/requirements.txt) a [webové rozhraní](https://github.com/odysseus-dev/odysseus/tree/dev/static) — technický stack.
 - [Prezentační web a ukázky](https://odysseus-dev.github.io/odysseus/) — deklarace o telemetrii a volitelných integracích.
+- [Promo video na YouTube](https://www.youtube.com/watch?v=rAzT5lcezPs) — původní představení projektu.

@@ -43,4 +43,4 @@ Přehled bezplatných SVG ikon, vyhledávačů a icon fontů pro webové projekt
 ## Favicons
 
 - **[RealFaviconGenerator](https://realfavicongenerator.net/)** — generátor favikon pro všechny platformy (iOS, Android, Windows, macOS)
-- **[Favicon Grabber](http://favicongrabber.com)** — stažení favikony z libovolné domény přes API
+- **[favicondl](https://favicondl.com)** — stažení favikony z libovolné domény (PNG/ICO/SVG), i přes API bez klíče

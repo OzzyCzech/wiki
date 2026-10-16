@@ -2,7 +2,7 @@
 title: NPM packages
 description: Curated list of useful NPM packages for charts, utilities, UI, and web development.
 created: 2024-05-25
-updated: 2026-09-21
+updated: 2026-10-16
 ---
 
 Curated npm packages by category. For publishing packages, see [Publikování npm přes GitHub Actions](../publikovani-npm-pres-github-actions).
@@ -64,6 +64,7 @@ Curated npm packages by category. For publishing packages, see [Publikování np
 ## UI utilities
 
 - **[nprogress](https://ricostacruz.com/nprogress/)** — slim progress bar for page load and async operations
+- **[loading-dev](https://loading.dev/)** — around thirty loading indicators for React, with React 19 or later as a peer dependency and no runtime dependencies of its own ([MIT](https://github.com/jakubkrehel/loading)); each one is an SVG driven by CSS animations over custom properties (`--ld-size`, `--ld-duration`, `--ld-play-state`), strokes use `currentColor` so the colour inherits, every indicator takes the same `size`, `color` and `duration` props plus a `playState` control, and reduced motion is respected out of the box
 
 ## CLI
 

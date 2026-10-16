@@ -64,7 +64,7 @@ Curated npm packages by category. For publishing packages, see [Publikování np
 ## UI utilities
 
 - **[nprogress](https://ricostacruz.com/nprogress/)** — slim progress bar for page load and async operations
-- **[loading-dev](https://loading.dev/)** — around thirty loading indicators for React, with React 19 or later as a peer dependency and no runtime dependencies of its own ([MIT](https://github.com/jakubkrehel/loading)); each one is an SVG driven by CSS animations over custom properties (`--ld-size`, `--ld-duration`, `--ld-play-state`), strokes use `currentColor` so the colour inherits, every indicator takes the same `size`, `color` and `duration` props plus a `playState` control, and reduced motion is respected out of the box
+- **[loading-dev](https://loading.dev/)** — around thirty loading indicators for React, with React 19 or later as a peer dependency and no runtime dependencies of its own ([MIT](https://github.com/jakubkrehel/loading)); indicators are plain markup — some SVG, most nested `div`s — animated entirely with CSS keyframes parameterised by custom properties (`--ld-size`, `--ld-duration`, `--ld-play-state`), and they paint with `currentColor` so the colour inherits, every indicator takes the same `size`, `color` and `duration` props plus a `playState` control, and reduced motion is respected out of the box
 
 ## CLI
 

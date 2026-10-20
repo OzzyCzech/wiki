@@ -2,12 +2,18 @@
 title: Coding Agent Tools
 description: Přehled nástrojů pro správu a orchestraci AI coding agentů — paralelní běh, izolace worktrees, multi-agent workflows.
 created: 2026-04-06
-updated: 2026-10-09
+updated: 2026-10-20
 ---
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
 
 - **[Graftty](https://github.com/btucker/graftty)** — open-source (MIT) terminálový multiplexer pro macOS na libghostty a zmx; persistentní sessions sdružuje podle Git worktree, každý s vlastním rozložením panelů. Volitelný režim Agent Teams přes pluginy pro Codex a Claude přidává instrukce pro jednotlivé worktrees, zprávy mezi agenty a reakce na události PR a CI. Vlastní CLI ovládá UI a koordinaci; vzdálený přístup mezi Macy přes LAN nebo Tailscale (ověřeno 2026-10-08).
+
+- **[Herdr](https://herdr.dev/)** — runtime, na kterém coding agenti běží: jediná Rust binárka bez Electronu, spouštěná v terminálu, který už používáš. Architektura je server a klienti — server vlastní panely a stav procesů, klientů se může připojit víc najednou a každý si drží vlastní workspace a tab. Hierarchie je [session → workspace → tab → pane](https://herdr.dev/docs/concepts/); agent se v panelu rozpozná automaticky a jeho stav je `working`, `blocked`, `done`, `idle` nebo `unknown`, takže je na první pohled vidět, který čeká na odpověď. Odpojení (`ctrl+b q`) ani výpadek SSH terminály nezabije; po restartu serveru nebo stroje se obnoví uložené rozložení a u podporovaných agentů i session, ale [původní procesy nepřežijí](https://github.com/herdrdev/herdr). Agenti ovládají Herdr sami přes CLI a socket API — umí zakládat panely, posílat si navzájem prompty a čekat, až je jiný agent skutečně zablokovaný. Lokální i uložené SSH stroje se slévají do jednoho seznamu agentů, ovládání jde tmux-style prefixem i myší, panely a workflow rozšiřují pluginy. Apache-2.0 (ověřeno 2026-10-20).
+
+  ```bash
+  brew install herdr
+  ```
 
 - **[Vertical Tabs](https://verticaltabs.com/)** — terminálové prostředí pro macOS s projektovými workspaces, vertikálními taby a rychlým přepínáním přes Cmd+K. Spouští Claude Code, Codex, Gemini CLI, GitHub Copilot i další terminálové procesy; indikátory rozlišují běžící agenty, čekání na oprávnění a dokončení připravené k review. Vestavěné Git GUI pro staging, diffy, commity a push, včetně podpory Git worktrees. Verze pro Windows a Linux jsou plánované (ověřeno 2026-10-08).
 
@@ -20,6 +26,8 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
   ```
 
 - **[Orca](https://onorca.dev/)** — agent development environment pro paralelní běh více než 25 agentů (Claude Code, Codex, Cursor CLI, Copilot, Gemini, Grok, OpenCode, goose a další), každý ve vlastním izolovaném Git worktree. GPU renderovaný terminál s dělením panelů, vestavěný Chromium s design mode pro inspekci UI, nativní integrace GitHubu a Linearu, inline anotace diffů posílané zpět agentovi a vlastní CLI, kterým agent řídí prostředí. Desktop pro macOS (ARM i Intel), Windows a Linux, companion aplikace pro iOS a Android, plus režim remote worktrees přes SSH s automatickým reconnectem a port forwardingem. Open source (MIT), zdroják na [GitHubu](https://github.com/stablyai/orca).
+
+- **[Nimbalyst](https://nimbalyst.com/)** — vizuální workspace, ve kterém se výstup agenta nejen čte, ale rovnou edituje: WYSIWYG editory pro Markdown, mockupy, Mermaid, Excalidraw, CSV, datové modely a kód v Monacu, přičemž člověk i agent sahají na stejné soubory. Navržené změny se procházejí jako red/green diff přímo ve vyrenderovaném dokumentu a přijímají nebo zamítají po jednotlivých úpravách. Paralelní sessions běží v oddělených Git worktrees, sledují se na kanban boardu a dají se propojit se soubory, kterých se dotkly; tasky čtou a zapisují agenti i lidé. Obsah zůstává jako obyčejné soubory v repozitáři, žádné proprietární úložiště. MCP klient vykresluje výsledky nástrojů jako widgety místo syrového JSON a vlastní editory se píšou přes stejný `EditorHost` kontrakt jako ty vestavěné. Podporuje Codex a Claude Code, OpenCode a Copilota v alfě. macOS, Windows a Linux, vestavěný Ghostty terminál a companion aplikace pro iOS. MIT, zdroják na [GitHubu](https://github.com/nimbalyst/nimbalyst) (ověřeno 2026-10-20).
 
 - **[MonoCode](https://www.usemono.dev/)** — open-source desktopové GUI (MIT) pro Claude Code, Codex, Cursor, Grok Build, OpenCode, Antigravity, Pi, Oh My Pi, fx a Hermes Agent. Sessions běží v tabech a vstup se zadává přes společný composer; používá již nainstalované a přihlášené agenty a jejich předplatné. Dostupné pro macOS (Apple Silicon i Intel), Windows a Linux. Experimentálně podporuje vzdálené sessions; projekt je v rané fázi. Zdrojový kód a instalace na [GitHubu](https://github.com/hardbeat920/monocode) (ověřeno 2026-10-01).
 

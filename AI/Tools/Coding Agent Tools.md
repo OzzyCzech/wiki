@@ -7,17 +7,12 @@ updated: 2026-10-20
 
 Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů paralelně v izolovaných prostředích (Docker, Git worktrees), přepínat mezi nimi a reviewovat výstupy. Liší se platformou, licenčním modelem a podporovanými agenty.
 
-- **[Graftty](https://github.com/btucker/graftty)** — open-source (MIT) terminálový multiplexer pro macOS na libghostty a zmx; persistentní sessions sdružuje podle Git worktree, každý s vlastním rozložením panelů. Volitelný režim Agent Teams přes pluginy pro Codex a Claude přidává instrukce pro jednotlivé worktrees, zprávy mezi agenty a reakce na události PR a CI. Vlastní CLI ovládá UI a koordinaci; vzdálený přístup mezi Macy přes LAN nebo Tailscale (ověřeno 2026-10-08).
-
 - **[Herdr](https://herdr.dev/)** — runtime, na kterém coding agenti běží: jediná Rust binárka bez Electronu, spouštěná v terminálu, který už používáš. Architektura je server a klienti — server vlastní panely a stav procesů, klientů se může připojit víc najednou a každý si drží vlastní workspace a tab. Hierarchie je [session → workspace → tab → pane](https://herdr.dev/docs/concepts/); agent se v panelu rozpozná automaticky a jeho stav je `working`, `blocked`, `done`, `idle` nebo `unknown`, takže je na první pohled vidět, který čeká na odpověď. Odpojení (`ctrl+b q`) ani výpadek SSH terminály nezabije; po restartu serveru nebo stroje se obnoví uložené rozložení a u podporovaných agentů i session, ale [původní procesy nepřežijí](https://github.com/herdrdev/herdr). Agenti ovládají Herdr sami přes CLI a socket API — umí zakládat panely, posílat si navzájem prompty a čekat, až je jiný agent skutečně zablokovaný. Lokální i uložené SSH stroje se slévají do jednoho seznamu agentů, ovládání jde tmux-style prefixem i myší, panely a workflow rozšiřují pluginy. Apache-2.0 (ověřeno 2026-10-20).
 
   ```bash
   brew install herdr
   ```
 
-- **[Vertical Tabs](https://verticaltabs.com/)** — terminálové prostředí pro macOS s projektovými workspaces, vertikálními taby a rychlým přepínáním přes Cmd+K. Spouští Claude Code, Codex, Gemini CLI, GitHub Copilot i další terminálové procesy; indikátory rozlišují běžící agenty, čekání na oprávnění a dokončení připravené k review. Vestavěné Git GUI pro staging, diffy, commity a push, včetně podpory Git worktrees. Verze pro Windows a Linux jsou plánované (ověřeno 2026-10-08).
-
-- **[Wortel](https://wortel.sh/)** — nativní macOS terminál (Swift + AppKit) na libghostty pro coding agenty jako Claude Code, Codex a Aider. Pojmenované sessions, samostatný Git worktree pro každou branch, vestavěné diffy, historie a prohlížeč souborů; upozornění při nečinnosti agenta na pozadí. Shelly běží v odděleném procesu a pokračují i po zavření aplikace. Zdarma pro macOS 14+, pevné nastavení kromě velikosti písma (ověřeno 2026-10-08).
 
 - **[cmux](https://cmux.com/)** — nativní macOS terminál (Swift + AppKit) pro paralelní běh agentů: vertikální taby s git branchí, pracovním adresářem a porty, split panely, notifikační kroužky u procesů čekajících na pozornost, skriptovatelný vestavěný browser a CLI/socket API. Funguje s libovolným agentem spustitelným z terminálu (Claude Code, Codex, OpenCode, Gemini CLI). Postavený na libghostty jako knihovně, nikoli jako fork Ghostty; open source (GPL), iOS companion app v betě.
 
@@ -25,23 +20,16 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
   brew install --cask cmux
   ```
 
+
 - **[Orca](https://onorca.dev/)** — agent development environment pro paralelní běh přes 30 agentů (Claude Code, Codex, Cursor, Copilot, Grok, OpenCode, Amp, Devin, Pi, Hermes Agent, goose, Cline, Kimi, Qwen Code a další; funguje s libovolným CLI agentem), každý ve vlastním izolovaném Git worktree. Jeden prompt umí rozeslat několika agentům najednou, porovnat výsledky a zamergovat ten nejlepší. Terminály s WebGL renderováním, neomezeným dělením panelů a scrollbackem, který přežije restart; vestavěný Chromium s design mode, kde kliknutí na UI prvek pošle agentovi jeho HTML, CSS a oříznutý screenshot; nativní integrace GitHubu a Linearu, inline anotace diffů posílané zpět agentovi a vlastní CLI, kterým agent řídí prostředí (`orca worktree create`, `snapshot`, `click`, `fill`). [Computer Use](https://www.onorca.dev/docs/cli/computer-use) přes `orca computer` nechá agenta ovládat i nativní desktopové aplikace přes accessibility stromy a screenshoty — zatím beta, na macOS vyžaduje oprávnění Accessibility a Screen Recording. Dále sledování spotřeby a resetů rate limitů u Claude a Codexu s přepínáním účtů bez nového přihlašování, quick open napříč worktrees, soubory, agenty a kontextem repozitáře, a notifikace včetně příznaku nepřečteno. Desktop pro macOS (ARM i Intel), Windows a Linux, companion aplikace pro iOS a Android, plus režim remote worktrees přes SSH s automatickým reconnectem a port forwardingem. Sbírá anonymní telemetrii, [vypnout jde](https://www.onorca.dev/docs/telemetry). Open source (MIT), zdroják na [GitHubu](https://github.com/stablyai/orca) (ověřeno 2026-10-20).
 
   ```bash
   brew install --cask stablyai/orca/orca
   ```
 
-- **[Nimbalyst](https://nimbalyst.com/)** — vizuální workspace, ve kterém se výstup agenta nejen čte, ale rovnou edituje: WYSIWYG editory pro Markdown, mockupy, Mermaid, Excalidraw, CSV, datové modely a kód v Monacu, přičemž člověk i agent sahají na stejné soubory. Navržené změny se procházejí jako red/green diff přímo ve vyrenderovaném dokumentu a přijímají nebo zamítají po jednotlivých úpravách. Paralelní sessions běží v oddělených Git worktrees, sledují se na kanban boardu a dají se propojit se soubory, kterých se dotkly; tasky čtou a zapisují agenti i lidé. Obsah zůstává jako obyčejné soubory v repozitáři, žádné proprietární úložiště. MCP klient vykresluje výsledky nástrojů jako widgety místo syrového JSON a vlastní editory se píšou přes stejný `EditorHost` kontrakt jako ty vestavěné. Podporuje Codex a Claude Code, OpenCode a Copilota v alfě. macOS, Windows a Linux, vestavěný Ghostty terminál a companion aplikace pro iOS. MIT, zdroják na [GitHubu](https://github.com/nimbalyst/nimbalyst) (ověřeno 2026-10-20).
-
-- **[MonoCode](https://www.usemono.dev/)** — open-source desktopové GUI (MIT) pro Claude Code, Codex, Cursor, Grok Build, OpenCode, Antigravity, Pi, Oh My Pi, fx a Hermes Agent. Sessions běží v tabech a vstup se zadává přes společný composer; používá již nainstalované a přihlášené agenty a jejich předplatné. Dostupné pro macOS (Apple Silicon i Intel), Windows a Linux. Experimentálně podporuje vzdálené sessions; projekt je v rané fázi. Zdrojový kód a instalace na [GitHubu](https://github.com/hardbeat920/monocode) (ověřeno 2026-10-01).
 
 - **[Paseo](https://paseo.sh/)** — open-source control plane pro coding agenty, který sjednocuje Claude Code, Codex, OpenCode, Pi, Cursor a další providery v desktopové, mobilní a webové aplikaci. Agenti běží lokálně nebo na vzdáleném stroji s vlastními přihlašovacími údaji; přístup zvenčí lze řešit end-to-end šifrovaným relayem, lokální sítí nebo vlastním tunelem. Podporuje izolované Git worktrees, plánované úlohy, spolupráci v týmu a automatizaci přes MCP, CLI či TypeScript SDK. Apache-2.0.
 
-- **[Harness](https://www.autonomous.ai/harness-app)** — nativní (ne Electron) command center od Autonomous pro paralelní běh 14+ coding agentů (Claude Code, Codex, Cursor, OpenCode, Pi, Hermes, Devin, Amp, Kilo Code, Grok Build, Antigravity, GitHub Copilot a další) napříč laptopem, domácím serverem i cloudovými stroji bez nastavování SSH či VPN. Agenti běží na hostitelském stroji, takže pokračují i po zavření aplikace nebo přepnutí zařízení; každý dostane vlastní Git worktree. Spojení jde end-to-end šifrovaně přímo přes WebRTC, s fallbackem na Cloudflare TURN relay. Nad rámec kódu nabízí 49+ doménových harnessů (Blender, Godot, MuJoCo, CircuitJS, RDKit, Typst, Strudel). Běží na macOS 12+ a Ubuntu 22.04+. Open source (MIT) jako [openharness](https://github.com/autonomous-ai/openharness) — Flutter frontend, Node.js daemon a relay, terminály přes tmux.
-
-  ```bash
-  curl -fsSL https://harness.autonomous.ai/cli/install.sh | bash
-  ```
 
 - **[Superset](https://superset.sh/)** — desktop app pro paralelní spouštění agentů (Claude, Codex, Cursor, OpenCode, Gemini, Grok CLI a další) v izolovaných Git worktrees. Umí naplánované automatizace typu issue triage nebo aktualizace závislostí, běh workspace na vzdáleném stroji přes SSH, CLI a SDK pro skriptování a otevření worktree ve VS Code, Cursoru, Xcode, JetBrains IDE nebo terminálu. Kód a session zůstávají lokálně, cloud sync se týká jen metadat účtu. Zdrojový kód na GitHubu pod Elastic License 2.0 (ELv2).
 
@@ -49,9 +37,9 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
   brew install superset-sh/tap/superset
   ```
 
-- **[Agentation](https://www.agentation.com/)** — anotuje UI prvky a generuje z nich strukturovaný kontext pro agenty: CSS selektory, cesty k souborům, hierarchii komponent a computed styles, takže místo „ten modrý button" dostane agent přesné zaměření. Výstup lze zkopírovat do Claude Code nebo Codexu, nebo synchronizovat v reálném čase přes MCP; k dispozici jsou i webhooky a API. Instalace přes `npm install agentation`; zdarma pro jednotlivce a interní firemní použití.
 
 - **[goose](https://goose-docs.ai/)** — open source lokální AI agent v Rustu pro engineering úkoly, dříve projekt Blocku, dnes vedený pod [Agentic AI Foundation](https://goose-docs.ai/) při Linux Foundation (Apache-2.0, vendor-neutral). Běží jako desktop app, CLI i API, rozšiřitelný přes 70+ MCP rozšíření a funguje s 15+ providery LLM (Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock). Subagenti umí odbavovat úlohy paralelně — code review, research, zpracování souborů.
+
 
 - **[T3 Code](https://github.com/pingdotgg/t3code)** — minimální control surface pro coding agenty na mobilu, webu i desktopu; podporuje Codex, Claude Code, Cursor, Grok Build, OpenCode a Google Antigravity. Open source (MIT), stále v rané fázi.
 
@@ -64,15 +52,29 @@ Nástroje pro orchestraci AI coding agentů umožňují spouštět více agentů
 
   Před použitím je potřeba autentizovat příslušného agenta, například [Codex CLI](https://github.com/openai/codex) nebo Claude Code.
 
-- **[JetBrains Air](https://air.dev/)** — standalone agentic vývojové prostředí od JetBrains, v public preview od března 2026. Paralelní agenti (Claude Agent, Codex, Gemini CLI, Junie i další ACP-kompatibilní) běží ve třech [prostředích](https://www.jetbrains.com/help/air/quick-start-with-air.html): lokální workspace, Git worktree na vlastní branchi, nebo izolovaný Docker kontejner pro nedůvěryhodný kód. Rozšiřitelné přes MCP. Běží na macOS, Linuxu i Windows (přes Toolbox, na Linuxu i install skriptem). Přístup k modelům jde přes předplatné JetBrains AI, přes vlastní účet u providera (Claude Pro/Max apod.) nebo BYOK.
+## Others
 
-- **[Emdash](https://emdash.com/)** — open source agentic development environment (Apache-2.0, YC W26) pro paralelní běh coding agentů — každý úkol v izolovaném Git worktree, vestavěný code review, editor souborů a prohlížeč pro náhled aplikace; správa promptů, skills a MCP nástrojů na jednom místě. Novější verze přidávají plánování opakované práce a remote development. Podporuje macOS, Windows a Linux a přes 25 agentů (Claude Code, Codex, Cursor, Amp, Antigravity) bez vendor lock-inu.
+Nástroje s menším záběrem, v rané fázi vývoje nebo uzavřené a svázané s jednou platformou.
 
-  ```bash
-  brew install --cask emdash
-  ```
+- **[Graftty](https://github.com/btucker/graftty)** — terminálový multiplexer pro macOS (MIT) na libghostty, který sdružuje persistentní sessions podle Git worktree; volitelný režim Agent Teams přidává instrukce pro worktrees a zprávy mezi agenty (ověřeno 2026-10-08).
 
-- **[Conductor](https://www.conductor.build/)** — Mac app pro orchestraci více agentů (Claude Code, Codex, Cursor) současně v izolovaných pracovních prostorech, s průběžným přehledem, co který agent dělá, a review a mergem změn. Placený, closed source; instalace přes `brew install --cask conductor`.
+- **[Vertical Tabs](https://verticaltabs.com/)** — terminálové prostředí pro macOS s projektovými workspaces, vertikálními taby a vestavěným Git GUI včetně worktrees; verze pro Windows a Linux jsou plánované (ověřeno 2026-10-08).
+
+- **[Wortel](https://wortel.sh/)** — nativní macOS terminál (Swift + AppKit) na libghostty s pojmenovanými sessions, samostatným worktree pro každou branch a vestavěnými diffy; zdarma pro macOS 14+ (ověřeno 2026-10-08).
+
+- **[Nimbalyst](https://nimbalyst.com/)** — vizuální workspace, kde se výstup agenta edituje přímo ve WYSIWYG editorech pro Markdown, mockupy, Mermaid nebo Excalidraw a změny se přijímají jako red/green diff ve vyrenderovaném dokumentu; MIT, zdroják na [GitHubu](https://github.com/nimbalyst/nimbalyst) (ověřeno 2026-10-20).
+
+- **[MonoCode](https://www.usemono.dev/)** — desktopové GUI pro Claude Code, Codex, Cursor a další, se sessions v tabech a společným composerem; využívá už nainstalované agenty a jejich předplatné, projekt je v rané fázi. MIT, zdroják na [GitHubu](https://github.com/hardbeat920/monocode) (ověřeno 2026-10-01).
+
+- **[Harness](https://www.autonomous.ai/harness-app)** — nativní command center od Autonomous pro 14+ agentů napříč laptopem, domácím serverem i cloudem bez nastavování SSH či VPN, spojené end-to-end šifrovaně přes WebRTC; open source jako [openharness](https://github.com/autonomous-ai/openharness) (MIT).
+
+- **[Agentation](https://www.agentation.com/)** — spíš než orchestrátor je to generátor kontextu: anotuje UI prvky a posílá agentovi CSS selektory, cesty k souborům, hierarchii komponent a computed styles, buď zkopírované, nebo v reálném čase přes MCP.
+
+- **[JetBrains Air](https://air.dev/)** — standalone agentic vývojové prostředí od JetBrains v public preview; paralelní ACP-kompatibilní agenti běží v lokálním workspace, v Git worktree na vlastní branchi, nebo v izolovaném Docker kontejneru pro nedůvěryhodný kód. macOS, Linux i Windows.
+
+- **[Emdash](https://emdash.com/)** — open source agentic development environment (Apache-2.0, YC W26) pro paralelní běh 25+ agentů, každý úkol v izolovaném Git worktree, s vestavěným code review a prohlížečem pro náhled aplikace; macOS, Windows i Linux.
+
+- **[Conductor](https://www.conductor.build/)** — placená closed source Mac app pro orchestraci Claude Code, Codexu a Cursoru současně v izolovaných pracovních prostorech, s review a mergem změn.
 
 ## Sources
 

@@ -2,7 +2,7 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-06-19
+updated: 2026-10-23
 _width: normal
 ---
 Markdown-focused writing and note apps for macOS.
@@ -47,6 +47,7 @@ Markdown-focused writing and note apps for macOS.
 Read-only Markdown apps focused on rendering rather than authoring.
 
 - **[Markdown Preview](https://markdownpreview.app/)** — native, open-source (MIT) macOS reader for `.md` files (macOS 15+); document outline sidebar, Quick Look extension for Finder, Spotlight preview, hand-off to external editors (VS Code, Cursor, Zed, Sublime); no account or setup
+- **[MacMD Viewer](https://macmdviewer.com/)** — read-only `.md` reader for macOS 14+ (Apple Silicon and Intel); Mermaid diagrams, syntax highlighting, document outline, 12 themes, zoom to 300%, live reload on save, Finder Quick Look previews and PDF export; sandboxed, works offline, paid one-time licence, also on [Setapp](https://setapp.com/apps/macmd-viewer)
 
 ### 🌐 Online
 

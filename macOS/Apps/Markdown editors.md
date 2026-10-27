@@ -2,7 +2,7 @@
 title: Markdown editors
 description: Markdown and plain-text editors for macOS, from distraction-free writing apps to full knowledge bases.
 created: 2020-10-12
-updated: 2026-10-23
+updated: 2026-10-27
 _width: normal
 ---
 Markdown-focused writing and note apps for macOS.
@@ -13,7 +13,7 @@ Markdown-focused writing and note apps for macOS.
 - **[Cogito](https://cogito.md/)** — native macOS Markdown editor (free beta, requires macOS Tahoe 26+) with wiki links, `!`[[embeds]], synced source/preview scrolling, Quick Open (⌘P), multi-tab support, and syntax highlighting for 20+ languages; stores plain files on disk with no proprietary database
 - **[Tolaria](https://tolaria.md/)** — free, [open-source](https://github.com/refactoringhq/tolaria) Markdown note app for macOS with block-based editing, wikilinks, built-in Git client, and native Claude Code integration via MCP server; no account required
 - **[Clearly](https://clearly.md/)** — native SwiftUI/AppKit Markdown editor for macOS with GitHub Flavored Markdown preview, Mermaid diagrams, KaTeX math, callouts, footnotes, PDF export, menubar scratchpad, and QuickLook integration; open source and free
-- **[Writer](https://writer.computer/)** — local-first desktop Markdown editor for folders of plain-text notes; built on Tauri v2 + React + CodeMirror + Rust, respects workspace `.gitignore`, supports multiple windows, tables, and Mermaid diagrams; signed macOS releases, [open source](https://github.com/joelbqz/writer-computer)
+- **[Writer](https://writer.computer/)** — local-first desktop Markdown editor for folders of plain-text notes; built on Tauri v2 + React + CodeMirror + Rust, respects workspace `.gitignore`, supports multiple windows, YAML frontmatter, tables and Mermaid diagrams; opt-in telemetry (off by default), signed Apple Silicon macOS builds, [open source](https://github.com/joelbqz/writer-computer) (GPL-3.0)
 
 ### ⭐ Well known
 

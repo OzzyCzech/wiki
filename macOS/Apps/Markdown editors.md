@@ -27,7 +27,6 @@ Markdown-focused writing and note apps for macOS.
 - **[Nota](https://nota.md/)** — Markdown notes app for local files with wiki links, backlinks, Quick Open and a command palette; macOS beta by invite only (waitlist); no account or subscription required
 - **[Soba Notes](https://sobanotes.app/)** — native macOS Markdown notes app for local files
 - **[Joplin](https://joplinapp.org/)** — open-source note-taking app with end-to-end encryption and sync via Nextcloud, Dropbox, or WebDAV
-- **[Notable](https://notable.app/)** — Markdown note-taking app with tags, dark theme, and multi-note editing; unmaintained — last release 1.8.4 (January 2020) is Intel-only and the Homebrew cask was removed as unmaintained
 
 ### ✍️ Writer centric
 
@@ -39,7 +38,7 @@ Markdown-focused writing and note apps for macOS.
 
 ### 🧰 Simple editors
 
-- **[MacDown 3000](https://macdown.app/)** — free, open-source (MIT) split-pane Markdown editor with live preview, code highlighting, math, task lists and HTML/PDF export; maintained continuation of [MacDown](https://macdown.uranusjr.com/), whose last release (0.7.3) dates from January 2020; macOS 11+, Universal binary
+- **[MacDown 3000](https://macdown.app/)** — free, open-source (MIT) split-pane Markdown editor with live preview, code highlighting, math, task lists and HTML/PDF export; continuation of the original MacDown; macOS 11+, Universal binary
 - **[MarkText](https://github.com/marktext/marktext)** — open-source WYSIWYG Markdown editor for Linux, macOS, and Windows
 
 ### 👀 Viewers
@@ -55,7 +54,6 @@ Read-only Markdown apps focused on rendering rather than authoring.
 
 ### 💻 Dev centric
 
-- **[GitJournal](https://gitjournal.io/)** — mobile Markdown note app with Git-backed storage; integrates with desktop editors; no App Store release since 1.85.2 (June 2022)
 - **[Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)** — general code editor with built-in Markdown preview and extensions for enhanced editing
 
 ### 🧪 Related markup formats

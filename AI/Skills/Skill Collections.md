@@ -2,12 +2,14 @@
 title: Skill Collections
 description: Curated skill collections and managers for AI agents, with explicitly labeled installation examples for individual tools.
 created: 2026-04-08
-updated: 2026-10-09
+updated: 2026-11-02
 ---
 
 Open-source skill collections and managers for AI agents. The underlying format is the open [Agent Skills](../agent-skills) standard, shared by Claude Code, Codex and other agents. Compatibility depends on each collection and the target agent; installation examples below name the tool they apply to.
 
 ## 🛠️ Skills
+
+- **[Rodokmen](/inspiration/genealogy/#skill-rodokmen)** — Czech genealogy research; see the genealogy overview for installation and workflow
 
 - **[Superpowers](https://github.com/obra/superpowers)** — kompletní agentic workflow framework od Jesseho Vincenta (Prime Radiant); kompozitní "skills" řídí celý vývojový cyklus: brainstorming → plán → implementace přes subagenty → TDD → code review → merge/PR. Agent automaticky detekuje relevantní skill a dodržuje ho jako povinný workflow. Funguje s Claude Code, Cursor, Codex, OpenCode, Gemini CLI a GitHub Copilot CLI.
 

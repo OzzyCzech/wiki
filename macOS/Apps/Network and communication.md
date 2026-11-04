@@ -2,7 +2,7 @@
 title: Network and communication
 description: Browsers, VPN clients, download managers, RSS readers, email clients, and messaging apps for macOS.
 created: 2026-04-01
-updated: 2026-10-09
+updated: 2026-11-04
 ---
 
 Apps for browsing the web, managing network privacy, downloading files, reading feeds, email, and messaging on macOS.
@@ -44,6 +44,7 @@ Apps for browsing the web, managing network privacy, downloading files, reading 
 ## Email clients
 
 - **[GotEmail](https://gotemail.shipcat.app/)** — native mail app for macOS 15+ with a unified inbox for IMAP/SMTP accounts, live notifications, and on-demand AI drafts and thread summaries; AI requests go to OpenAI through the developer's service. One-time license for all your Macs (accessed 2026-10-09).
+- **[Bloop.email](https://bloop.email/)** — native mail app for macOS 15+ (Apple silicon and Intel) that merges Gmail, Outlook, iCloud, Yahoo and any IMAP account into one inbox; mail goes straight from the Mac to the provider with no vendor server, analytics or sign-up, and AI drafts, thread summaries and translation run on-device with Apple Intelligence (or your own OpenAI, Claude or Grok key, or a local model via Ollama). Ships a built-in MCP server with one-click setup for Claude, Claude Code, Codex, Cursor and Antigravity — agents can search, read, label, archive and snooze mail and draft replies, scoped to the accounts you pick, with sending off by default. One-time license (accessed 2026-11-04).
 
 ## Messaging
 

@@ -31,6 +31,10 @@ Resources for comparing AI model performance through independent benchmarks and 
 
 **[lmcouncil.ai](https://lmcouncil.ai/benchmarks)** — aggregates scores across multiple benchmarks to produce a composite ranking of frontier models, weighted by category (agentic execution, coding, reasoning, etc.).
 
+### AIHOT Model Leaderboard
+
+**[AIHOT Model Leaderboard](https://aihot.news/leaderboard)** — Chinese-language comparison that combines results measured by independent evaluation teams into a common scoring scale. Each model links to its underlying evaluations and shows how scores vary by capability.
+
 ---
 
 ## 📐 Benchmark Tests

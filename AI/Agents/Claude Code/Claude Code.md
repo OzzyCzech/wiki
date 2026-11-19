@@ -2,7 +2,7 @@
 title: Claude Code
 description: AI coding agent by Anthropic — commands, skills, plugins, persistent context, and settings.
 created: 2025-01-01
-updated: 2026-10-09
+updated: 2026-11-19
 sidebar:
   order: 1
 ---
@@ -75,6 +75,10 @@ Settings have several scopes:
 Local settings override shared project settings, which override user settings; managed policies and command-line settings can take precedence. Keep a manually created local settings file out of Git.
 
 My configuration: [claude/settings.json in dotfiles](https://github.com/OzzyCzech/dotfiles/blob/main/claude/settings.json).
+
+## Status line
+
+The built-in [`/statusline` command](https://code.claude.com/docs/en/commands) can configure a custom line below the prompt. See [Claude Code Status Line](../status-line) for selected projects, including my own status line and the polished [ctxline](https://ctxline.js.org/).
 
 ## Claude Code Status
 

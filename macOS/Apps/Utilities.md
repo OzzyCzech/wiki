@@ -2,7 +2,7 @@
 title: Utilities
 description: macOS utility apps for system optimization, file automation, app management, and text input.
 created: 2026-04-01
-updated: 2026-10-06
+updated: 2026-11-19
 ---
 
 Miscellaneous macOS utilities for managing apps, files, and system behavior, plus text-input helpers like dictation and OCR.
@@ -21,6 +21,10 @@ Miscellaneous macOS utilities for managing apps, files, and system behavior, plu
 - **[Uttero](https://danielgamrot.cz/nastroje/uttero/)** — free dictation utility for macOS 14+ from Czech developer [Daniel Gamrot](https://danielgamrot.cz/); hold a key, speak, and the text lands straight in the active app; transcribes locally via WhisperKit or streams in real time through Soniox, then has Claude or GPT fix punctuation and adjust the wording to context
 - **[Field Theory](https://www.fieldtheory.dev/)** — clipboard-based context capture for AI workflows on Apple Silicon; offline voice transcription via Parakeet, screenshot annotation, stacking of images and markdown, and portable commands that work across Claude, ChatGPT, and Cursor
 - **[mac-ocr](https://github.com/privatenumber/mac-ocr)** — CLI that reads text from images and PDFs and builds searchable PDFs using Apple's Vision framework; runs fully on-device (nothing uploaded), installs via npm, and ships an agent skill so AI agents can OCR locally instead of spending vision tokens
+
+## Notes and to-dos
+
+- **[Cue](https://www.usecue.today/)** — free, [open-source](https://github.com/zlwaterfield/cue) (MIT) daily notes and to-dos for Mac (Apple silicon) and iPhone; organizes text, nested bullets and tasks by day, with keyboard shortcuts and moving unfinished items to tomorrow; works offline without an account, offers optional free sync, Markdown/JSON export and MCP access for assistants when sync is enabled (accessed 2026-11-19)
 
 ## Curated app lists
 

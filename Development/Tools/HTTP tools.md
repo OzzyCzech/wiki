@@ -2,7 +2,7 @@
 title: HTTP tools
 description: Online HTTP tools, DNS utilities, and favicon services for web development and testing.
 created: 2024-04-30
-updated: 2026-09-21
+updated: 2026-11-19
 ---
 
 Quick-reference collection of online and CLI tools for HTTP inspection, DNS lookups, SSL analysis, and local development.
@@ -16,6 +16,10 @@ Quick-reference collection of online and CLI tools for HTTP inspection, DNS look
 ## API clients
 
 - **[Bruno](https://github.com/usebruno/bruno)** — open-source desktop API client and Postman/Insomnia alternative; offline-first, stores collections as plain-text `.bru` files on the filesystem so they can be versioned with Git; supports REST and GraphQL, runs on macOS, Windows and Linux
+
+## Website analysis
+
+- **[The Web Report](https://theweb.report/)** — crawl-based reports on web technology adoption, CMS and hosting market share, performance, security, SEO, and accessibility; includes a domain lookup for inspecting individual websites (accessed 2026-11-19)
 
 ## Favicon
 

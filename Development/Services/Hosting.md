@@ -2,7 +2,7 @@
 title: Hosting
 description: Platforms for deploying web applications to managed cloud services or your own servers.
 created: 2022-11-14
-updated: 2026-09-29
+updated: 2026-11-19
 ---
 
 Overview of hosting platforms for web applications, APIs, and static sites — from serverless PaaS to dedicated cloud servers.
@@ -17,6 +17,7 @@ Overview of hosting platforms for web applications, APIs, and static sites — f
 - **[Zerops.io](https://zerops.io/)** — dev-first cloud platform for building, deploying, and running apps
 - **[Sevalla](https://sevalla.com/)** — Kinsta's PaaS for deploying applications from Git repositories, Dockerfiles, or container images alongside managed databases, S3-compatible object storage, and static sites; its MCP server lets coding agents deploy services and inspect logs and metrics
 - **[Openship](https://openship.io/)** — open-source, self-hostable deployment platform that builds applications and deploys them to its managed cloud or to your own servers over SSH, with a CLI, dashboard, and desktop app
+- **[Self Host Layer](https://selfhostlayer.com/)** — MIT-licensed deployment platform for your own Ubuntu or Debian server, with GitHub push-to-deploy, automatic HTTPS, databases, and one-click WordPress and Ghost installs; apps run as sandboxed services without Docker
 
 ## Server hosting
 

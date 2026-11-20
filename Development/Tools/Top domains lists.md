@@ -2,12 +2,12 @@
 title: Top domains lists
 description: Curated lists of top internet domains useful for analysis, blacklisting, and web crawling.
 created: 2024-09-17
-updated: 2026-04-06
+updated: 2026-11-20
 ---
 
 There are several lists of top domains on the internet. These lists are useful for various purposes,
 such as analyzing the most popular websites, creating a blacklist, or building a web crawler.
-Hsere are some of the most popular lists:
+Here are some of the most popular lists:
 
 ### Tranco
 
@@ -63,7 +63,17 @@ Script will generate `top-5000-domains.s3db` (a SQLLite database) contains table
 ### Statvoo
 
 - Website: https://statvoo.com/top/ranked
-- Download: https://statvoo.com/dl/top-1million-sites.csv.zip
+- Former download: `https://statvoo.com/dl/top-1million-sites.csv.zip` — returns HTTP 410 Gone (checked 2026-11-20)
+
+### NetAPI
+
+- [Website and methodology](https://netapi.com/top-1-mln-websites/)
+- [Download CSV](https://netapi.com/netapi_top1mln.csv) — free, no account or API token required
+- One million domains, rebuilt daily by combining popularity signals from sources including Majestic Million and the Chrome UX Report (CrUX)
+- Format: CSV with a `NetAPI_Rank,Domain` header, ordered by ascending rank
+- License: CC BY 4.0 — credit NetAPI and link to its methodology page when reusing the data
+
+Download and methodology checked on 2026-11-20.
 
 ### DomCop
 

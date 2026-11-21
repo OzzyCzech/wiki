@@ -2,7 +2,7 @@
 title: Claude Code
 description: AI coding agent by Anthropic — commands, skills, plugins, persistent context, and settings.
 created: 2025-01-01
-updated: 2026-11-19
+updated: 2026-11-21
 sidebar:
   order: 1
 ---
@@ -79,6 +79,21 @@ My configuration: [claude/settings.json in dotfiles](https://github.com/OzzyCzec
 ## Status line
 
 The built-in [`/statusline` command](https://code.claude.com/docs/en/commands) can configure a custom line below the prompt. See [Claude Code Status Line](../status-line) for selected projects, including my own status line and the polished [ctxline](https://ctxline.js.org/).
+
+## Account switching
+
+[claude-swap](https://github.com/realiti4/claude-swap) is an MIT-licensed account manager for the Claude Code CLI and VS Code extension on macOS, Linux, and Windows. It provides a usage dashboard, manual switching, automatic rotation near usage limits, and parallel sessions under different accounts.
+
+```bash
+uv tool install claude-swap
+cswap add       # save the account currently logged into Claude Code
+cswap list      # show accounts, usage, and reset times
+cswap switch 2  # change the default account
+cswap run 2     # use account 2 in this terminal only
+cswap auto      # monitor usage and rotate accounts automatically
+```
+
+To add another account, log into Claude Code with it and run `cswap add` again. The project advises against running `/logout` first, because it may revoke the previous account's saved refresh token. Session mode shares settings and chat history by default; `cswap run 2 --no-share-history` keeps that account's history separate. Checked on 2026-11-21.
 
 ## Claude Code Status
 

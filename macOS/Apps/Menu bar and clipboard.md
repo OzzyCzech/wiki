@@ -2,7 +2,7 @@
 title: Menu bar and clipboard
 description: macOS menu bar management tools, window managers, clipboard history managers, and text selection action bars.
 created: 2026-04-01
-updated: 2026-11-11
+updated: 2026-11-25
 ---
 
 Apps for managing the macOS menu bar, controlling window layout, tracking clipboard history, and running quick actions on selected text.
@@ -16,6 +16,24 @@ Apps for managing the macOS menu bar, controlling window layout, tracking clipbo
 - **[Rectangle](https://rectangleapp.com/)** — window snapping and resizing via keyboard shortcuts or drag-to-edge
 - **[LeaderKey](https://github.com/mikker/LeaderKey.app)** — open-source launcher that chains keyboard shortcuts for launching apps and running scripts
 - **[Vorssaint](../vorssaint)** — free open-source menu bar app bundling audio mixing, system monitoring, window snapping, clipboard history and text expansion in one icon (Apple Silicon, macOS 14+)
+- **[Hidden Bar](https://github.com/consolelabs/hidden)** — lightweight utility for hiding and revealing menu bar icons
+- **[Dozer](https://github.com/Mortennn/Dozer)** — hides selected menu bar icons to keep the menu bar uncluttered
+- **[yabai](https://github.com/asmvik/yabai)** — scriptable tiling window manager that automatically arranges windows using binary space partitioning
+- **[AeroSpace](https://github.com/nikitabobko/AeroSpace)** — i3-inspired tiling window manager with keyboard-driven workspaces
+- **[Amethyst](https://github.com/ianyh/Amethyst)** — automatic tiling window manager inspired by xmonad
+- **[Loop](https://github.com/MrKai77/Loop)** — moves and resizes windows through a radial menu or keyboard shortcuts
+- **[AltTab](https://github.com/lwouis/alt-tab-macos)** — Windows-style Alt-Tab switching between individual application windows
+- **[DockDoor](https://github.com/ejbills/DockDoor)** — adds window previews to Dock icons and an alternative window switcher
+- **[SketchyBar](https://github.com/FelixKratz/SketchyBar)** — scriptable replacement status bar with custom widgets and styling
+- **[xbar](https://github.com/matryer/xbar)** — displays output from scripts and programs in the menu bar
+- **[SwiftBar](https://github.com/swiftbar/SwiftBar)** — creates custom menu bar items from scripts and plugins
+- **[Boring Notch](https://github.com/TheBoredTeam/boring.notch)** — turns the MacBook notch into music controls, a calendar view, and a file shelf
+- **[Pock](https://github.com/pock/pock)** — widget manager for MacBook Touch Bar models, including a Dock widget
+
+## Calendar and meetings
+
+- **[MeetingBar](https://github.com/leits/MeetingBar)** — shows upcoming meetings in the menu bar and provides quick access to meeting links
+- **[Itsycal](https://www.mowglii.com/itsycal/)** — small menu bar calendar for checking dates and calendar events
 
 ## Clipboard managers
 
@@ -24,6 +42,7 @@ Apps for managing the macOS menu bar, controlling window layout, tracking clipbo
 - **[PasteBar](https://www.pastebar.app/)** — clipboard manager with pinned items, collections, and history search
 - **[Paste](https://pasteapp.me/)** — clipboard history manager with iCloud sync and visual layout
 - **[Supaste](https://www.supaste.com/)** — local-first clipboard and screenshot history manager (macOS Sonoma+); search by app or content type, automatic grouping, sensitive content detection, drag-and-drop from notch shelf; supports text, links, images, files, code, colors, SVG and screenshots; one-time payment, no cloud sync
+- **[Clipy](https://github.com/Clipy/Clipy)** — clipboard history and reusable text snippets accessible from the menu bar
 
 ## Text selection actions
 

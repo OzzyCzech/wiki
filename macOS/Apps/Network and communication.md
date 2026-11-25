@@ -2,7 +2,7 @@
 title: Network and communication
 description: Browsers, VPN clients, download managers, RSS readers, email clients, and messaging apps for macOS.
 created: 2026-04-01
-updated: 2026-11-04
+updated: 2026-11-25
 ---
 
 Apps for browsing the web, managing network privacy, downloading files, reading feeds, email, and messaging on macOS.
@@ -12,6 +12,14 @@ Apps for browsing the web, managing network privacy, downloading files, reading 
 - **[Zen](https://zen-browser.app/)** — Firefox-based browser with a focus-oriented, tab-grouping interface
 - **[Brave](https://brave.com/)** — Chromium-based browser with built-in ad blocking and privacy features
 - **[Firefox](https://www.mozilla.org/en-US/firefox/new/)** — open-source browser by Mozilla with strong privacy defaults and extension support
+
+## Browser routing
+
+- **[Finicky](https://github.com/johnste/finicky)** — routes links to different browsers using configurable URL rules
+
+## Firewalls
+
+- **[LuLu](https://github.com/objective-see/LuLu)** — free, open-source macOS firewall from Objective-See
 
 ## Ad blockers
 

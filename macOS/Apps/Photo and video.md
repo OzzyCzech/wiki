@@ -2,7 +2,7 @@
 title: Photo and video
 description: Image viewers, photo editors, media converters, video players, and screen recorders for macOS.
 created: 2026-04-01
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 Apps for viewing, editing, converting, and recording media on macOS.
@@ -17,6 +17,11 @@ Apps for viewing, editing, converting, and recording media on macOS.
 - **[Affinity](https://affinity.serif.com/)** — free professional creative app from Canva combining vector design, photo editing, and page layout tools
 - **[Pixelmator Pro](https://www.pixelmator.com/pro/)** — Apple image editor for Mac and iPad with AI-assisted tools, layer-based editing, and Apple Creator Studio integration
 - **[Procreate](https://procreate.art/)** — professional digital illustration app for iPad (not macOS)
+- **[Pika](https://github.com/superhighfives/pika)** — open-source color picker for sampling colors from the screen
+
+## Screensavers
+
+- **[Aerial](https://github.com/JohnCoates/Aerial)** — plays Apple TV aerial videos as a Mac screensaver
 
 ## Video players
 
@@ -36,10 +41,12 @@ Apps for viewing, editing, converting, and recording media on macOS.
 - **[Screen Studio](https://www.screen.studio/)** — screen recording app with automatic zoom, cursor effects, and background styling
 - **[MacShot](https://macshot.io/)** — free, open-source screenshot and recording tool with annotation, OCR, scroll capture, and cloud upload; GPLv3
 - **[Recordly](https://recordly.dev/)** — open-source (AGPLv3) Screen Studio alternative built on Electron/TypeScript; auto-zoom, smoothed cursor animations with loopable cursor paths, generated backgrounds, dynamic webcam bubble that resizes to give the camera the spotlight, drag-and-drop timeline for speed/zooms/annotations/audio, separate microphone and system audio tracks, imported audio and webcam footage, `.recordly` project files, and MP4 or looping GIF export; ships as a `.dmg` for Apple Silicon and Intel, plus Windows and Linux builds
+- **[QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)** — lightweight screen recorder built on Apple ScreenCaptureKit
 
 ## Media conversion
 
 - **[Frame](https://framegui.app/)** — free, open-source (GPLv3) desktop GUI for FFmpeg, built with Rust and GPUI; converts video, audio and images locally, with batch queues, built-in and custom presets, crop/trim previews, filters, audio extraction, metadata editing and subtitle track selection. Published packages include FFmpeg and FFprobe; supports VideoToolbox hardware encoding on macOS. Available for Apple Silicon and Intel Macs, Windows and Linux (accessed 2026-11-24).
+- **[Gifski](https://github.com/sindresorhus/Gifski)** — converts video clips into high-quality animated GIFs
 
 ## FFmpeg and Apple format compatibility
 

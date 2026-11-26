@@ -2,7 +2,7 @@
 title: Menu bar and clipboard
 description: macOS menu bar management tools, window managers, clipboard history managers, and text selection action bars.
 created: 2026-04-01
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 Apps for managing the macOS menu bar, controlling window layout, tracking clipboard history, and running quick actions on selected text.
@@ -32,7 +32,6 @@ Apps for managing the macOS menu bar, controlling window layout, tracking clipbo
 
 ## Calendar and meetings
 
-- **[MeetingBar](https://github.com/leits/MeetingBar)** — shows upcoming meetings in the menu bar and provides quick access to meeting links
 - **[Itsycal](https://www.mowglii.com/itsycal/)** — small menu bar calendar for checking dates and calendar events
 
 ## Clipboard managers

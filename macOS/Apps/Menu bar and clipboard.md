@@ -30,10 +30,6 @@ Apps for managing the macOS menu bar, controlling window layout, tracking clipbo
 - **[Boring Notch](https://github.com/TheBoredTeam/boring.notch)** — turns the MacBook notch into music controls, a calendar view, and a file shelf
 - **[Pock](https://github.com/pock/pock)** — widget manager for MacBook Touch Bar models, including a Dock widget
 
-## Calendar and meetings
-
-- **[Itsycal](https://www.mowglii.com/itsycal/)** — small menu bar calendar for checking dates and calendar events
-
 ## Clipboard managers
 
 - **[Maccy](https://maccy.app/)** — lightweight open-source clipboard history manager with search

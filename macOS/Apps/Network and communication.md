@@ -2,7 +2,7 @@
 title: Network and communication
 description: Browsers, VPN clients, download managers, RSS readers, email clients, and messaging apps for macOS.
 created: 2026-04-01
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 Apps for browsing the web, managing network privacy, downloading files, reading feeds, email, and messaging on macOS.
@@ -16,10 +16,6 @@ Apps for browsing the web, managing network privacy, downloading files, reading 
 ## Browser routing
 
 - **[Finicky](https://github.com/johnste/finicky)** — routes links to different browsers using configurable URL rules
-
-## Firewalls
-
-- **[LuLu](https://github.com/objective-see/LuLu)** — free, open-source macOS firewall from Objective-See
 
 ## Ad blockers
 

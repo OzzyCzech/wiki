@@ -2,7 +2,7 @@
 title: Photo and video
 description: Image viewers, photo editors, media converters, video players, and screen recorders for macOS.
 created: 2026-04-01
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 Apps for viewing, editing, converting, and recording media on macOS.
@@ -21,7 +21,7 @@ Apps for viewing, editing, converting, and recording media on macOS.
 
 ## Screensavers
 
-- **[Aerial](https://github.com/JohnCoates/Aerial)** — plays Apple TV aerial videos as a Mac screensaver
+- **[Aerial](https://github.com/AerialScreensaver/Aerial)** — plays Apple TV aerial videos as a Mac screensaver
 
 ## Video players
 

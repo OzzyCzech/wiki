@@ -44,7 +44,7 @@ Apps for viewing, editing, converting, and recording media on macOS.
 
 ## Media conversion
 
-- **[Frame](https://framegui.app/)** — free, open-source (GPLv3) desktop GUI for FFmpeg, built with Rust and GPUI; converts video, audio and images locally, with batch queues, built-in and custom presets, crop/trim previews, filters, audio extraction, metadata editing and subtitle track selection. Published packages include FFmpeg and FFprobe; supports VideoToolbox hardware encoding on macOS. Available for Apple Silicon and Intel Macs, Windows and Linux (accessed 2026-11-24).
+- **[Frame](https://framegui.app/)** — free, open-source (GPLv3) desktop GUI for FFmpeg, built with Rust and GPUI; converts video, audio and images locally, with batch queues, built-in and custom presets, crop/trim previews, filters, audio extraction, metadata editing and subtitle track selection. Published packages include FFmpeg and FFprobe; supports VideoToolbox hardware encoding on macOS. Available for Apple Silicon and Intel Macs, Windows and Linux.
 - **[Gifski](https://github.com/sindresorhus/Gifski)** — converts video clips into high-quality animated GIFs
 
 ## FFmpeg and Apple format compatibility

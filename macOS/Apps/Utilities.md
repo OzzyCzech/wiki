@@ -2,7 +2,7 @@
 title: Utilities
 description: macOS utility apps for system optimization, file automation, app management, and text input.
 created: 2026-04-01
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 Miscellaneous macOS utilities for managing apps, files, and system behavior, plus text-input helpers like dictation and OCR.
@@ -35,25 +35,6 @@ Miscellaneous macOS utilities for managing apps, files, and system behavior, plu
 - **[MonitorControl](https://github.com/MonitorControl/MonitorControl)** — controls external display brightness and volume with keyboard keys or custom shortcuts
 - **[Lunar](https://github.com/alin23/Lunar)** — adaptive brightness control for external monitors
 - **[Background Music](https://github.com/kyleneideck/BackgroundMusic)** — per-app volume control, automatic music pausing, and system audio recording
-
-## Automation and input
-
-- **[Hammerspoon](https://github.com/Hammerspoon/hammerspoon)** — automates the macOS desktop through Lua scripts and system APIs
-- **[Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)** — customizes keyboard mappings and complex key combinations
-- **[LinearMouse](https://github.com/linearmouse/linearmouse)** — adjusts mouse and trackpad pointer speed, acceleration, and scrolling
-- **[Vimac](https://github.com/nchudleigh/vimac)** — keyboard-driven navigation of macOS interface elements; predecessor to Homerow
-- **[Easydict](https://github.com/tisfeng/Easydict)** — dictionary and translation app with screenshot OCR and multiple translation services
-
-## Virtualization and iOS apps
-
-- **[UTM](https://github.com/utmapp/UTM)** — runs virtual machines on macOS using QEMU and Apple virtualization technologies
-- **[VirtualBuddy](https://github.com/insidegui/VirtualBuddy)** — graphical app for running macOS virtual machines on Apple Silicon
-- **[PlayCover](https://github.com/PlayCover/PlayCover)** — runs iOS apps and games on Apple Silicon Macs with keyboard, mouse, and controller support
-
-## macOS installers and developer videos
-
-- **[Mist](https://github.com/ninxsoft/Mist)** — downloads macOS installers and firmware images
-- **[WWDC](https://github.com/insidegui/WWDC)** — unofficial macOS app for browsing and watching Apple developer conference videos
 
 ## Notes and to-dos
 

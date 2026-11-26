@@ -41,7 +41,6 @@ Apps for viewing, editing, converting, and recording media on macOS.
 - **[Screen Studio](https://www.screen.studio/)** — screen recording app with automatic zoom, cursor effects, and background styling
 - **[MacShot](https://macshot.io/)** — free, open-source screenshot and recording tool with annotation, OCR, scroll capture, and cloud upload; GPLv3
 - **[Recordly](https://recordly.dev/)** — open-source (AGPLv3) Screen Studio alternative built on Electron/TypeScript; auto-zoom, smoothed cursor animations with loopable cursor paths, generated backgrounds, dynamic webcam bubble that resizes to give the camera the spotlight, drag-and-drop timeline for speed/zooms/annotations/audio, separate microphone and system audio tracks, imported audio and webcam footage, `.recordly` project files, and MP4 or looping GIF export; ships as a `.dmg` for Apple Silicon and Intel, plus Windows and Linux builds
-- **[QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)** — lightweight screen recorder built on Apple ScreenCaptureKit
 
 ## Media conversion
 

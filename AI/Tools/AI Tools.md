@@ -2,7 +2,7 @@
 title: AI Tools
 description: Přehled AI nástrojů — chatboti, platformy, app buildery, kódování, design, generování obrázků a videa, správa znalostí a zpracování textu.
 created: 2026-04-08
-updated: 2026-10-09
+updated: 2026-11-27
 ---
 
 Přehled AI nástrojů podle kategorie použití.
@@ -48,6 +48,10 @@ Nástroje pro tvorbu aplikací pomocí AI — generování kódu, vizuální bui
 - **[Antigravity](https://antigravity.google/)** — AI-powered IDE by Google
 - **[Zed](https://zed.dev/)** — vysokovýkonný editor s vestavěnou AI
 - **[Emdash](https://www.emdash.sh/)** — open-source desktop dashboard pro orchestraci 25+ coding agentů (Claude Code, Codex, Cursor, Gemini, OpenCode aj.) paralelně, každý v izolovaném Git worktree; integrovaný diff view, MCP klient, vzdálené spouštění přes SSH a napojení na Linear/Jira/GitHub issues
+
+## 🌐 Browser Automation
+
+- **[ego(lite)](../ego-lite)** — prohlížeč na Chromiu pro webovou automatizaci AI agenty; skill ego-browser, využití existujících přihlášení a oddělené pracovní prostory Spaces ([web](https://lite.ego.app/), ověřeno 2026-11-27)
 
 ## 🎨 Design & Prototyping
 

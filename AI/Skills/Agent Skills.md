@@ -2,7 +2,7 @@
 title: Agent Skills
 description: Open standard for packaging procedural knowledge into folders that AI agents load on demand. Originally from Anthropic, now adopted across Claude Code, Cursor, Codex, Hermes, and many other tools.
 created: 2026-06-04
-updated: 2026-10-09
+updated: 2026-11-27
 ---
 
 **Agent Skills** je otevřený formát pro rozšiřování schopností AI agentů specializovanými znalostmi a workflow. Skill je obyčejná složka obsahující soubor `SKILL.md` s metadaty a instrukcemi — agent ji načte teprve když ji k úloze potřebuje. Standard původně vyvinul [Anthropic](https://www.anthropic.com/) a uvolnil jako otevřenou specifikaci. Centrální rozcestník komunity je [agentskills.io](https://agentskills.io/).
@@ -31,6 +31,8 @@ Agenti načítají skills ve třech fázích, aby šetřili kontext:
 3. **Execution** — agent následuje instrukce, případně spouští bundled kód nebo načítá referenční soubory
 
 Plné instrukce se tedy zatěžují **pouze on-demand**, takže agent může mít k dispozici velký počet skills s minimální kontextovou stopou.
+
+Skills může dodávat také MCP server společně se svými nástroji. Viz [Skills over MCP a další rozšíření MCP](../../concepts/mcp-extensions/).
 
 ## Jak psát skills
 

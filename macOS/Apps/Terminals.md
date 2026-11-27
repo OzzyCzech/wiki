@@ -2,7 +2,7 @@
 title: Terminals
 description: Terminal emulators for macOS — general-purpose GPU-accelerated apps and newer workspaces built around projects and AI agents.
 created: 2026-04-01
-updated: 2026-10-09
+updated: 2026-11-27
 ---
 
 Terminal emulators for macOS, split into two groups: general-purpose emulators, and the newer wave of workspaces that organize shells by project and are built for running several CLI agents side by side. Most of the general-purpose ones install via `brew install --cask <name>`.
@@ -20,6 +20,7 @@ Terminal emulators for macOS, split into two groups: general-purpose emulators, 
 
 ## General-purpose emulators
 
+- **[Kaku](https://kaku.fun/)** — macOS terminal with Metal-accelerated rendering, tabs and split panes, preconfigured fonts, themes and shell integration; supports WezTerm-style Lua configuration and optional AI chat using your own Codex connection or API provider. Open source (MIT), no account required — `brew install --cask kaku` (verified 2026-11-27)
 - **[Ghostty](https://ghostty.org/)** — GPU-accelerated terminal in Zig with platform-native UI, ligatures and image protocol support; macOS 13+ as a universal binary plus Linux, open source (MIT). Its rendering core `libghostty` is reused by cmux, Kero, rootshell, [Wortel](https://wortel.sh/) and [Graftty](https://github.com/btucker/graftty)
 - **[iTerm2](https://iterm2.com/)** — long-standing Terminal replacement with split panes, search, autocomplete, paste history and deep customization; version 3.7 (September 2026) added tab groups, a companion iOS app and a [Claude Code integration](https://iterm2.com/claude-code-integration.html), on top of built-in [AI chat](https://iterm2.com/documentation-ai-chat.html) with configurable OpenAI-compatible providers (Ollama, OpenRouter, z.ai, Qwen, MiniMax); macOS 13+, open source
 - **[Kitty](https://sw.kovidgoyal.net/kitty/)** — GPU-accelerated terminal with ligatures, image support and a tiling window system; highly configurable via a plain-text config, open source (GPL-3.0), macOS 12+
